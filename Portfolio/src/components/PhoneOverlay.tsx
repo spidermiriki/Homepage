@@ -1,17 +1,31 @@
 import { useRef, useState } from 'react'
-import monSon from '../sounds/13.ogg'
+import { useNavigate } from 'react-router-dom'
+import monSon from '../sounds/The Police - Every Breath You Take.mp3'
+import monGif from '../assets/keldeo.gif'
 
 interface PhoneOverlayProps {
   onClose: () => void
 }
 
+
+
 export function PhoneOverlay({ onClose }: PhoneOverlayProps) {
+  const navigate = useNavigate()
   const audioRef = useRef<HTMLAudioElement>(null)
   const [activePage, setActivePage] = useState<string | null>(null)
 
-  const handlePlay = () => {
-    if (audioRef.current) audioRef.current.play()
+const [playing, setPlaying] = useState(false)
+
+const handlePlay = () => {
+  if (audioRef.current) {
+    if (playing) {
+      audioRef.current.pause()
+    } else {
+      audioRef.current.play()
+    }
+    setPlaying(!playing)
   }
+}
 
   return (
     <div className="phone-overlay">
@@ -23,7 +37,7 @@ export function PhoneOverlay({ onClose }: PhoneOverlayProps) {
         {/* ── PAGE PRINCIPALE ── */}
         {activePage === null && (
           <div className="phone-content">
-            <h1>L'avatar avait le téléphone d'Homelo</h1>
+            <h1>L'avatar avait le Hphone d'Homelo</h1>
             <ul>
               <li><a onClick={() => setActivePage('films')}>Films</a></li>
               <li><a onClick={() => setActivePage('series')}>Séries</a></li>
@@ -39,8 +53,12 @@ export function PhoneOverlay({ onClose }: PhoneOverlayProps) {
           <div className="phone-content">
             <button className="back-btn" onClick={() => setActivePage(null)}>← retour</button>
             <h1>Films</h1>
-            {/* Ton contenu ici */}
-            <p>Mes films préférés...</p>
+            <p>Tu veux voir mes reviews de films ?</p>
+
+              <a onClick={() => { onClose(); navigate('/films') }} className="gif-link">
+                <img src={monGif} width={150} alt="reviews" />
+              </a>
+
             <button className="play-btn" onClick={handlePlay}></button>
           </div>
         )}
@@ -70,11 +88,26 @@ export function PhoneOverlay({ onClose }: PhoneOverlayProps) {
           <div className="phone-content">
             <button className="back-btn" onClick={() => setActivePage(null)}>← retour</button>
             <h1>Musique</h1>
-            <p>Mes musiques préférées...</p>
+
+            <iframe
+              className="spotify-player"
+              src="https://open.spotify.com/embed/playlist/1kYBDMaHq5oFeoFMfR9gH7?theme=0"
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            />
+            <iframe
+              className="spotify-player"
+              src="https://open.spotify.com/embed/playlist/3D761oLILZAFcJ5WydCg6o?theme=0"
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            />
+            <iframe
+              className="spotify-player"
+              src="https://open.spotify.com/embed/playlist/1kYBDMaHq5oFeoFMfR9gH7?theme=0"
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            />
+
             <button className="play-btn" onClick={handlePlay}></button>
           </div>
         )}
-
       </div>
     </div>
   )

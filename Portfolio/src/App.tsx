@@ -1,46 +1,35 @@
 import { useEffect } from 'react'
+import { Routes, Route, useLocation } from 'react-router-dom'
 import { Starfield } from './components/Starfield'
 import { Scene }     from './components/Scene'
 import { useParallax } from './hooks/useParallax'
+import { FilmsPage } from './components/FilmsPage'
 
-/**
- * App
- * Point d'entrée de la scène.
- * Ne devrait pas avoir besoin d'être modifié —
- * travaille dans Scene.tsx pour ajouter tes objets.
- */
 export default function App() {
+  const location = useLocation()
+  const isHome = location.pathname === '/'
 
-  // Active la parallaxe souris sur toute la scène
   useParallax()
 
-  // ── Trail souris ──────────────────────────────────
   useEffect(() => {
+    if (!isHome) return
     let frame = 0
-
     const onMouseMove = (e: MouseEvent) => {
       frame++
-      if (frame % 3 !== 0) return // 1 point sur 3
-
+      if (frame % 3 !== 0) return
       const dot = document.createElement('div')
       dot.className = 'trail'
       const size = Math.random() * 5 + 3
-      dot.style.cssText = `
-        left:   ${e.clientX}px;
-        top:    ${e.clientY}px;
-        width:  ${size}px;
-        height: ${size}px;
-      `
+      dot.style.cssText = `left:${e.clientX}px;top:${e.clientY}px;width:${size}px;height:${size}px;`
       document.body.appendChild(dot)
       setTimeout(() => dot.remove(), 500)
     }
-
     window.addEventListener('mousemove', onMouseMove)
     return () => window.removeEventListener('mousemove', onMouseMove)
-  }, [])
+  }, [isHome])
 
-  // ── Burst au clic ─────────────────────────────────
   useEffect(() => {
+    if (!isHome) return
     const onClick = (e: MouseEvent) => {
       const burst = document.createElement('div')
       burst.className = 'click-burst'
@@ -49,28 +38,25 @@ export default function App() {
       document.body.appendChild(burst)
       setTimeout(() => burst.remove(), 450)
     }
-
     window.addEventListener('click', onClick)
     return () => window.removeEventListener('click', onClick)
-  }, [])
+  }, [isHome])
 
   return (
-    <>
-      {/* Fond étoilé */}
-      <Starfield count={200} />
-
-      {/* Titre */}
-      <h1 id="title">. Homelo's Room .</h1>
-
-      {/* Tous les objets lévitants */}
-      <Scene />
-
-      {/* Overlays décoratifs */}
-      <div id="scanlines" />
-      <div className="hud-corner tl" />
-      <div className="hud-corner tr" />
-      <div className="hud-corner bl" />
-      <div className="hud-corner br" />
-    </>
+    <Routes>
+      <Route path="/" element={
+        <>
+          <Starfield count={200} />
+          <h1 id="title">· MY ALIEN ROOM ·</h1>
+          <Scene />
+          <div id="scanlines" />
+          <div className="hud-corner tl" />
+          <div className="hud-corner tr" />
+          <div className="hud-corner bl" />
+          <div className="hud-corner br" />
+        </>
+      } />
+      <Route path="/films" element={<FilmsPage />} />
+    </Routes>
   )
 }

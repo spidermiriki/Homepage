@@ -1,8 +1,10 @@
 
 :root {
-  --accent: #00ff41;
+  --accent: #00ffff;;
   --bg: #000000;
-  --float-shadow: rgba(0, 255, 65, 0.2);
+  --float-shadow: rgba(0, 255, 255, 0.2);
+  --accent2:#ff00ff;
+  --accent3:#ffff00;
 }
 
 * {
@@ -13,6 +15,7 @@
 
 body {
   background: url('assets/background.jpg');
+  background: #0a0010;
   background-size: cover;
   width: 100vw;
   height: 100vh;
@@ -50,7 +53,7 @@ body {
   color: var(--accent);
   font-size: clamp(14px, 2vw, 26px);
   letter-spacing: 6px;
-  text-shadow: 0 0 12px var(--accent), 0 0 40px var(--accent);
+  text-shadow: 0 0 12px var(--accent3), 0 0 40px var(--accent3);
   white-space: nowrap;
   pointer-events: none;
 }
@@ -78,7 +81,7 @@ body {
 }
 
 .item:hover .item-inner {
-  filter: brightness(1.25) drop-shadow(0 0 18px var(--accent));
+  filter: brightness(1.25) drop-shadow(0 0 18px var(--accent2));
 }
 
 
@@ -113,13 +116,13 @@ body {
   bottom: -26px;
   left: 50%;
   transform: translateX(-50%);
-  color: var(--accent);
+  color: var(--accent2);
   font-size: 11px;
   white-space: nowrap;
   opacity: 0;
   transition: opacity 0.2s;
   pointer-events: none;
-  text-shadow: 0 0 8px var(--accent);
+  text-shadow: 0 0 8px var(--accent2);
 }
 
 .item:hover .item-label {
@@ -138,18 +141,8 @@ body {
   pointer-events: none;
 }
 
-.hud-corner {
-  position: fixed;
-  z-index: 998;
-  width: 48px;
-  height: 48px;
-  pointer-events: none;
-  opacity: 0.55;
-}
-.hud-corner.tl { top: 0;    left: 0;  border-top:    2px solid var(--accent); border-left:  2px solid var(--accent); }
-.hud-corner.tr { top: 0;    right: 0; border-top:    2px solid var(--accent); border-right: 2px solid var(--accent); }
-.hud-corner.bl { bottom: 0; left: 0;  border-bottom: 2px solid var(--accent); border-left:  2px solid var(--accent); }
-.hud-corner.br { bottom: 0; right: 0; border-bottom: 2px solid var(--accent); border-right: 2px solid var(--accent); }
+
+
 
 
 .trail {
@@ -168,7 +161,7 @@ body {
 
 .click-burst {
   position: fixed;
-  border: 2px solid var(--accent);
+  border: 2px solid var(--accent2);
   border-radius: 50%;
   pointer-events: none;
   z-index: 9998;
@@ -216,13 +209,13 @@ body {
   width: 375px;
   height: 750px;
   background: #111;
-  background-image: url('assets/phone-background.png');
+  background-image: url('assets/phone-background2.png');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
   border-radius: 40px;
-  border: 3px solid var(--accent);
-  box-shadow: 0 0 40px var(--accent);
+  border: 3px solid var(--accent2);
+  box-shadow: 0 0 40px var(--accent3);
   overflow: hidden;
 }
 
@@ -241,7 +234,7 @@ body {
   right: 25px;
   z-index: 10;
   background: transparent;
-  border: 1px solid var(--accent);
+  border: 1px solid var(--accent2);
   color: var(--accent);
   width: 32px;
   height: 32px;
@@ -256,7 +249,7 @@ body {
   font-size: 1rem;
   color: var(--accent);
   letter-spacing: 2px;
-  text-shadow: 0 0 12px var(--accent), 0 0 40px var(--accent);
+  text-shadow: 0 0 12px var(--accent3), 0 0 40px var(--accent3);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -266,6 +259,8 @@ body {
   text-align: center;  /* ← pour le h1 */
   padding: 20px;
   font-size: 1.5rem;
+  overflow-y: auto;              /* ← scroll si ça déborde */
+  gap: 12px; 
 }
 
 .phone-content h4 {
@@ -288,9 +283,9 @@ body {
 }
 
 .phone-content li a:hover {
-  border-color: var(--accent);
-  background-color: #00ff41;
-  color:#000000
+  border-color: var(--accent2);
+  background-color: #ff00ff;
+  color:#ffff00
 }
 
 
@@ -306,11 +301,15 @@ body {
   color: var(--accent);
   font-size: 22px;
   cursor: pointer;
-  transition: background 0.2s, box-shadow 0.2s;
+  transition: 0.2s;
 
 }
 
-
+.play-btn:hover {
+  background: rgba(0, 255, 65, 0.15);
+  box-shadow: 0 0 12px var(--accent3), 0 0 40px var(--accent3);
+  border-radius: 50px;
+}
 
 
 .back-btn {
@@ -331,3 +330,33 @@ body {
 .back-btn:hover {
   background: rgba(0, 255, 65, 0.15);
 }
+
+.spotify-player {
+  width: 90%;
+  height: 80px;
+  border: none;
+  border-radius: 12px;
+  margin: 8px 0;
+}
+
+
+
+.gif-link img {
+  display: block;
+  animation: float 4s ease-in-out infinite;
+  transition: filter 0.2s;
+  filter: drop-shadow(0 8px 20px rgba(0,0,0,0.5));
+}
+
+.gif-link:hover img {
+  filter: brightness(1.25) drop-shadow(0 0 18px var(--accent));
+}
+
+.gif-link  {
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin-top: 8px;
+  transition: color 0.2s;
+}
+
