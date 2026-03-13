@@ -57,13 +57,15 @@ async function main() {
 
     // Nettoie la review (retire les balises HTML)
     const cleanReview = review
-      .replace(/<[^>]*>/g, '')
-      .replace(/&amp;/g, '&')
-      .replace(/&lt;/g, '<')
-      .replace(/&gt;/g, '>')
-      .replace(/&quot;/g, '"')
-      .replace(/&#39;/g, "'")
-      .trim()
+    .replace(/<[^>]*>/g, '')
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .trim()
+
+const finalReview = cleanReview || "Je n'ai pas encore fait de review sur ce film, cela arrive !"
 
     const key = `${title}__${year}`
 
@@ -75,7 +77,7 @@ async function main() {
         note:   note ?? existing.note,
         like:   liked || existing.like,
         cover:  cover || existing.cover,
-        review: cleanReview || existing.review,
+        review: finalReview || existing.review,
       }
       existingMap.set(key, updated)
       updatedCount++
@@ -90,7 +92,7 @@ async function main() {
         genre:    '',
         director: '',
         cover,
-        review:   cleanReview,
+        review:   finalReview,
         like:     liked,
         watchedDate,
       }
