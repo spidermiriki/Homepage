@@ -1,30 +1,223 @@
 [
-    {
+  {
     "id": 1,
-    "title": "Vivarium",
-    "year": 2019,
-    "note": 2,
-    "genre": "Thriller, Science-fiction",
-    "director": "Lorcan Finnegan",
-    "cover": "https://a.ltrbxd.com/resized/film-poster/3/9/0/1/3/9/390139-vivarium-0-1000-0-1500-crop.jpg?v=013b2fca58",
-    "review": "Le film était un peu trop chelou, pourtant vous le savez que j’aime les trucs chelou mais la c’était chelou sans avoir le moindre sans réel \nJe m’attendais a un énorme plot twist mais l’on a même pas eu de réelles explications sur le principe du film \nManque de développement et de réponse a nos questions \nC’est dommage si le film avait été développé et terminé correctement celui ci aurai pu être incroyable \nPotentiel gâché",
-    "like":false
-     },
-
-    {
-    "id":2 ,
-    "title": "X",
-    "year": 2022,
-    "note": 3.5,
-    "genre": "Horreur, Thriller",
-    "director": "Ti West",
-    "cover": "https://a.ltrbxd.com/resized/film-poster/6/8/0/3/5/8/680358-x-0-1000-0-1500-crop.jpg?v=8ba5e11abf",
-    "review": "This review may contain spoilers.\nHomelo Caca’s review published on Letterboxd:\nJenna ortega est morte -0,5 😓",
-    "like":false
-     },
-
-    {
+    "title": "Flow",
+    "year": 2024,
+    "note": 5,
+    "genre": "Animation,Aventure",
+    "director": "Gints Zilbalodis",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/7/3/9/4/5/1/739451-flow-2024-0-1000-0-1500-crop.jpg?v=d664eca804",
+    "review": "Toujours aussi mignon, et toujours des larmes en voyant le petit chat qui ressemble a ma Ginsa",
+    "like": true
+  },
+  {
+    "id": 2,
+    "title": "Attack On Titan The Last Attack",
+    "year": 2024,
+    "note": 5,
+    "genre": "Anime,Thriller,Aventure",
+    "director": "Yuichiro Hayashi",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/1/2/2/1/8/6/9/1221869-attack-on-titan-the-last-attack-0-1000-0-1500-crop.jpg?v=88aeec26f5",
+    "review": "Pourquoi me suis je reinfligé cette douleur, waaaw\nJe ne pese pas mes mots en disant n’avoir jamais vu une oeuvre aussi bien s’approcher de la perfection \nL’auteur est un génie waw",
+    "like": true
+  },
+  {
     "id": 3,
+    "title": "Slither",
+    "year": 2006,
+    "note": 5,
+    "genre": "Horreur,Comédie",
+    "director": "James Gunn",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/4/7/4/0/8/47408-slither-0-1000-0-1500-crop.jpg?v=c719a484a6",
+    "review": "Je met permets de faire une review de ce film ou j’ai mis 5 etoiles pour prevenir que c’est du pure trolling ahah \nLe film pue sa grand mère et il est super con, cependant je vous le conseil etant donné qu’il est tellement pourri que l’on passe un bon moment a le regarder",
+    "like": true
+  },
+  {
+    "id": 4,
+    "title": "Requiem for a Dream",
+    "year": 2000,
+    "note": 5,
+    "genre": "Drame,Crime",
+    "director": "Darren Aronofsky",
+    "cover": "https://a.ltrbxd.com/resized/sm/upload/lv/4b/f2/zj/muym4jTjdLx7E6as09d1wlC3sOB-0-1000-0-1500-crop.jpg?v=b4d5a4aa37",
+    "review": "Le film est si unique, si bien réalisé \nLa dégradation progressif de chaque personnage et si bien réalisée \nL’histoire est horrible mais si bien faites\nLes plans et les effets sont tout aussi incroyables \nVraiment tres bon",
+    "like": true
+  },
+  {
+    "id": 5,
+    "title": "Perect Blue",
+    "year": 1997,
+    "note": 5,
+    "genre": "Thriller,Animation,Horreur",
+    "director": "Satoshi Kon",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/4/6/1/7/5/46175-perfect-blue-0-1000-0-1500-crop.jpg?v=1ed5878cce",
+    "review": "Je suis brainroted de malade \nChaque plans réfléchis, le scénario si complexe et difficile a comprendre sur le moment\nJ’avais plusieurs théories pendant le film mais pas celle ci \nAlors qu’au final c’était légèrement prévisible tellement de situations possibles pour trouver la bonne \n\nLes combats psychologiques du personnage principal et de tout les personnages tout court \nCa part dans tout les sens mais chaque chemin est cohérent\nJ’ai vraiment kiffé",
+    "like": false
+  },
+  {
+    "id": 6,
+    "title": "One Battle After Another",
+    "year": 2025,
+    "note": 5,
+    "genre": "Thriller,Comédie,Action,Crime",
+    "director": "Paul Thomas Anderson",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/9/5/1/2/7/7/951277-one-battle-after-another-0-1000-0-1500-crop.jpg?v=d27c4cc662",
+    "review": "J’ai personnellement apprécié les points de vues politiques exprimés et l’absurdité du personnage qu’est le colonelLa bande son était incroyableLes prise de cameras et la façon de developper l’histoire était juste génial J’ai beaucoup ris sur comment les blancs parlaient des mexicains Et j’ai trouvé Bob et sa fille super attachants",
+    "like": true
+  },
+  {
+    "id": 7,
+    "title": "Wonder Man",
+    "year": 2026,
+    "note": 5,
+    "genre": "",
+    "director": "",
+    "cover": "",
+    "review": "Je m’attendais a avoir du bon contenu mais je ne m’attendais pas à un tel contenuMarvel a enfin laissé un scénariste lâcher son art sur un projet extraordinaire avec de personnages inconnus ou oubliés pour nous pondre un tel chef d’oeuvre Wonder Man , l’histoire d’un homme fan de cinéma depuis qu’il a vu un film de super héro qui l’a touché nommé comme le titre le cite Wonder Man, on y suis son parcours dans son métier de rêve, acteur Une vie remplie de problèmes lorsque l’on vie une situation particulière Certains épisodes sont des poulets croustillants a la sauce aigre douce, un Marvel démarvelisé et remarvelisé Une histoire dans le mcu ayant peu de lien avec celui ci, ce fut une pépite sans le moindre besoin d’avoir vu les 57194 projets marvel précédents (peut être juste Iron man 3 pour comprendre un personnage) Si il y a bien une série Marvel a ne pas manquer c’est bien celle-ci",
+    "like": false,
+    "watchedDate": "2026-02-15"
+  },
+  {
+    "id": 8,
+    "title": "12 Angry Men",
+    "year": 1957,
+    "note": 5,
+    "genre": "",
+    "director": "",
+    "cover": "",
+    "review": "Après avoir passé le cap des 1300 films il fallait bien que je passe par ce classique que j’ai trouvé juste incroyable L’histoire de 12 hommes qui doivent décider de l’innocence ou non d’un gosse de 18 ans, passible de peine de mort Le scénario était exceptionnel, je suis étonné de voir qu’en 1957 des humains étaient capables d’imaginer ce genre de scénarios L’acting était vraiment bon pour l’époque, les dialogues très bien écrits et la qualité de l’image ne dérangeait en rien On est focalisé sur une seule chose, comment innocenter l’enfant, mérite t’il réellement de mourir et quel sera la décision fatidique Une affaire qui part de base sur une fin évidente et pourtant de détails complexes mis de cotés, qui prouve très souvent l’injustice parmi le fameux « il a eu droit a un procès équitable comme tout le monde » Le personnage du père de famille dont le gosse est parti était a mes yeux le plus intéressant au fur et à mesure que le film passe bien qu’il soit aussi le plus détestable (a vouloir tuer un gosse car le sien ne l’a pas satisfait, chien dla casse)",
+    "like": false,
+    "watchedDate": "2026-01-28"
+  },
+  {
+    "id": 9,
+    "title": "Guardians of the Galaxy Vol. 3",
+    "year": 2023,
+    "note": 5,
+    "genre": "",
+    "director": "",
+    "cover": "",
+    "review": "Je me souviens avoir vu ce film pour la première fois au cinéma et je l’avais adoré Je voulais donc le revoir afin d’en faire une review avec mon sens critique actuelPour ceux qui ne savent pas, j’ai été un grand fan de Marvel une grande partie de ma vie et les gardiens de la galaxie est a mes yeux la meilleure licence avec Spiderman et les X-menJ’aime beaucoup la manière dont James Gunn pond ses pépites dans l’univers des superhéros (il sauve largement l’univers DC en ce moment)Il y a tellement de choses a dire sur ce long métrage Premièrement sans le moindre spoilerL’émotion, l’action, le scenario et les plans sont tous si bien réalisés, c’est une pépite absolue, l’originalité de certains endroits ou certains vaisseaux sont vraiment incroyables De plus en tant que lecteur de comics il y a l’apparition de tellement de personnages en second plans qui sont pas forcément développés dans le films et ça fait toujours plaisir a voir que l’univers n’oublie pas de montrer un peu de toute la diversité de MarvelIl y a tellement de plans a analyser, comme la scène ou les gardiens se battent dans le vaisseaux sous différents plan, une utilisation des cgi si parfaites avec des plans si bien réfléchis et des mouvements de caméras tous significatifEt j’aime comment la licence voyage a travers les générations musicales entre chaque films, c’est si bien pensé !!Désormais je vais un peu spoiler ATTENTION !!⚠️ J’ai trouvé l’histoire de Rocket touchante, et la scène ou il sauve les bébés ratons laveurs trop mignonne Puis pour en revenir sur le voyage temporel dans la musique, j’ai adoré l’idée de conclure le voyage de Peter parmis les gardiens en y incluant les années 2000 Une fin touchante apres une trilogie incroyable, bien que la licence n’est pas terminée la suite ne sera qu’un renouveau de tout ce que l’on a pu voir auparavantEspérons que le prochain a s’occuper des gardiens protègera correctement ce que James Gunn a si bien entretenu",
+    "like": false,
+    "watchedDate": "2026-01-04"
+  },
+  {
+    "id": 10,
+    "title": "Se7en",
+    "year": 1995,
+    "note": 5,
+    "genre": "",
+    "director": "",
+    "cover": "",
+    "review": "Putain j’étais passé à coté de ce film tard l’epoque car jfaisais mes games clash royal en meme tempsMais la je m’attendais pas a ce que je viens de voir en le regardant réellementC’était si bienEt la fin est juste incroyable je suis dans tout mes états",
+    "like": false,
+    "watchedDate": "2025-12-25"
+  },
+  {
+    "id": 11,
+    "title": "Perfect Blue",
+    "year": 1997,
+    "note": 5,
+    "genre": "",
+    "director": "",
+    "cover": "",
+    "review": "Je suis brainroted de malade Chaque plans réfléchis, le scénario si complexe et difficile a comprendre sur le momentJ’avais plusieurs théories pendant le film mais pas celle ci Alors qu’au final c’était légèrement prévisible tellement de situations possibles pour trouver la bonne Les combats psychologiques du personnage principal et de tout les personnages tout court Ca part dans tout les sens mais chaque chemin est cohérentJ’ai vraiment kiffé",
+    "like": false,
+    "watchedDate": "2025-10-25"
+  },
+  {
+    "id": 12,
+    "title": "The Piano Accident",
+    "year": 2025,
+    "note": 4.5,
+    "genre": "Comédie",
+    "director": "Quentin Dupieux",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/1/1/9/4/4/5/5/1194455-the-piano-accident-0-1000-0-1500-crop.jpg?v=c0c3aa313f",
+    "review": "J’ai bien aimé la structure du film ainsi que l’acting\nLa façon de d’essayer de developper un personnage insolant qui ne sait lui même pas ce qu’il est \nEt le 2e personnage principal l’assistant est un peu attachant durant toute l’intrigue et on remarque aussi le stresse qu’il a de faire un travail au final si bien payé mais si pénible avec une tel personne\nJe suis tres satisfait tout est réfléchi",
+    "like": false
+  },
+  {
+    "id": 13,
+    "title": "Memoir of a Snail",
+    "year": 2024,
+    "note": 4.5,
+    "genre": "Comédie,Animation,Drame",
+    "director": "Adam Elliot",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/9/5/9/8/2/9/959829-memoir-of-a-snail-0-1000-0-1500-crop.jpg?v=e23dff99a0",
+    "review": "J’ai personnellement eu du mal durant les premières minutes avec l’animation en plasticine et les charadesign  , au final une fois qu’on en apprenait d’avantage sur les personnages , on se rend compte qu’il n’y a rien de mieux que de tel charadesigns\nJ’ai trouvé l’histoire vraiment touchante et les personnages vraiment tous assez mignons et attachants \nLe style et la manière dont tout est assez « dinstigué » est assez drôle j’ai vraiment apprécié\nLe film était vraiment bon j’ai adoré !!",
+    "like": true
+  },
+  {
+    "id": 14,
+    "title": "Cleveland Abdcution",
+    "year": 2015,
+    "note": 4.5,
+    "genre": "Drama,Crime",
+    "director": "Alex Kalymnios",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/2/6/6/1/3/4/266134-cleveland-abduction-0-1000-0-1500-crop.jpg?v=abd70492b1",
+    "review": "Je suis choqué que les faits soient réels\nLe film était vraiment bien mais vraiment horrible aussi\nJe plains les victimes de ces actes et le personnage principal qui au final a perdu tout ce qu’elle avait dans sa vie a cause d’un fdp qui avait la teub enflammé de malade \nHeureux de voir que le coupable ne reverra jamais la lumière du jour en dehors d’une prison 🙏🏽",
+    "like": false
+  },
+  {
+    "id": 15,
+    "title": "Angst",
+    "year": 1983,
+    "note": 4.5,
+    "genre": "Thriller,Horreur,Crime",
+    "director": "Gerald Kargl",
+    "cover": "https://a.ltrbxd.com/resized/sm/upload/6p/3d/1m/v8/zZh5WSo9P4SuB2S8D37b3ewWDjk-0-1000-0-1500-crop.jpg?v=fc7634d4ee",
+    "review": "Wow , certaines scènes sont juste incroyables a analyser c’est une dinguerie je suis choqué\nDe plus l’histoire inspiré de faits réels est horrible et ignoble , le personnage est un détraqué et même avec son passé je ne peux être empathique envers lui\nLes zoom sur les personnages sont très souvent malaisant lorsqu’il s’agit du personnage, j’ai bien aimé cet effet comme plusieurs autres effets qu’on laissé paraitre le film \nVraiment je ne le trouve même pas forcément vieillit",
+    "like": false
+  },
+  {
+    "id": 16,
+    "title": "Grave of the Fireflies",
+    "year": 1988,
+    "note": 4.5,
+    "genre": "Animation,Guerre,Drame",
+    "director": "Isao Takahata",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/4/4/5/5/8/44558-grave-of-the-fireflies-0-1000-0-1500-crop.jpg?v=0c61fd55f0",
+    "review": "Wow c’était triste \nLa séance au ciné m’a couté 2€ mais les séances de psy vont bien rattraper le prix\nLa petite fille me faisait penser a ma petite cousine , j’ai adoré le film et purée je sais pas quoi dire sans spoil  mais what the fuck je suis triste\nJmattendais a quoi le debut c’est clairement \n« Aujourd’hui je suis mort » aaarg\n\nPs : Quelle grosse pute cette tante de salopard",
+    "like": true
+  },
+  {
+    "id": 17,
+    "title": "No Other Choice",
+    "year": 2025,
+    "note": 4.5,
+    "genre": "",
+    "director": "",
+    "cover": "",
+    "review": "J’étais impatient à l’idée de regarder ce film et ce fut sans déception Une grosse claque dans mon visage, le thème de l’industrie du papier est assez original et le déroulement de l’histoire est très agréable à suivre sans parler des analyses possibles sur le filmIl y a plusieurs choses et sujets abordés à comprendre de sois même et tout cela a été développé très correctementChaque personnage est original et aucun n’est placé inutilement Chaque scène étaient vraiment bien réaliséJe ne peux pas en parler d’avantage sans spoiler, mais ce n’est pas un film a rater pour un cinephile",
+    "like": false,
+    "watchedDate": "2026-02-18"
+  },
+  {
+    "id": 18,
+    "title": "Inglourious Basterds",
+    "year": 2009,
+    "note": 4.5,
+    "genre": "",
+    "director": "",
+    "cover": "",
+    "review": "J’ai passé un super bon moment a regarder ce film Il y a peu a redirePremièrement l’histoire, bien évidement certaines choses sont parfois du vu et revu sur le fait que ce soit la seconde guerre mondiale, hitler, les juifs, etc Sauf que cette fois le scénario est different de la réalité, donc pas forcément prévisibleJuste le cadre spatiotemporel y estLe casting est incroyable, que de bonnes têtesEt chaque personnage est correctement développés  La qualité vidéo est étonnamment belle pour un film de 2009 Brad Pritt prime j’en parlerai vraiment dans mon livre car il a joué dans tellement de bangers",
+    "like": false,
+    "watchedDate": "2026-01-25"
+  },
+  {
+    "id": 19,
+    "title": "The Pianist",
+    "year": 2002,
+    "note": 4.5,
+    "genre": "",
+    "director": "",
+    "cover": "",
+    "review": "Eh bah je m’attendais a voir un film axé a balle sur le pianoAu final rien a voir et excellent banger, l’histoire est bien, la cruauté de la guerre est présente et le soldat allemand a la fin était juste adorable J’ai vraiment apprécié Je n’ai pas trouvé le film lent il y avait souvent des éléments importants ou intriguant, on ne sent pas le temps passer",
+    "like": false,
+    "watchedDate": "2025-12-26"
+  },
+  {
+    "id": 20,
     "title": "Pearl",
     "year": 2022,
     "note": 4,
@@ -32,11 +225,347 @@
     "director": "Ti West",
     "cover": "https://a.ltrbxd.com/resized/film-poster/8/5/3/8/2/2/853822-pearl-0-1000-0-1500-crop.jpg?v=471dfc4a24",
     "review": "Pearl me fait un peu trop penser a quelqu’un que je deteste aaarg",
-    "like":false
-    },
-
-    {
-    "id": 4,
+    "like": false
+  },
+  {
+    "id": 21,
+    "title": "Mickey 17",
+    "year": 2025,
+    "note": 4,
+    "genre": "Comédie,Aventure,Science-fiction",
+    "director": "Bong Joon Ho",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/6/2/0/2/8/1/620281-mickey-17-0-1000-0-1500-crop.jpg?v=93e4d2af6d",
+    "review": "J’ai bien aimé le concept du film ainsi que le développement psychologique que l’on donne sur le personnage,\nJ’ai bien aimé aussi leur manière de montrer que les humains sont des gros chiens surtout ceux avec du pouvoir \nCeci reste un film de science-fiction donc préventif sur la technologie \nLes mini aliens étaient trop choupinous\nMais je n’étais pas spécialement fan des décors et j’ai eu du mal a resté accroché sur la fin du film\nBref le film était globalement bon",
+    "like": false
+  },
+  {
+    "id": 22,
+    "title": "Lilo & Stitch",
+    "year": 2025,
+    "note": 4,
+    "genre": "Science-fiction,Comédie",
+    "director": "Dean Fleischer Camp",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/4/8/1/2/3/3/481233-lilo-stitch-2025-0-1000-0-1500-crop.jpg?v=f3f634ac40",
+    "review": "C’est avec plaisir que j’ai redécouvert ce film cette fois ci en live action et ce fut un vrai plaisir \nL’ayant vu pour la dernière fois étant petit je ne me souvenais plus concrètement de l’histoire et j’ai pu la redécouvrir correctement (mon reve de vivre ca avec snk ou fight club ) \n\nDe plus la réadaptation des personnages était vraiment bien,chose étonnante pour un disney en live action \n\nC’est donc avec plaisir que je peux confirmer que l’entièreté du film était vraiment correct et que j’ai payé ma place de cinéma sans le moindre regret !!\n\n\nPs: je suis aussi content que ce soit un Disney ou il n’y a pas vraiment de chansons et qui donc ne ralenti pas l’intrigue",
+    "like": true
+  },
+  {
+    "id": 23,
+    "title": "How to Train your Dragon",
+    "year": 2025,
+    "note": 4,
+    "genre": "Fantaisie,Aventure",
+    "director": "Dean DeBlois",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/9/8/0/1/1/6/980116-how-to-train-your-dragon-2025-0-1000-0-1500-crop.jpg?v=0d82dfeab8",
+    "review": "Je suis très surpris de la réadaptation en live action si bien réalisée \nEt enfin Astrid est un smash car jla trouvais trop laide dans le dessin animé \nLes dragons étaient si bien refaits, et le choix des acteurs aussi, que des haters ceux qui critiquent \nL’histoire a été respectée en sois  je suis satisfait de ce film",
+    "like": true
+  },
+  {
+    "id": 24,
+    "title": "Memories of a Murder",
+    "year": 2003,
+    "note": 4,
+    "genre": "Thriller,Crime,Drama",
+    "director": "Bong Joon Ho",
+    "cover": "https://a.ltrbxd.com/resized/sm/upload/84/xt/e8/mw/gawnVe9cFowdoDLo9Pok12NTw39-0-1000-0-1500-crop.jpg?v=7cad204593",
+    "review": "Le film était vraiment bien fait, de plus j’étais vraiment intrigué on pourrai dire que de base le film aurai pu être super vraiment bien cependant \nMais je ne suis pas resté sur ma fin, je ne suis donc pas forcément satisfait",
+    "like": false
+  },
+  {
+    "id": 25,
+    "title": "Late Night With The Devil",
+    "year": 2023,
+    "note": 4,
+    "genre": "Horreur,Fantaisie",
+    "director": "Cameron Cairnes - Colin Cairnes",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/8/4/3/4/1/5/843415-late-night-with-the-devil-0-1000-0-1500-crop.jpg?v=b6c384f7c5",
+    "review": "What the fuck, une fois que l’intrigue est réellement entamée le film devient incroyable \nJe suis impressionné par la réalisation de la fin notamment, c’était si bien fait \nÇa faisait longtemps que je n’ai pas ressenti cette sensation de malaise on va dire suite a l’atmosphère pesante que nous donne ce film vers la fin",
+    "like": false
+  },
+  {
+    "id": 26,
+    "title": "28 Weeks Later",
+    "year": 2007,
+    "note": 4,
+    "genre": "Horreur,Science-fiction,Thriller",
+    "director": "Juan Carlos Fresnadillo",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/5/0/9/7/2/50972-28-weeks-later-0-1000-0-1500-crop.jpg?v=811010e540",
+    "review": "Wtf j’avais deja vu le film quand j’étais petit, mais du coup il était chouette pour l’instant j’ai bien aimé les 2 premiers faites que le nouveau soit a la hauteur 🙏🏽",
+    "like": false
+  },
+  {
+    "id": 27,
+    "title": "Until Dawn",
+    "year": 2025,
+    "note": 4,
+    "genre": "Mystère,Horreur",
+    "director": "David F. Sandberg",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/1/1/1/5/5/9/7/1115597-until-dawn-2025-0-1000-0-1500-crop.jpg?v=677bb9db18",
+    "review": "Je n’ai personnellement jamais joué au jeu donc je ne peux pas juger la réadaptation\nCependant , j’ai trouvé le film vraiment cool a regarder j’ai passé un bon moment c’était super sympa",
+    "like": false
+  },
+  {
+    "id": 28,
+    "title": "Norbit",
+    "year": 2007,
+    "note": 4,
+    "genre": "Comédie",
+    "director": "Brian Robbins",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/4/6/8/5/2/46852-norbit-0-1000-0-1500-crop.jpg?v=4af5fcd522",
+    "review": "J’ai revu le film c’est une dinguerie en vrai deja la voix de l’ane dans shrek qui joue plusieurs rôles differents dans le film c’est trop drole \nEn plus de ça l’humour est grave cool bien du dreamwork de l’époque",
+    "like": false
+  },
+  {
+    "id": 29,
+    "title": "Bring Her Back",
+    "year": 2025,
+    "note": 4,
+    "genre": "Horreur",
+    "director": "Michael Philippou - Danny Philippou",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/1/0/3/7/6/2/7/1037627-bring-her-back-0-1000-0-1500-crop.jpg?v=defe1dae77",
+    "review": "Alors de base je n’étais vraiment pas attiré par le film, je l’ai vu car je voulais absolument aller au plaza \nEt finalement bah j’ai grave passé un bon moment \nJ’ai vu en vo et c’était vraiment bien acté, le scenario était bien orchestré, de même pour les plot twists \nJuste miskina le grand frère il a vraiment une vie de merde \n\nEt je peux confirmer avec ce film que tu peux pas appeler ta fille Laura en espérant que ce soit une bonne personne",
+    "like": false
+  },
+  {
+    "id": 30,
+    "title": "The Fantastic 4: First Steps",
+    "year": 2025,
+    "note": 4,
+    "genre": "Action,Science-fiction,Aventure",
+    "director": "Matt Shakman",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/5/4/3/9/6/7/543967-the-fantastic-four-first-steps-0-1000-0-1500-crop.jpg?v=ab7c919b04",
+    "review": "J’ai bien aimé le style retro futuriste de l’univers ainsi que le casting qui était bon , a un certain moment assez court du film je l’ai trouvé lent mais l’intrigue a avancé assez rapidement et clairement malgré tout \nIl était bien pour un Marvel de notre époque , juste j’ignore pourquoi les studios ont du mal a faire des bébés correctement dans les films dernièrement \n\nPtetit point en plus pour le film\nLa surfeuse d’argent big big biiiig hear me out !!!",
+    "like": false
+  },
+  {
+    "id": 31,
+    "title": "Happy Gilmore 2",
+    "year": 2025,
+    "note": 4,
+    "genre": "Comédie",
+    "director": "Kyle Newacheck",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/1/1/4/7/3/7/1/1147371-happy-gilmore-2-0-1000-0-1500-crop.jpg?v=43c978d784",
+    "review": "Adam Sandler, goat indétrônable en terme de comédies \nLe film que des barres trop ma cam et mon humour \nLe cast est juste si bien choisi, j’étais chockbar de chaque acteurs choisis \nCarrément bad bunny a un rôle important qu’il joue à perfection\nPour une suite je ne suis pas du tout déçu le film était cool\nOffrez moi les objets dans lesquels Gilmore cache son alcool purée j’adore",
+    "like": true
+  },
+  {
+    "id": 32,
+    "title": "Saltburn",
+    "year": 2023,
+    "note": 4,
+    "genre": "Comédie,Drame,Thriller",
+    "director": "Emerald Fennell",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/8/3/5/7/7/4/835774-saltburn-0-1000-0-1500-crop.jpg?v=b58cbd3b08",
+    "review": "Le début du film m’a fait énormément plaisir , revoir des rues d’oxford , les bars et les boites et meme l’université ahlala qu’est ce que ça me manque \nMise a part ca parlons reellement du film\nRien a dire au niveau de l’acting de chaque persos banger, niveau scénario, bon plot twists au final ce fut un plaisir \nMais j’avais de trop grandes attentes pour ce film et je pense que c’est ce qui m’a déçu\nJe ne peux nier le fait qu’il était bien mais je m’attendais tellement a un banger absolu \nCerte beaucoup de choses étaient glauques mais je m’attendais a ce que ca soit encore plus glauque que ca ahah \nJ’abuse probablement mais on m’en a tellement parlé de la sorte que je m’attendais vraiment a me sentir giga ma a l’aise a certains moments mais j’ai déjà vu pire a ce niveau la je presume",
+    "like": false
+  },
+  {
+    "id": 33,
+    "title": "Suzume",
+    "year": 2022,
+    "note": 4,
+    "genre": "Fantaisie,Animation,Aventure,Drame",
+    "director": "Makoto Shinkai",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/8/2/2/2/8/1/822281-suzume-0-1000-0-1500-crop.jpg?v=fadaf47b7f",
+    "review": "Le sens du film était vraiment profond wow \nJe n’ai regardé le film que parce que j’ai vu un edit triste sur un chaton\nChose qui m’a grave rendu triste petit chaton le pauvre\nLes personnages sont assez attachants et la morale du film m’a un peu planté comme jamais\nJ’ai vraiment bien aimé pour ma part\n(Pk une des scènes les mieux animées c’est quand elle s’occupe des blessures sur ses pieds)",
+    "like": false
+  },
+  {
+    "id": 34,
+    "title": "Heaven and Earth",
+    "year": 1993,
+    "note": 4,
+    "genre": "Guerre,Histoire,Drame",
+    "director": "Oliver Stone",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/3/1/0/0/0/31000-heaven-earth-0-1000-0-1500-crop.jpg?v=f70b96a4f2",
+    "review": "J’ai décidé de regarder ce film qui est le coup de coeur ultime de ma mère, c’est en voyant la profondeur du personnage principal et son vécu que j’ai un peu compris pourquoi elle aimait ce film \nDrame, violence, histoire tout est vraiment touchant \nRien ne termine forcement bien ou mal \nJ’ai bien aimé \n\nLa seule critique que je pourrai faire de négative est a propos de la vf \nMdrrr mais pourquoi est ce que c’est aussi raciste ?!\nChaque perso vietnamien (personnages principaux) ont un accent de salopard nan c’est trop",
+    "like": false
+  },
+  {
+    "id": 35,
+    "title": "Caught Stealing",
+    "year": 2025,
+    "note": 4,
+    "genre": "Thriller,Crime,Comédie",
+    "director": "Darren Aronofsky",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/1/1/2/9/1/9/9/1129199-caught-stealing-0-1000-0-1500-crop.jpg?v=d3b8da3722",
+    "review": "J’ai trouvé le film assez bien L’intrigue était bien faites et réfléchies du debut a la finCertains retournements de situations étaient vraiment imprévisibles et le personnage principal est extrêmement attachant je trouve C’est drole, a la fin ce n’est qu’une replique du film mais ca fait allusion a l’ouragan que j’ai vécu l’année passée au Mexique ca m’a fait rire Et ils ont quoi avec les gens qui fabriquent des sites webs ? 🤓",
+    "like": false
+  },
+  {
+    "id": 36,
+    "title": "the life of Chuck",
+    "year": 2024,
+    "note": 4,
+    "genre": "Drame,Fantaisie",
+    "director": "Mike Flanagan",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/7/5/7/6/1/2/757612-the-life-of-chuck-0-1000-0-1500-crop.jpg?v=7ac670c0be",
+    "review": "J’ai trouvé notre personnage principal vraiment attachant, son enfance était agréable a suivre et assez drôle a certains moments \nJe conseil le film",
+    "like": false
+  },
+  {
+    "id": 37,
+    "title": "Predator: Badlands",
+    "year": 2025,
+    "note": 4,
+    "genre": "Science-fiction,Action,Aventure",
+    "director": "Dan Trachtenberg",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/1/1/2/5/8/0/9/1125809-predator-badlands-0-1000-0-1500-crop.jpg?v=a0e5686bef",
+    "review": "Certains diront que j’abuse sur la note mais j’estime peser mes motLes décors sont beaux L’action et le développement étaient vraiment bienChaques protagonistes sont attachantsIl y a une tres bonne l’utilisation afin de montrer l’importance de chaque elements du début a la fin meme dans les scenes d’actionsL’imagination pour chaques elements de la planète sont incroyables Et ceci est un peu une première dans un cadre de la franchise predator ou l’on le voit generalement etre la source de danger, cette fois ci c’est lui qui est soumis a un danger et qui evolue aussi bien physiquement que mentalement d’une manière incroyable Bien que certains effets speciaux soient un peu mauvais de temps en temps cela est rattrapé par tout le reste du film, et j’ai vraiment hate d’avoir une suite de ce magnifique univers",
+    "like": true
+  },
+  {
+    "id": 38,
+    "title": "Predator",
+    "year": 1987,
+    "note": 4,
+    "genre": "Thriller,Science-fiction,Aventure,Action",
+    "director": "John McTiernan",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/5/1/9/4/4/51944-predator-0-1000-0-1500-crop.jpg?v=48eadd2372",
+    "review": "Badland l’a donné envi de tous le les refaire, je profite donc pour faire des critiques a chaudBien evidemment le film est vieux donc les effers soeciaux sont mauvais, mise a part fa certains personnages sont bien et d’autres sont tout simplement des gros neuils",
+    "like": false
+  },
+  {
+    "id": 39,
+    "title": "Frankenstein",
+    "year": 2025,
+    "note": 4,
+    "genre": "Fantaisie,Drame,Horreur,Science-fiction",
+    "director": "Guillermo del Toro",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/9/5/8/1/0/0/958100-frankenstein-2025-0-1000-0-1500-crop.jpg?v=49a1ca2305",
+    "review": "J’ai été a fond dans l’histoire de a a zJ’ai vraiment bien aimé le développement de la bête et aussi voir comment le personnage de Victor est un fils de pute sans fin a mes yeux Je me suis fais d’affection pour la bête et Elisabeth et j’ai eu énormément de peine pour William Je ne suis malheureusement pas resté sur ma fin cependant Et les loups qui meurent j’ai eu du mal j’aime pas voir tout ça avec des animaux mais cela ne va pas influer ma note ou quoi que ce soit",
+    "like": false
+  },
+  {
+    "id": 40,
+    "title": "Oldboy",
+    "year": 2003,
+    "note": 4,
+    "genre": "Thriller,Mystère,Drama,Action",
+    "director": "Park Chan-wook",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/5/1/4/5/4/51454-oldboy-0-1000-0-1500-crop.jpg?v=294dbcadef",
+    "review": "J’ai aimé énormément de choses dans le film, beaucoup de plotwists imprévisibles, la bande son, les cadrages, j’aimais beaucoup la vibe en elle même Mais au vu des choses que je n’avais pas deviné je suis déçu d’avoir deviné tres tres vite le plotwist ultime ainsi que la manière dont termine le personnage principal, l’entièreté du film était banger mais la fin ne m’a pas trop trop plu",
+    "like": false
+  },
+  {
+    "id": 41,
+    "title": "Chainsaw Man – The Movie: Reze Arc",
+    "year": 2025,
+    "note": 4,
+    "genre": "Fantaiaise,Romance,Action,Animation",
+    "director": "Tatsuya Yoshihara",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/1/1/0/2/6/7/3/1102673-chainsaw-man-the-movie-reze-arc-0-1000-0-1500-crop.jpg?v=d9227a11bd",
+    "review": "Bordel de merde mais jmattendais pas a me sentir comme ça a la fin de ce filmJe suis triste wtfff ma nuit est ruinée Premièrement l’animé, je n’étais pas fan des premiers épisodes mais vers la fin j’ai accroché et j’ai eu envi de voir le filmEt oh mon dieu mais la pépite L’animation était bonneEt purée mais le personnage principal me fait tant de peine ainsi que la fille qui est sujet du filmJe la préfère tellement a Makima C’est une dinguerie comment la ruse par la sentiments est le moyen le plus efficace pour manipuler quelqu’un ca me fend tellement le coeur",
+    "like": true
+  },
+  {
+    "id": 42,
+    "title": "Avatar: Fire and Ash",
+    "year": 2025,
+    "note": 4,
+    "genre": "Aventure,Fantaisie,Science-fiction",
+    "director": "James Cameron",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/7/0/0/0/7/70007-avatar-fire-and-ash-0-1000-0-1500-crop.jpg?v=5d2f8b35b1",
+    "review": "J’ai bien aimé le scénario de ce premier , et parfois la manière de détourner l’acceptation des autres vis a vis du carde qui est lié a la colonisation d’un peuple depuis ces 3 filmsLe développement des enfants était s’avantages profonds et oh mon dieu mais Varang quel hear me outLa dynamique était cool, comme dhab les effets spéciaux tres clean et la découverte supplémentaire de l’univers est vraiment cool Si il y a un box office que je conseil c’est celui laUnique problème est parfois la répétition vis a vis du 2 on veut un peu plus de changementPs: Grace au film je sais que la prochaine fois qu’une fille me plait je dois venir avec un gun",
+    "like": false
+  },
+  {
+    "id": 43,
+    "title": "The French Dispatch of the Liberty, Kansas Evening Sun",
+    "year": 2021,
+    "note": 4,
+    "genre": "",
+    "director": "",
+    "cover": "",
+    "review": "Ce fut extrêmement original Un film composé de 3 histoires différentes Chacune écrite par différentes personnesLe point clé était l’esthétique Chaque plans peuvent être des bannières C’était magnifique de A à ZLe mélange de français et d’anglais dans les personnages étaient vraiment bien fait, aucune interaction n’était dérangeante même lorsque chacun répondait a l’autre dans une langue différente J’ai personnellement préféré la seconde histoire mais ce n’est que question de gout",
+    "like": false,
+    "watchedDate": "2026-03-06"
+  },
+  {
+    "id": 44,
+    "title": "Marty Supreme",
+    "year": 2025,
+    "note": 4,
+    "genre": "",
+    "director": "",
+    "cover": "",
+    "review": "Après une très longue attente et de longs moments d’impatience,j’ai enfin eu la chance de regarder Marty SupremeL’histoire d’un homme obsédé par l’idée de devenir champion du monde de ping pong afin que ce sport soit prit d’avantage au sérieux aux États Unis De très grandes ambitions mais aussi un ego surdimensionné, littérale le mcqueen du ping pongC’était une très bonne préstation de Tymothe ChalametL’intro fut quelque peu originale mais super bien réalisée afin de permettre la transition au vif du sujet, ce fut plus qu’incroyable Je suis très heureux d’avoir pu voir ce film, bien que parfois longs sur certains moments et le personnage de Marty que j’ai détesté durant la casi entière du filmAinsi que certains point que j'estime en manque d’exploitation bien que cela n’était pas forcément important Je le conseil entièrement",
+    "like": false,
+    "watchedDate": "2026-02-13"
+  },
+  {
+    "id": 45,
+    "title": "Léon: The Professional",
+    "year": 1994,
+    "note": 4,
+    "genre": "",
+    "director": "",
+    "cover": "",
+    "review": "Leon, l’histoire d’un tueur a gage et d’une enfant dont la famille est impliquée dans des histoires de drogues auprès des stupes Une histoire vraiment géniale, remplie d’intrigue, d’émotion et avec de bonnes actions Le film jongle correctement entre les différentes scènes et ne fait aucun surplus de quoi que ce soitL’histoire avance a son rythme et les personnages principaux sont tout les 2 super attachants Nathalie Portman 8 ans était plus âgées que moi 21 ansUne histoire assez dramatique et joyeuse a la foisAussi assez drôle de temps en temps, le personnage de Leon est un mec vraiment doué pour tuer des gens mais en dehors de ça a l’air si innocent et perdu dans la vie comme si il n’avait jamais réellement eu le temps de grandir Les 2 personnages sont de pures opposées et forment un duo de choc Malgré ça l’enfant reste innocente en quelque sorte vis a vis de l’amour bien qu’elle soit super mature pour une gamine Nathalie Portman qui veut absolument taper ses journées télé transformers j’en parlerai dans mon livre Ca arrivais que parfois certaines scènes soient males faites mais il y en a très peu , on en compte a peine sur les doigts de nos mains Bref pour conclure je le conseil amplement c’est un film que j’estimerai tout publique",
+    "like": false,
+    "watchedDate": "2026-01-30"
+  },
+  {
+    "id": 46,
+    "title": "Full Metal Jacket",
+    "year": 1987,
+    "note": 4,
+    "genre": "",
+    "director": "",
+    "cover": "",
+    "review": "Full métal jacket est un film traitant sur le vietnam, on y voit des jeunes recrues de la marine faire leur formation en tant qu’engagé et par la suite on en voit certains au Vietnam on y suit leur périple J’ai bien aimé comment la première partie, la formation, s’est déroulée, les personnages étaient vraiment bien que ce soir guignol (interprété par Matthiew Modine un très bon acteur encore) et le personnage de baleine que j’ai trouvé très touchant, persécuté a défaut d’être obèse et donc mauvaise en exercice physique mais aussi mauvais en tout ce qui concerne la technique et les normes de l’arméeJ’ai aussi aimé beaucoup de scènes que j’ai estimé vraiment drôle  Par la suite une fois dans la 2e partie, la guerre, on peut voir a quel point nombreux de ces soldats sont des être horrible, fière d’ôter des vies que ce soit celles de soldats vietnamiens mais aussi de femmes et enfantsJ’ai trouvé ça vraiment répugnant vis a vis de leur propos et c’est quelque chose que j’ai au final apprécié car pour montrer des personnages aussi répugnants il faut en sortir de bonnes idées, en espèrent qu’aucun gogole ne va en idolâtrerATTENTION SPOILER !!Pour conclure, j’ai trouvé cela assez bien de voit que le personnage de guignol , qui lors de sa formation disait vouloir devenir marine pour tuer, et pas la suite, voir lors de cette guerre a quel point cela était atroce on le voit réfléchir,avec son badge représentant un symbole de paix et aussi lorsqu’il doit terminer la fille qui agonisait a la fin.Bien que ce ne soit pas concrètement dit, on peut voir au fond de lui qu’il trouve ça laid et qu’il regrette d’avoir voulu cela et se retrouve coincé à devoir tout de même suivre ce role",
+    "like": false,
+    "watchedDate": "2026-01-09"
+  },
+  {
+    "id": 47,
+    "title": "Train Dreams",
+    "year": 2025,
+    "note": 4,
+    "genre": "",
+    "director": "",
+    "cover": "",
+    "review": "J’ai décidé de regarder ce film après qu’il ai gagné son prix de la meilleure photographie au Critic Choice Awards 2026 Et ce n’est sans dire qu’il mérite amplement celui-ci !! Les plans étaient si beaux, principalement dans des forêts, les couleurs, l’esthétique et les lumières y étaientLa forêt n’est qu’étendue d’arbre et parfois de rives, et pourtant le directeur de la photographie de ce projet a su l’exploiter dans tout ses retranchements sous différents plans tous aussi beau et parfois originauxLes mouvements de caméras aussi sont bien réalisés notamment lorsqu’on nous présente le bûcheron le plus vieux Arn Peeples de bêtes zoom-out sous différents plans mais le paysage est si magnifique que ca en donne de beaux effets Le casting était bon et l’histoire était vraiment bienOn visionne la vie d’un bûcheron ordinaire qui n’aura pas forcément d’impact sur les générations futurJuste un homme lambda qui continue a marcher sans savoir pourquoi Une histoire assez touchante et agréable a suivreRien à dire sur l’acting Je suis content que Netflix prenne parfois le temps de réaliser de bon projets comme celui-ci",
+    "like": false,
+    "watchedDate": "2026-01-07"
+  },
+  {
+    "id": 48,
+    "title": "Banana Fish",
+    "year": 2018,
+    "note": 4,
+    "genre": "",
+    "director": "",
+    "cover": "",
+    "review": "Au premier abord, le nom ne donne vraiment pas envie on se dit que c’est sûrement encore un truc relou pour les gamins Mais bordel de sa race mais comment c’est un truc ptn de sérieux C’est pas du tout un truc pour les gosses, l’histoire est développée de a a z Juste a partir d’un moment embaucher une nouvelle personne pour tuer Ash ca se repete assez souvent Mis a part ça tout les evenements sont la, les personnages sont attachants, l’émotion y est et l’action aussi L’intrigue surtout au début quand il s’agissait de se demander ce qu’était banana fish c’était juste incroyable La fin elle ne m’a pas forcément plu mais chacun se fait son avis dessus Je me sens vraiment con de ne pas avoir commencé plus tôt",
+    "like": false,
+    "watchedDate": "2025-12-22"
+  },
+  {
+    "id": 49,
+    "title": "The Life of Chuck",
+    "year": 2024,
+    "note": 4,
+    "genre": "",
+    "director": "",
+    "cover": "",
+    "review": "J’ai trouvé notre personnage principal vraiment attachant, son enfance était agréable a suivre et assez drôle a certains moments Je conseil le film",
+    "like": false,
+    "watchedDate": "2025-11-02"
+  },
+  {
+    "id": 50,
+    "title": "X",
+    "year": 2022,
+    "note": 3.5,
+    "genre": "Horreur, Thriller",
+    "director": "Ti West",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/6/8/0/3/5/8/680358-x-0-1000-0-1500-crop.jpg?v=8ba5e11abf",
+    "review": "This review may contain spoilers.\nHomelo Caca’s review published on Letterboxd:\nJenna ortega est morte -0,5 😓",
+    "like": false
+  },
+  {
+    "id": 51,
     "title": "MaXXXine",
     "year": 2024,
     "note": 3.5,
@@ -45,82 +574,9 @@
     "cover": "https://a.ltrbxd.com/resized/film-poster/9/2/2/8/5/8/922858-maxxxine-0-1000-0-1500-crop.jpg?v=a0fd94e61f",
     "review": "Ce fut avec plaisir que j’ai enchainé la trilogie d’une traite ,\nJ’ai adoré le développement et la transition entre le personnage de pearl et maxine. \nEn plus de la direction artistique qui convient a mes gouts.\nCependant je suis déçu que l’on ai pas d’explication sur le lien qu’on nos 2 personnages phare de celle-ci. \nPeut être un choix de l’auteur afin de nous laisser avoir recours a notre imagination",
     "like": false
-    },
-
-    {
-    "id": 5,
-    "title": "Flow",
-    "year": 2024,
-    "note": 5,
-    "genre": "Animation,Aventure",
-    "director": "Gints Zilbalodis",
-    "cover": "https://a.ltrbxd.com/resized/film-poster/7/3/9/4/5/1/739451-flow-2024-0-1000-0-1500-crop.jpg?v=d664eca804",
-    "review": "Toujours aussi mignon, et toujours des larmes en voyant le petit chat qui ressemble a ma Ginsa",
-    "like":true
-    },
-
-    {
-    "id": 6,
-    "title": "Godzilla × Kong: The New Empire",
-    "year": 2024,
-    "note": 1,
-    "genre": "Science-fiction",
-    "director": "Adam Wingard",
-    "cover": "https://a.ltrbxd.com/resized/film-poster/7/3/9/5/2/2/739522-godzilla-x-kong-the-new-empire-0-1000-0-1500-crop.jpg?v=7c2eb6e620",
-    "review": "Mdrrr j’ai vraiment besoin de faire un avis ?",
-    "like":false
-    },
-
-    {
-    "id": 7,
-    "title": "Bambi: A Tale of Life in the Woods",
-    "year": 2024,
-    "note": 2.5,
-    "genre": "Familial,Documentaire",
-    "director": "Michel Fessler",
-    "cover": "https://a.ltrbxd.com/resized/film-poster/9/8/6/7/8/0/986780-bambi-a-life-in-the-woods-0-1000-0-1500-crop.jpg?v=42d9c1e4da",
-    "review": "C’etait looong , on aurai dit un documentaire, c’est dommage car refaire un bambi en live action ou les animaux parlaient aurai ete beaucoup mieux",
-    "like":false
   },
-
-    {
-    "id": 8,
-    "title": "A Minecraft Movie",
-    "year": 2025,
-    "note": 1,
-    "genre": "Comedie,Aventure",
-    "director": "Jared Hess",
-    "cover": "https://a.ltrbxd.com/resized/film-poster/8/5/4/6/9/1/854691-a-minecraft-movie-0-1000-0-1500-crop.jpg?v=074e7fed9e ",
-    "review": "J’ai attendu la nuit afin de me remettre des emotions de ce que j’ai vu, \nLe film était unique en son genre\nL’acting etait incroyable, le scenario très développé, l’humour était present, les effets speciaux surtout lors de la scene ou ils sont en elytras etaient juste magnifique. En plus des emotions fournis ainsi que la direction artistique du film, le plot twist etc \nNan je n’ai jamais vu une pépite pareil , c’etait quelque chose de le voir au cinema je n’ai pu m’empecher d’applaudir \nBien évidemment cette critique est ironique, le film puait la merde, heureusement que je suis publique facile et que je rigolais, alors que même les gosses de 3 ans eux ne riaient a rien.",
-    "like":false
-  },
-
-    {
-    "id": 9,
-    "title": "The Monkey",
-    "year": 2025,
-    "note": 1,
-    "genre": "Comédie,Horreur",
-    "director": "Osgood Perkins",
-    "cover": "https://a.ltrbxd.com/resized/film-poster/1/0/1/3/3/9/3/1013393-the-monkey-2025-0-1000-0-1500-crop.jpg?v=ac27f20e5a",
-    "review": "nul à chier",
-    "like":false
-  },
-
-    {
-    "id": 10,
-    "title": "Captain America: Brave New World",
-    "year": 2025,
-    "note": 2,
-    "genre": "Science-fiction,Thriller",
-    "director": "Julius Onah",
-    "cover": "https://a.ltrbxd.com/resized/film-poster/7/3/8/2/9/2/738292-captain-america-brave-new-world-0-1000-0-1500-crop.jpg?v=97dff5b720",
-    "review": "Autant de millions de dollars pour des cgi aussi guez, ils ont mit tout le budget dans le red hulk qui n’a droit qu’a 10 minutes de temps d’écran\nHistoire assez developpé au niveau politique a ce niveau la, classique pour un captain america, cependant aucune attache réelle, le film est aussi rapide qu’un snap a nasdas et les moments serieux qui pourraient rendre ce nouveau captain America badasse sont gachés par des touches d’humour ce qui est dommage \n\nAttention spoiler:\n\n\n\nQuelques points gagnés grace a la scene post credit qui fait comprendre que avengers secret wars va bel et bien reellement arriver",
-    "like":false
-  },
-
-    {
-    "id": 11,
+  {
+    "id": 52,
     "title": "Sinners",
     "year": 2025,
     "note": 3.5,
@@ -128,11 +584,10 @@
     "director": "Ryan Coogler",
     "cover": "https://a.ltrbxd.com/resized/film-poster/1/1/1/6/6/0/0/1116600-sinners-2025-0-1000-0-1500-crop.jpg?v=5996b7d555",
     "review": "Sur l’entièreté le film était incroyable \nQue ce soit le cadre spatiotemporel, les décisions artistiques, l’acting, les points de vus camera, les emotions, le développement des personnages ainsi que de l’histoire \nCependant une chose me perturbait, le fait qu’ils aient choisi des vampires \nDES VAMPIRES\nJe trouve que cette menace gâchait un peu le développement, une équipe de 5 personne capable d’un coup de tuer plusieurs vampires sans réelle expérience au combat\nCela donnait l’impression de changer soudainement de thème voir même de film\nUn si bon potentiel pour finir sur un twilight\nCeci fait perdre toute la qualité du film a mes yeux\nJe suis déçu bien que l’expérience était bonne pendant les 3 premiers quarts du film\nAinsi que la fin du développement du personnage principal",
-    "like":false
+    "like": false
   },
-
-    {
-    "id": 12,
+  {
+    "id": 53,
     "title": "The Spider Within: A Spider-Verse Story",
     "year": 2023,
     "note": 3.5,
@@ -140,47 +595,10 @@
     "director": "Jarelle Dampier",
     "cover": "https://a.ltrbxd.com/resized/film-poster/9/9/7/5/6/2/997562-the-spider-within-a-spider-verse-story-0-1000-0-1500-crop.jpg?v=f07994bdd5",
     "review": "Inutile a la franchise, mais le concept reste cool \nJe me souviens avoir été déçu quand je l’ai vu car je m’attendais a avoir des indices sur le prochain film",
-    "like":false
+    "like": false
   },
-
-    {
-    "id": 13,
-    "title": "Nocovaine",
-    "year": 2025,
-    "note": 2.5,
-    "genre": "Comédie,Action",
-    "director": "Dan Berk - Robert Olsen",
-    "cover": "https://a.ltrbxd.com/resized/film-poster/1/0/8/1/0/1/7/1081017-novocaine-2025-0-1000-0-1500-crop.jpg?v=bf4021de18",
-    "review": "Jack Quaid est un très bon acteur je ne renierai jamais ceci \nMais il a clairement pas la dégaine a jouer un rôle comme celui qu’il a joué dans Novocaine, le voir se battre était si peu crédible, on aurai dit un court métrage de Norman fait des videos sauf que lui n’est pas pedo (fin en tout cas rien de tel n’est dit mais il reste une célébrité donc a tout moment c’est un fou malade) \nBref le film était très mimi cracra et le scénario était assez rapide, l’acting était correct, l’histoire aussi mais les sauvetages miraculeux du scénario le rend très peu sérieux \n\nIl gagne des points car Jack Quaid = Hughie = The boys = ptn a quand la saison 5 !!!",
-    "like":false
-  },
-
-    {
-    "id": 14,
-    "title": "Death of a Unicorn",
-    "year": 2025,
-    "note": 1.5,
-    "genre": "Comédie,Horreur,Fantaisie",
-    "director": "Alex Scharfman",
-    "cover": "https://a.ltrbxd.com/resized/film-poster/1/0/3/9/7/3/6/1039736-death-of-a-unicorn-0-1000-0-1500-crop.jpg?v=973751852e",
-    "review": "Le summum de la connerie , ok je suis d’accord Jenna Ortega big smash comme dhab je l’aime cette femme epouse moi s’il te plait \nMaaaais mise a part ca l’histoire est débile, les persos sont débiles, la cgi est débile, l’entièreté du film est débile, l’impression de voir una telenovela avec des millions de dollars de budget mais malgré tout la meme qualité \nBref de la pure chiasse",
-    "like":false
-  },
-
-    {
-    "id": 15,
-    "title": "Attack On Titan The Last Attack",
-    "year": 2024,
-    "note": 5,
-    "genre": "Anime,Thriller,Aventure",
-    "director": "Yuichiro Hayashi",
-    "cover": "https://a.ltrbxd.com/resized/film-poster/1/2/2/1/8/6/9/1221869-attack-on-titan-the-last-attack-0-1000-0-1500-crop.jpg?v=88aeec26f5",
-    "review": "Pourquoi me suis je reinfligé cette douleur, waaaw\nJe ne pese pas mes mots en disant n’avoir jamais vu une oeuvre aussi bien s’approcher de la perfection \nL’auteur est un génie waw",
-    "like":true
-  },
-
-    {
-    "id": 16,
+  {
+    "id": 54,
     "title": "Paul",
     "year": 2011,
     "note": 3.5,
@@ -188,11 +606,10 @@
     "director": "Greg Mottola",
     "cover": "https://s.ltrbxd.com/static/img/empty-poster-1000-CR2Xn85D.png",
     "review": "Le film était vraiment drole, tres cool pour passer le temps , super sympa \nEn plus le pere de hughie dans the boys c’est le perso principal",
-    "like":false
+    "like": false
   },
-
-    {
-    "id": 17,
+  {
+    "id": 55,
     "title": "Superbad",
     "year": 2007,
     "note": 3.5,
@@ -200,11 +617,10 @@
     "director": "Greg Mottola",
     "cover": "https://a.ltrbxd.com/resized/film-poster/4/7/7/7/6/47776-superbad-0-1000-0-1500-crop.jpg?v=b43686efcb",
     "review": "Mc lovin qui carry tout le film \nBonne comédie, faut aimer les blagues de cul, moins extreme qu’american pie et vraiment sympa pour passer le temps !!",
-    "like":false
+    "like": false
   },
-
-    {
-    "id": 18,
+  {
+    "id": 56,
     "title": "Thunderbolts*",
     "year": 2025,
     "note": 3.5,
@@ -212,24 +628,10 @@
     "director": "Jake Schreier",
     "cover": "https://a.ltrbxd.com/resized/film-poster/8/8/7/6/5/3/887653-thunderbolts-0-1000-0-1500-crop.jpg?v=80380bc773",
     "review": "De base je m’attendais a ce que le film pue la merde, il ne m’attirait pas trop mais vous savez bien c’est un Marvel donc d’office j’aurai regardé \nJ’ai décidé d’aller le voir au cinéma quand j’ai appris qu’il y avait Bob , personnage que j’aime particulièrement dans les comics (ma source d’inspiration pour anonyman dans le meroverse) \nIl est loin d'être le meilleur Marvel que j’ai vu\nMais il reste un film que j’ai apprécié je n’ai pas senti le temps passer et le développement de Yelena que je détestais dans les autres Marvel était si bien réalisé que je pense que j’en suis tombé amoureux help please !! \nBref tout ça pour dire que le film est correct et il donne en effet une bonne base a Marvel pour refaire un comeback dans le cinéma, bien qu’ils aient fait de bons films avant ceci comme spiderman, les gardiens de la galaxie, chang chi , il nous donne l’occasion d’à nouveau se concentrer sur terre et non sur l’univers de spiderman ou dans l’espace avec les gardiens de la galaxy",
-    "like":false
+    "like": false
   },
-
-    {
-    "id": 19,
-    "title": "Mickey 17",
-    "year": 2025,
-    "note": 4,
-    "genre": "Comédie,Aventure,Science-fiction",
-    "director": "Bong Joon Ho",
-    "cover": "https://a.ltrbxd.com/resized/film-poster/6/2/0/2/8/1/620281-mickey-17-0-1000-0-1500-crop.jpg?v=93e4d2af6d",
-    "review": "J’ai bien aimé le concept du film ainsi que le développement psychologique que l’on donne sur le personnage,\nJ’ai bien aimé aussi leur manière de montrer que les humains sont des gros chiens surtout ceux avec du pouvoir \nCeci reste un film de science-fiction donc préventif sur la technologie \nLes mini aliens étaient trop choupinous\nMais je n’étais pas spécialement fan des décors et j’ai eu du mal a resté accroché sur la fin du film\nBref le film était globalement bon",
-    "like":false
-  },
-
-    
   {
-    "id": 20,
+    "id": 57,
     "title": "Triangle",
     "year": 2009,
     "note": 3.5,
@@ -237,59 +639,10 @@
     "director": "Christopher Smith",
     "cover": "https://a.ltrbxd.com/resized/film-poster/3/5/3/0/7/35307-triangle-0-1000-0-1500-crop.jpg?v=5b48fb0d4d",
     "review": "L’intrigue était très interessante de base mais sur la fin j’ai été déçu des reponses exactes données je n’aime juste pas la débilité du personnage principal",
-    "like":false
+    "like": false
   },
-
   {
-    "id": 21,
-    "title": "Drop",
-    "year": 2025,
-    "note": 2,
-    "genre": "Mystère,Thriller",
-    "director": "Christopher Landon",
-    "cover": "https://a.ltrbxd.com/resized/film-poster/1/1/3/3/5/3/0/1133530-drop-2025-0-1000-0-1500-crop.jpg?v=5a9e8e6d82",
-    "review": "Waw le film avait l’air d’avoir une suite correcte lors de l’intro etc mais l’absurdité dans le réalisme des scènes etait un peu de trop a mon gout \nDes barres monumentales face aux dernières scènes du film on est passé d’un thriller a un mission impossible big up",
-    "like":false
-  },
-
-  {
-    "id": 22,
-    "title": "Final Destination Bloodlines",
-    "year": 2025,
-    "note": 3,
-    "genre": "Mystère,Horreur",
-    "director": "Adam B. Stein - Zach Lipovsky",
-    "cover": "https://a.ltrbxd.com/resized/film-poster/5/0/2/6/2/2/502622-final-destination-bloodlines-0-1000-0-1500-crop.jpg?v=3c04d3a110",
-    "review": "Comme la plupart des destinations finales, les morts sont tirées par les cheveux et sont toujours aussi marrantes  \nChose que celui ci a de plus que les autres et l’histoire, le concept de la mort est toujours présent mais cette fois ci celui ci nous représente un cas bien particulier qui est assez intéressant et laisse réponse à pas mal de questions que beaucoup de fans on du se poser \n\nIl reste un des meilleurs destinations final que j’ai vu au niveau scénario mais au niveau du gore bien que celui reste bel et bien présent, d’autres l’étaient plus",
-    "like":false
-  },
-
-    
-  {
-    "id": 23,
-    "title": "Lilo & Stitch",
-    "year": 2025,
-    "note": 4,
-    "genre": "Science-fiction,Comédie",
-    "director": "Dean Fleischer Camp",
-    "cover": "https://a.ltrbxd.com/resized/film-poster/4/8/1/2/3/3/481233-lilo-stitch-2025-0-1000-0-1500-crop.jpg?v=f3f634ac40",
-    "review": "C’est avec plaisir que j’ai redécouvert ce film cette fois ci en live action et ce fut un vrai plaisir \nL’ayant vu pour la dernière fois étant petit je ne me souvenais plus concrètement de l’histoire et j’ai pu la redécouvrir correctement (mon reve de vivre ca avec snk ou fight club ) \n\nDe plus la réadaptation des personnages était vraiment bien,chose étonnante pour un disney en live action \n\nC’est donc avec plaisir que je peux confirmer que l’entièreté du film était vraiment correct et que j’ai payé ma place de cinéma sans le moindre regret !!\n\n\nPs: je suis aussi content que ce soit un Disney ou il n’y a pas vraiment de chansons et qui donc ne ralenti pas l’intrigue",
-    "like":true
-  },
-    {
-    "id": 24,
-    "title": "The Jack in the box",
-    "year": 2019,
-    "note": 1,
-    "genre": "Horreur",
-    "director": "Lawrence Fowler",
-    "cover": "https://a.ltrbxd.com/resized/film-poster/5/4/8/9/9/9/548999-the-jack-in-the-box-0-1000-0-1500-crop.jpg?v=df012ab5e1",
-    "review": "Wow wow wow mais deja la vf elle a été faites avec le trou de balle du fou du bus \nPuis le perso principal il a trop cru c’était un avengers\nL’intrigue est nulle a chier, les cgi le sont tout autant pour un film de 2019  et chaque personnage est aussi gogole qu’un autre c’est insupportable \n\nJe m’attendais a regarder un film éclaté mais je ne m’attendais pas à ce qu’il soit aussi guez",
-    "like":false
-  },
-
-  {
-    "id": 25,
+    "id": 58,
     "title": "Drop",
     "year": 2024,
     "note": 3.5,
@@ -297,23 +650,226 @@
     "director": "M. Night Shyamalan",
     "cover": "https://a.ltrbxd.com/resized/film-poster/9/3/1/1/6/4/931164-trap-0-1000-0-1500-crop.jpg?v=23298a998e",
     "review": "Le film était bien réalisé, lors du concert plusieurs scènes l’on ralenti je trouve mais ça va encore\nLe perso principal est trop fort en vrai \n\nBref ma conclusion:\nFaites que jme fasse kidnapper par un tueur en série qui va aller voir Sabrina Carpenter avec sa fille en concert s’il vous plaaaaiiiit 🙏🏽",
-    "like":false
+    "like": false
   },
-
   {
-    "id": 26,
-    "title": "How to Train your Dragon",
+    "id": 59,
+    "title": "28 Days Later",
+    "year": 2002,
+    "note": 3.5,
+    "genre": "Science-fiction,Horreur,Thriller",
+    "director": "Danny Boyle",
+    "cover": "https://a.ltrbxd.com/resized/sm/upload/qr/28/nz/3f/xaYdxi1PBEAYvqknvAmMPK5Eff3-0-1000-0-1500-crop.jpg?v=22d7237ed9",
+    "review": "Le film est vieux et j’avais peur qu’il ai mal vieilli mais je trouve que le développement était finalement correct\nBien que les effets spéciaux et cameras semblent vieillots , pour l'époque c’était correct \nJ’ai bien aimé l’histoire même si ça reste classique pour un film de zombie on part plus sur de l’émotionnel ce que j’ai bien aimé",
+    "like": false
+  },
+  {
+    "id": 60,
+    "title": "Happy Gilmore",
+    "year": 1996,
+    "note": 3.5,
+    "genre": "Comédie",
+    "director": "Dennis Dugan",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/4/6/9/8/7/46987-happy-gilmore-0-1000-0-1500-crop.jpg?v=09dc9d06bd",
+    "review": "Adam Sandler toujours un goat de l’humour \nDommage qu’il soit pro Israël  😞",
+    "like": false
+  },
+  {
+    "id": 61,
+    "title": "Kpop Demon Hunters",
     "year": 2025,
-    "note": 4,
-    "genre": "Fantaisie,Aventure",
-    "director": "Dean DeBlois",
-    "cover": "https://a.ltrbxd.com/resized/film-poster/9/8/0/1/1/6/980116-how-to-train-your-dragon-2025-0-1000-0-1500-crop.jpg?v=0d82dfeab8",
-    "review": "Je suis très surpris de la réadaptation en live action si bien réalisée \nEt enfin Astrid est un smash car jla trouvais trop laide dans le dessin animé \nLes dragons étaient si bien refaits, et le choix des acteurs aussi, que des haters ceux qui critiquent \nL’histoire a été respectée en sois  je suis satisfait de ce film",
-    "like":true
+    "note": 3.5,
+    "genre": "Fantaisie,Comédie,Animation,Musique",
+    "director": "Chris Appelhans - Maggie Kang",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/7/2/0/9/5/3/720953-kpop-demon-hunters-0-1000-0-1500-crop.jpg?v=10b7464274",
+    "review": "Les Musiques sont incroyable, de même pour l'histoire,et l'animation",
+    "like": false
   },
-
   {
-    "id": 27,
+    "id": 62,
+    "title": "Superman",
+    "year": 2025,
+    "note": 3.5,
+    "genre": "Science-fiction,Action,Aventure",
+    "director": "James Gunn",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/9/5/7/0/5/0/957050-superman-2025-0-1000-0-1500-crop.jpg?v=54e41a55ff",
+    "review": "Le fond du film était cool, ca reste un film de super hero classique \nJ’ai pas aimé le déguisement de salopard de superman \nKrypto trop mignon \n\nGreen lantern vazy le design bof mais sinon meilleure représentation du perso",
+    "like": false
+  },
+  {
+    "id": 63,
+    "title": "Tau",
+    "year": 2018,
+    "note": 3.5,
+    "genre": "Thriller,Horreur,Science-fiction",
+    "director": "Federico D'Alessandro",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/3/4/5/3/1/4/345314-tau-0-1000-0-1500-crop.jpg?v=b848e2434b",
+    "review": "Le développement au fur et a mesure des personnages était sympa\nDe base je ne les aimais pas trop mais au final je m’y suis attaché \nLa fin est assez previsible tres « fan service » mais ca reste un peu émouvant\nJ’éprouve souvent d’empathie pour les robots wtf",
+    "like": false
+  },
+  {
+    "id": 64,
+    "title": "The Lego Batman Movie",
+    "year": 2017,
+    "note": 3.5,
+    "genre": "Comédie,Animation,Famille,Action",
+    "director": "Chris McKay",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/2/5/1/9/3/7/251937-the-lego-batman-movie-0-1000-0-1500-crop.jpg?v=ff7c1cbca1",
+    "review": "Eh beh pour un film Lego je suis vraiment impressionné \nBien évidemment il y a toujours ce côté enfantin c’est assez logique comme c’est le publique cible ahah \nCependant , les morales psychologiques et sentimentales envers Batman sont bien développées \nOn exprime a quel point Batman est égoïste suite a ces traumas d’enfance chose que j’ai toujours pensé de ce superhero (bien que je l’aime bien) \nCertains truc étaient drôles d’autres un peu trop what the fuck genre les pont a la finition \n\nMise a part ca la meuf big hear me out omg meme si c’est un lego",
+    "like": false
+  },
+  {
+    "id": 65,
+    "title": "F1",
+    "year": 2025,
+    "note": 3.5,
+    "genre": "Drame,Action",
+    "director": "Joseph Kosinski",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/8/1/7/9/7/7/817977-f1-the-movie-0-1000-0-1500-crop.jpg?v=f5ae2b99b9",
+    "review": " Le film n’est pas mauvais en soit\nMais reste malgré tout du vu et revu dans les films traitant un grand prix\nSchéma classique et pas forcément d’innovation \nBien réalisé et sympa d’avoir repris les vrais pilotes de F1 pour jouer le film \nMais je suis assez déçu de voir que ce n’était rien de plus qu’un film banale de voiture \nCe fut tout de même divertissant a voir",
+    "like": false
+  },
+  {
+    "id": 66,
+    "title": "The Tasters",
+    "year": 2025,
+    "note": 3.5,
+    "genre": "Histoire,Drame",
+    "director": "Silvio Soldini",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/1/1/7/4/6/9/5/1174695-the-tasters-0-1000-0-1500-crop.jpg?v=55f1ce3436",
+    "review": "Un film traitant sur la seconde guerre mondiale cependant pour une fois du coté des femmes allemandes victimes du systèmes , qui nous montre que l’armée nazi était horrible aussi bien envers leur ennemis que leur partie \nLes soldats sont tous ignobles, bien que certains ont parfois de l’empathie, ils restent des mauvaises personnes\nInspiré d’une histoire vraie, ca montre a quel point il est important de bien choisir nos électeurs afin de ne pas revivre de tels affronts (clin d’oeil avec Trump)",
+    "like": false
+  },
+  {
+    "id": 67,
+    "title": "22 Jump Street",
+    "year": 2014,
+    "note": 3.5,
+    "genre": "Action,Crime,Comédie",
+    "director": "Phil Lord - Christopher Miller",
+    "cover": "https://a.ltrbxd.com/resized/sm/upload/qq/wx/vh/dy/tPnw9oqIvIMoYjVozkDkxm3xR8r-0-1000-0-1500-crop.jpg?v=28856a9f35",
+    "review": "J’ai trouvé le film vraiment drôle et amusant a regarder Un bon film pour passer le temps",
+    "like": false
+  },
+  {
+    "id": 68,
+    "title": "Wicked: For Good",
+    "year": 2025,
+    "note": 3.5,
+    "genre": "Aventure,Romance,Fantaisie",
+    "director": "Jon M. Chu",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/8/7/1/1/4/8/871148-wicked-for-good-0-1000-0-1500-crop.jpg?v=f1330d6f91",
+    "review": "J’ai personnellement préféré la première partie de loin a cette suite J’ai trouvé l’intrigue correct durant le film mais j’ai trouvé la fin un peu bâclé Chose supplémentaire que je n’ai pas apprécié est l’absurdité du scenario utilisé dans le comportement des personnages qu’a utiliser l’auteur afin d’arriver a ses fins pour ce filmEt le surplus de musique qui ne m’a pas derangé lors du premier J’ai fais l’erreur de le voir en vf  qui a certains moment est horrible Ps: ca m’a fait rire qu’on mette les roux au meme niveau que les animaux Et le fait que parfois si on remplace animaux par immigrés certains propos me sont familiers",
+    "like": false
+  },
+  {
+    "id": 69,
+    "title": "Five Nights At Freddy's 2",
+    "year": 2025,
+    "note": 3.5,
+    "genre": "Horreur, Thriller",
+    "director": "Emma Tammi",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/1/1/1/1/8/8/3/1111883-five-nights-at-freddys-2-0-1000-0-1500-crop.jpg?v=f382c9b76f",
+    "review": "Étant donné comment était le premier je m’attendais vraiment pas a grand chose cependant cette fois ci ils ont rattrapés leurs erreurs\nIls ont un peu mieux suivi l’histoire originale et les animatronics étaient vraiment bien fait, je suis vraiment content \n\nIls ont développé d'avantages leur personnage et l’ont bien fait \nC’est dommage que les scènes de meurtre soient pas réellement montrées, c’est a dire qu’on comprend comment chaque personne a été tué mais je trouve cela dommage de le « cacher » (0 psychopathie juste ca fait toujours plus d’effet de voir une mort réelle) \nJ’ai passé un bon moment c’était chouette surtout pour une personne qui aime bien cet univers",
+    "like": false
+  },
+  {
+    "id": 70,
+    "title": "The Good Sister",
+    "year": 2025,
+    "note": 3.5,
+    "genre": "",
+    "director": "",
+    "cover": "",
+    "review": "Pour un premier film, celui ci est bien réaliséL’intrigue est réaliste et bien recherchée Les personnages sont bien développés et l’histoire était très agréable a suivre J'ai juste trouvé une certaine scène un peu contradictoire vis à vis du message que le réalisateur essai de nous faire passer Et je trouve que la fin aurai pu être d'avantage développéeBien que celle-ci était correcte",
+    "like": false,
+    "watchedDate": "2026-03-11"
+  },
+  {
+    "id": 71,
+    "title": "The Mastermind",
+    "year": 2025,
+    "note": 3.5,
+    "genre": "",
+    "director": "",
+    "cover": "",
+    "review": "L’histoire d’un voleur n’étant pas très doué Tout cela dans un environnement sérieuxJ’ai apprécié voir ce film au cinéma, l’ambiance était agréable, le suivi du film était assez simple et pas compliqué à comprendre Un petit effet domino tout au long du film c’était vraiment chouette",
+    "like": false,
+    "watchedDate": "2026-03-05"
+  },
+  {
+    "id": 72,
+    "title": "Look Back",
+    "year": 2024,
+    "note": 3.5,
+    "genre": "",
+    "director": "",
+    "cover": "",
+    "review": "Je ne connaissais pas du tout ce film avant de le lancer j’avais juste peu de temps pour voir un long film et un long métrage de 60 minutes m’arrangeait amplement Chose que je n’ai pas regretté, se lancer dans l’inconnu et apprécier une oeuvre est une super sensation L’animation était magnifique c’était le point fort de ce film L’histoire d’une fille qui a tellement apprécié lire une caricature et qui se lance dans la passion de la conception de manga afin de réaliser l’oeuvre de sa vie Une histoire remplir d’émotion",
+    "like": false,
+    "watchedDate": "2026-02-01"
+  },
+  {
+    "id": 73,
+    "title": "Hustle",
+    "year": 2022,
+    "note": 3.5,
+    "genre": "",
+    "director": "",
+    "cover": "",
+    "review": "L’histoire d’un recruteur qui voyage de pays en pays a la recherche de la perle rare dans le basketUne histoire assez émouvante Je ne suis personnellement pas un grand fan de basket mais j’ai passé un bon moment La réalisation n’a pas du être super facile Les personnages principaux sont assez différents mais sont tout les 2 super attachants, tous bon Et on ne fini jamais pas avoir de satisfaction complète Un film traitant la dur réalité de la vie, des hauts et des basJe n’ai pas été personnellement super satisfait de la fin mais le développement était très bonLes plans et l’acting étaient très bonsAdam Sandler continue a pondre d’avantages de films sympas après tant d’années",
+    "like": false,
+    "watchedDate": "2026-01-27"
+  },
+  {
+    "id": 74,
+    "title": "Zootopia 2",
+    "year": 2025,
+    "note": 3.5,
+    "genre": "",
+    "director": "",
+    "cover": "",
+    "review": "Un Pixar parmis tant d’autres, il n’a pas une histoire si particulière et comme dhabitude les dessins sont beaux rien a reprocher à l’animation ainsi que le point de vu sentimental exprimé par nos 2 personnages principaux Très agréable à regarder pour passer le tempsLe demi point supplémentaire est pour les refs cinématographiques j’ai vraiment bien rigolé avec ça",
+    "like": false,
+    "watchedDate": "2026-01-27"
+  },
+  {
+    "id": 75,
+    "title": "Steve",
+    "year": 2025,
+    "note": 3.5,
+    "genre": "",
+    "director": "",
+    "cover": "",
+    "review": "L’histoire d’un homme qui gère une école spécialisée sur le point d’être vendue J’ai bien aimé la manière dont les événements ont tournés, cela ne laissait pas forcément place a l’ennuie Au niveau de l’acting rien a dire non plus c’était si bien faitJ’ai particulièrement apprécié la manière dont les personnages sont développés, chaque élèves a en quelque sorte foiré sa vie, est proche de finir en prison au vu des mauvaises actions qu’il a pu faire cependant chacun est super différent et complexe a sa manière, quand on ne les connait pas chacun serai considéré comme des pourritures mais voir en quelque sorte le fond de leur pensées les rends beaucoup plus attachants et malgré tout il y a bien évidement Steve, le boss, qui sait comment leur parler et qui les considère vraiment comme des enfants a force de s’occuper d’eux, de les étudier et devoir les comprendre C’est assez psychologique et très intéressant Le petit kwak et attention SPOILER est pour moi la fin qui nous laisse sans réponses pour certaines problématiques, que vont ils tous devenir quand l’école aura fermé s’en est assez perturbant car c’était un point principal de l’histoire",
+    "like": false,
+    "watchedDate": "2026-01-08"
+  },
+  {
+    "id": 76,
+    "title": "Five Nights at Freddy's 2",
+    "year": 2025,
+    "note": 3.5,
+    "genre": "",
+    "director": "",
+    "cover": "",
+    "review": "Étant donné comment était le premier je m’attendais vraiment pas a grand chose cependant cette fois ci ils ont rattrapés leurs erreursIls ont un peu mieux suivi l’histoire originale et les animatronics étaient vraiment bien fait, je suis vraiment content Ils ont développé d'avantages leur personnage et l’ont bien fait C’est dommage que les scènes de meurtre soient pas réellement montrées, c’est a dire qu’on comprend comment chaque personne a été tué mais je trouve cela dommage de le « cacher » (0 psychopathie juste ca fait toujours plus d’effet de voir une mort réelle) J’ai passé un bon moment c’était chouette surtout pour une personne qui aime bien cet univers",
+    "like": false,
+    "watchedDate": "2025-12-13"
+  },
+  {
+    "id": 77,
+    "title": "Final Destination Bloodlines",
+    "year": 2025,
+    "note": 3,
+    "genre": "Mystère,Horreur",
+    "director": "Adam B. Stein - Zach Lipovsky",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/5/0/2/6/2/2/502622-final-destination-bloodlines-0-1000-0-1500-crop.jpg?v=3c04d3a110",
+    "review": "Comme la plupart des destinations finales, les morts sont tirées par les cheveux et sont toujours aussi marrantes  \nChose que celui ci a de plus que les autres et l’histoire, le concept de la mort est toujours présent mais cette fois ci celui ci nous représente un cas bien particulier qui est assez intéressant et laisse réponse à pas mal de questions que beaucoup de fans on du se poser \n\nIl reste un des meilleurs destinations final que j’ai vu au niveau scénario mais au niveau du gore bien que celui reste bel et bien présent, d’autres l’étaient plus",
+    "like": false
+  },
+  {
+    "id": 78,
     "title": "Predator Killer of the killers",
     "year": 2025,
     "note": 3,
@@ -321,23 +877,191 @@
     "director": "Dan Trachtenberg",
     "cover": "https://a.ltrbxd.com/resized/film-poster/1/2/6/2/5/6/7/1262567-predator-killer-of-killers-0-1000-0-1500-crop.jpg?v=937d8a8ccf",
     "review": "Le concept était vraiment sympa, de même pour l’animation \nCependant sur certains cas les personnages sont un peu trop sauvés par le scénario, manque de cruauté vis a vis du scénariste et le film n’est pas forcément terminé, en espérant avoir une suite afin de le clôturer correctement \nC’est dommage en tant que fan de la franchise Predator je suis un peu déçu",
-    "like":false
+    "like": false
   },
-
   {
-    "id": 28,
-    "title": "Heart Eyes",
+    "id": 79,
+    "title": "Knives Out",
+    "year": 2019,
+    "note": 3,
+    "genre": "Mystère,Crime,Comédie",
+    "director": "Rian Johnson",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/4/7/5/3/7/0/475370-knives-out-0-1000-0-1500-crop.jpg?v=7da76d742c",
+    "review": "Le film n’était pas si mauvais mais l’intrigue était en tout cas a mes yeux assez prévisible, en aucun cas je n’ai eu l’impression d’avoir le moindre plot twist les faits étaient assez prévisibles au fur et a mesure que l’enquête avançait",
+    "like": false
+  },
+  {
+    "id": 80,
+    "title": "Case Départ",
+    "year": 2011,
+    "note": 3,
+    "genre": "Comédie",
+    "director": "Lionel Steketee - Thomas Ngijol - Fabrice Eboué",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/7/2/8/728-case-depart-0-1000-0-1500-crop.jpg?v=81940fcff6",
+    "review": "Des génies ceux qui ont fait ce film",
+    "like": false
+  },
+  {
+    "id": 81,
+    "title": "Don't Move",
+    "year": 2024,
+    "note": 3,
+    "genre": "Horreur, Thriller",
+    "director": "Adam Schindler - Brian Netto",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/9/5/9/4/4/1/959441-dont-move-2024-0-1000-0-1500-crop.jpg?v=fdb87ee6cb",
+    "review": "Pas mauvais mais pas foufou non plus",
+    "like": false
+  },
+  {
+    "id": 82,
+    "title": "28 Years Later",
     "year": 2025,
-    "note": 1,
-    "genre": "Rommance,Horreur,Comédie",
-    "director": "Josh Ruben",
-    "cover": "https://a.ltrbxd.com/resized/film-poster/1/1/8/4/6/5/1/1184651-heart-eyes-0-1000-0-1500-crop.jpg?v=423007bf45",
-    "review": "Alors la je suis chockbar comment le film était vraiment mais vraiment trop con je m’en suis tapé de ces barres 😭 \nUn des films les plus cons que j’ai pu voir de toute ma vie, une romance horreur orienté pour les kikoo lol de 12 ans 😭🙏🏽\nMa mère m’a forcé a le voir et finalement bien que j’avais raison vis a vis de la qualité du film , il était tellement con que l'expérience en fut agréable",
-    "like":false
+    "note": 3,
+    "genre": "Science-fiction,Thriller,Horreur",
+    "director": "Danny Boyle",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/9/9/2/7/8/6/992786-28-years-later-0-1000-0-1500-crop.jpg?v=014e09c066",
+    "review": "Le film était tellement moins bien que les anciens mais n’était pas forcément mauvais , l’instauration de nouveaux concepts comme 28 ans sont passés paraît cohérent cependant la scene final était si cringe le scénariste aurai pu nous épargner ça elle donne juste aucune envie de voir la prochaine partie \n\nDe plus ce film m’a créé un complexe sur my little P",
+    "like": false
   },
-
   {
-    "id": 29,
+    "id": 83,
+    "title": "Texas Chainsaw Massacre",
+    "year": 2022,
+    "note": 3,
+    "genre": "Horreur,Drame,Crime,Thriller",
+    "director": "David Blue Garcia",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/5/5/8/9/5/6/558956-texas-chainsaw-massacre-0-1000-0-1500-crop.jpg?v=55135bba7f",
+    "review": "Le début était assez cool \nRien a dire niveau gore le mec il a dead ca littéralement\nMais la fin wtf comment c'était reloouu  et la meuf principale grosse baka",
+    "like": false
+  },
+  {
+    "id": 84,
+    "title": "Eddington",
+    "year": 2025,
+    "note": 3,
+    "genre": "Comédie,Western,Crime",
+    "director": "Ari Aster",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/5/7/4/5/9/5/574595-eddington-0-1000-0-1500-crop.jpg?v=925abc6d9b",
+    "review": "Aloors avant de voir le film , j’avais pas forcément d’attentes donc je ne me disais pas que ca allait être bon ou mauvais j’étais entièrement neutre\nEt donc une fois le film entamé, la première partie je l’ai trouvé très bien développé, un petit débat sur le port du masque en 2020 assez bien fait \nDe plus le développement des personnages qui nous montre qu’ils ont tous un peu raison et tort a la fois et que la plupart sont vraiment toxiques envers leur propre proches \nAu final personne n’est réellement bon dans le film \nPar la suite lors de la 2e partie le film a entamé un peu trop de débats politiques de 2020 a la fois ce qui a un peu fait partir en couille l’intrigue étant donné le contenu trop gros pour un « si petit film » \nJ’ai surement raté des détails mais la phase finale du film elle m’a pété le crâne j’ai pas tout compris malgré ma concentration \nDonc je ne peux pas forcément faire de bon ni mauvais avis",
+    "like": false
+  },
+  {
+    "id": 85,
+    "title": "The Bad Guys 2",
+    "year": 2025,
+    "note": 3,
+    "genre": "Famille,Aventure,Animation,comédie,Crime",
+    "director": "Pierre Perifel",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/1/0/6/2/7/5/5/1062755-the-bad-guys-2-0-1000-0-1500-crop.jpg?v=4b440733fc",
+    "review": "Je trouve que cette suite n’était pas forcément utile pour l’histoire, elle casse tout les événements du premier pour qu’ils aient a refaire la même chose \nAprès j’aime bien la franchise donc j’ai passé un bon moment",
+    "like": false
+  },
+  {
+    "id": 86,
+    "title": "The Long Walk",
+    "year": 2025,
+    "note": 3,
+    "genre": "Horreur,Science-fiction,Thriller",
+    "director": "Francis Lawrence",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/5/3/1/3/1/6/531316-the-long-walk-2025-0-1000-0-1500-crop.jpg?v=9cf0c245aa",
+    "review": "Je suis très mitigé sur ce filmJ’ai trouvé l’intrigue correct et le développement des personnages très bon Certaines morts sont émouvantesLa fin quant a elle je suis assez mitigé, j’ai l’impression que le film n’est pas terminé et je trouve cela très frustrant",
+    "like": false
+  },
+  {
+    "id": 87,
+    "title": "Kaiju No. 8 Mission Recon",
+    "year": 2025,
+    "note": 3,
+    "genre": "Action,Animation,Science-fiction",
+    "director": "Shigeyuki Miya - Tomomi Kamiya",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/1/2/0/6/4/2/6/1206426-kaiju-no-8-mission-recon-0-1000-0-1500-crop.jpg?v=699d17e8bd",
+    "review": "Je me suis tapé tout l’animé pour regarder le film \nPour voir que le film n’était qu’un résumé  \nBig seum, l’episode bonus a la fin est un fealers qui n’est meme pas foufou \nCependant j’ai apprécié regarder l’animé \nMais c’est juste un bon passe temps, c’est un shonen comme un autre \nJe kiffe juste le ptn d’opening sa mère wesh !! \nBref si un jour vous savez pas quoi regarder et vous voulez voir un anime en vrai jvous dis why not meme si beaucoup sont largement au dessus comme snk, cyberpunk, death note, devilman crybaby et j’en passe",
+    "like": false
+  },
+  {
+    "id": 88,
+    "title": "The Housemaid",
+    "year": 2025,
+    "note": 3,
+    "genre": "",
+    "director": "",
+    "cover": "",
+    "review": "Je tiens premièrement a ne baser en rien la critique sur les idées politiques que porte Sydney Sweeney et uniquement aborder la qualité cinématographique de celui ci Housemaid, l’histoire d’une femme en galère devenant femme de ménage dans une famille aisée assez particulière Un film que j’ai personnellement trouvé assez intéressant et avec une énorme potentiel, en terme de questionnement et d’intrigueLa prestation des acteurs dans leur rôles étaient bons et les plotwists aussi, cependant je n’ai pas aimé la manière dont le principal retournement de situation a été introduit, quelques incohérences et des manières clairement plus basiques auraient pu faire l’affaire En ce qui concerne la fin du film, je l’ai trouvé atrocement absurde, j’en ai été extrêmement déçuUn tel scénario aurait pu nous rapporter de belles morales sur notre société actuelle mais a la place ont a eu une fin digne des normes d’un show pour ados kikoo lol J’ai augmenté ma cote pour certaines scènes du film qui ont donné son buzz a celui ci",
+    "like": false,
+    "watchedDate": "2026-02-14"
+  },
+  {
+    "id": 89,
+    "title": "Wake Up Dead Man",
+    "year": 2025,
+    "note": 3,
+    "genre": "",
+    "director": "",
+    "cover": "",
+    "review": "J’ai fini assez mitigé face a ce filmCertains moments intriguant , d’autres chiantsBeaucoup de plotwists étaient prévisibles ou alors je suis juste trop fort j’en sais rien, mais les procédés eux cependant étaient trop complexes pour être devinéEn ce qui concerne l’histoire, le débat entre la religion et l’athéisme était un sujet que j’ai beaucoup appréciéLe prêtre d’un coté bien évidement croyant et d’un autre coté le detective ne croyant pas au miracle montrant tout le long parfois les erreurs que certaines personnes peuvent faire sans chercher loin en disant simplement l’oeuvre de dieuL’absurdité de certaines personnes soit disant croyantes qui remettent tout sur la religion pour se sentir bon tout simplement en se disant que dans tout les cas que leurs péchés seront confessés Au final bien que chacun suive l’église on comprend que peu sont réellement saint et n’y sont que par intérêt et non par une véritable foie L’acting est parfois a méditer, niveau humour au début cela me saoulait mais quand on se rend compte que au fait Blanc n’était un personnage purement blockbuster hollywoodien a vouloir caler des blagues de merde mais un non croyant se moquant foutrement de la religion cela prend d’avantage de sens sur son personnage au final malgré cela et la différence de mentalité il reste avec le personnage principal une des seules bonnes personnes de cette histoire",
+    "like": false,
+    "watchedDate": "2026-01-24"
+  },
+  {
+    "id": 90,
+    "title": "Demon Slayer: Kimetsu no Yaiba Infinity Castle",
+    "year": 2025,
+    "note": 3,
+    "genre": "",
+    "director": "",
+    "cover": "",
+    "review": "Je  n’ai jamais été le plus grand fan de Demon SlayerBeaucoup trop de fan service a mon gout, que ce soit dans la sexualisation des femmes comme Mitsuri, des scènes un peu cringe avec le style de dessin qui de temps en temps l’est particulièrement et niveau combat c’est énormément de fan service aussiCependant je ne peux renier les incroyables dessins et l’animation de l’animé, tout est si propre et magnifique, en terme de beauté il est très difficile de faire une tel animation et c’est le point principal de l’oeuvre Car en ce qui concerne l’histoire bien que l’histoire de chaque démon soit touchante, le scénario est un stéréotype du shonen que l’on connait bien, il respecte un peu trop les normes Les épisodes sont forts concentrés sur les combats et c’est toujours le même schema, ils trouvent une lune supérieure, ils l’affrontent, ils ont du mal, ils y arrivent, ah nan enfait elle a une particularité qui fait qu’il faut la tuer sous une certaine condition, ils en bavent et trouve la solution, power up, pouf le demon va mourrir donc on va faire un flashback de sa vie quand il était humain car tout le monde sait que c’est banal de se remémorer toute sa vie lorsque l’on meurt C’est émouvant chacun a une vie triste et ceci par contre est très souvent bien développé et conforme a la mentalité et le chara-design du demon Puis voila, les personnages sont blessés, ca pleure parfois sans aucune raison",
+    "like": false,
+    "watchedDate": "2026-01-08"
+  },
+  {
+    "id": 91,
+    "title": "Ripley's Game",
+    "year": 2002,
+    "note": 3,
+    "genre": "",
+    "director": "",
+    "cover": "",
+    "review": "Je trouvais le personnage principal super arrogant, moche et détestable une bonne partie du film, vers la fin j’avais toujours du mal avec lui mais bon va il s’est légèrement bien rattrapé J’ai trouvé l’idée et le développement bien réalisé mais certaines fois l’acting restait à désirer Au niveau des plans ce n’était pas trop ça Mais le film n’était pas ennuyant pour autant j’ai pas eu de mal a suivre mais je trouve que parfois certaines scènes étaient incohérentes et c’était toujours les scènes qui faisaient chier le mec payé a tuer les gens j’ai deja oublié son nomBref le scénariste avait une haine inexplicable envers ce personnage",
+    "like": false,
+    "watchedDate": "2026-01-03"
+  },
+  {
+    "id": 92,
+    "title": "Kaiju No. 8: Mission Recon",
+    "year": 2025,
+    "note": 3,
+    "genre": "",
+    "director": "",
+    "cover": "",
+    "review": "Je me suis tapé tout l’animé pour regarder le film Pour voir que le film n’était qu’un résumé  Big seum, l’episode bonus a la fin est un fealers qui n’est meme pas foufou Cependant j’ai apprécié regarder l’animé Mais c’est juste un bon passe temps, c’est un shonen comme un autre Je kiffe juste le ptn d’opening sa mère wesh !! Bref si un jour vous savez pas quoi regarder et vous voulez voir un anime en vrai jvous dis why not meme si beaucoup sont largement au dessus comme snk, cyberpunk, death note, devilman crybaby et j’en passe",
+    "like": false,
+    "watchedDate": "2025-11-19"
+  },
+  {
+    "id": 93,
+    "title": "Bambi: A Tale of Life in the Woods",
+    "year": 2024,
+    "note": 2.5,
+    "genre": "Familial,Documentaire",
+    "director": "Michel Fessler",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/9/8/6/7/8/0/986780-bambi-a-life-in-the-woods-0-1000-0-1500-crop.jpg?v=42d9c1e4da",
+    "review": "C’etait looong , on aurai dit un documentaire, c’est dommage car refaire un bambi en live action ou les animaux parlaient aurai ete beaucoup mieux",
+    "like": false
+  },
+  {
+    "id": 94,
+    "title": "Nocovaine",
+    "year": 2025,
+    "note": 2.5,
+    "genre": "Comédie,Action",
+    "director": "Dan Berk - Robert Olsen",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/1/0/8/1/0/1/7/1081017-novocaine-2025-0-1000-0-1500-crop.jpg?v=bf4021de18",
+    "review": "Jack Quaid est un très bon acteur je ne renierai jamais ceci \nMais il a clairement pas la dégaine a jouer un rôle comme celui qu’il a joué dans Novocaine, le voir se battre était si peu crédible, on aurai dit un court métrage de Norman fait des videos sauf que lui n’est pas pedo (fin en tout cas rien de tel n’est dit mais il reste une célébrité donc a tout moment c’est un fou malade) \nBref le film était très mimi cracra et le scénario était assez rapide, l’acting était correct, l’histoire aussi mais les sauvetages miraculeux du scénario le rend très peu sérieux \n\nIl gagne des points car Jack Quaid = Hughie = The boys = ptn a quand la saison 5 !!!",
+    "like": false
+  },
+  {
+    "id": 95,
     "title": "Final Destination",
     "year": 2000,
     "note": 2.5,
@@ -345,763 +1069,354 @@
     "director": "James Wong",
     "cover": "https://a.ltrbxd.com/resized/film-poster/4/7/0/6/8/47068-final-destination-0-1000-0-1500-crop.jpg?v=cde2a9e624",
     "review": "Je viens de revoir le premier et ptn qu’est ce qu’il était mal fait bahaha",
-    "like":false
+    "like": false
   },
-
   {
-      "id": 30,
-      "title": "Fear Street: Prom Queen",
-      "year": 2025,
-      "note": 1,
-      "genre": "Horreur,Mystère",
-      "director": "Matt Palmer",
-      "cover": "https://a.ltrbxd.com/resized/film-poster/9/0/2/1/5/7/902157-fear-street-prom-queen-0-1000-0-1500-crop.jpg?v=695b98769c",
-      "review": "« Je m’appelle Lori Granger et je déchire »\nVazy c’était super mega cringe , déjà que fear street c’est une des pire franchises horreur mais alors la c’était le summum de malaise 😭",
-      "like":false
-    },
-
-    {
-      "id": 31,
-      "title": "Memories of a Murder",
-      "year": 2003,
-      "note": 4,
-      "genre": "Thriller,Crime,Drama",
-      "director": "Bong Joon Ho",
-      "cover": "https://a.ltrbxd.com/resized/sm/upload/84/xt/e8/mw/gawnVe9cFowdoDLo9Pok12NTw39-0-1000-0-1500-crop.jpg?v=7cad204593",
-      "review": "Le film était vraiment bien fait, de plus j’étais vraiment intrigué on pourrai dire que de base le film aurai pu être super vraiment bien cependant \nMais je ne suis pas resté sur ma fin, je ne suis donc pas forcément satisfait",
-      "like":false
-    },
-
-    {
-      "id": 32,
-      "title": "The Final Destination",
-      "year": 2009,
-      "note": 2,
-      "genre": "Horreur,Mystère",
-      "director": "David R. Ellis",
-      "cover": "https://a.ltrbxd.com/resized/sm/upload/dm/oa/gw/qk/qQ6IvrEDe5OutlYs1xRQby9gcZE-0-1000-0-1500-crop.jpg?v=2b994df6a2",
-      "review": "Ahah jlavais oublié celui la",
-      "like":false
-    },
-
-    {
-      "id": 33,
-      "title": "Late Night With The Devil",
-      "year": 2023,
-      "note": 4,
-      "genre": "Horreur,Fantaisie",
-      "director": "Cameron Cairnes - Colin Cairnes",
-      "cover": "https://a.ltrbxd.com/resized/film-poster/8/4/3/4/1/5/843415-late-night-with-the-devil-0-1000-0-1500-crop.jpg?v=b6c384f7c5",
-      "review": "What the fuck, une fois que l’intrigue est réellement entamée le film devient incroyable \nJe suis impressionné par la réalisation de la fin notamment, c’était si bien fait \nÇa faisait longtemps que je n’ai pas ressenti cette sensation de malaise on va dire suite a l’atmosphère pesante que nous donne ce film vers la fin",
-      "like":false
-    },
-
-    {
-      "id": 34,
-      "title": "Knives Out",
-      "year": 2019,
-      "note": 3,
-      "genre": "Mystère,Crime,Comédie",
-      "director": "Rian Johnson",
-      "cover": "https://a.ltrbxd.com/resized/film-poster/4/7/5/3/7/0/475370-knives-out-0-1000-0-1500-crop.jpg?v=7da76d742c",
-      "review": "Le film n’était pas si mauvais mais l’intrigue était en tout cas a mes yeux assez prévisible, en aucun cas je n’ai eu l’impression d’avoir le moindre plot twist les faits étaient assez prévisibles au fur et a mesure que l’enquête avançait",
-      "like":false
-    },
-    {
-      "id": 35,
-      "title": "28 Days Later",
-      "year": 2002,
-      "note": 3.5,
-      "genre": "Science-fiction,Horreur,Thriller",
-      "director": "Danny Boyle",
-      "cover": "https://a.ltrbxd.com/resized/sm/upload/qr/28/nz/3f/xaYdxi1PBEAYvqknvAmMPK5Eff3-0-1000-0-1500-crop.jpg?v=22d7237ed9",
-      "review": "Le film est vieux et j’avais peur qu’il ai mal vieilli mais je trouve que le développement était finalement correct\nBien que les effets spéciaux et cameras semblent vieillots , pour l'époque c’était correct \nJ’ai bien aimé l’histoire même si ça reste classique pour un film de zombie on part plus sur de l’émotionnel ce que j’ai bien aimé",
-      "like":false
-    },
-        {
-      "id": 36,
-      "title": "28 Weeks Later",
-      "year": 2007,
-      "note": 4,
-      "genre": "Horreur,Science-fiction,Thriller",
-      "director": "Juan Carlos Fresnadillo",
-      "cover": "https://a.ltrbxd.com/resized/film-poster/5/0/9/7/2/50972-28-weeks-later-0-1000-0-1500-crop.jpg?v=811010e540",
-      "review": "Wtf j’avais deja vu le film quand j’étais petit, mais du coup il était chouette pour l’instant j’ai bien aimé les 2 premiers faites que le nouveau soit a la hauteur 🙏🏽",
-      "like":false
-    },
-
-    {
-      "id": 37,
-      "title": "Until Dawn",
-      "year": 2025,
-      "note": 4,
-      "genre": "Mystère,Horreur",
-      "director": "David F. Sandberg",
-      "cover": "https://a.ltrbxd.com/resized/film-poster/1/1/1/5/5/9/7/1115597-until-dawn-2025-0-1000-0-1500-crop.jpg?v=677bb9db18",
-      "review": "Je n’ai personnellement jamais joué au jeu donc je ne peux pas juger la réadaptation\nCependant , j’ai trouvé le film vraiment cool a regarder j’ai passé un bon moment c’était super sympa",
-      "like":false
-    },
-    
-    {
-      "id": 38,
-      "title": "Case Départ",
-      "year": 2011,
-      "note": 3,
-      "genre": "Comédie",
-      "director": "Lionel Steketee - Thomas Ngijol - Fabrice Eboué",
-      "cover": "https://a.ltrbxd.com/resized/film-poster/7/2/8/728-case-depart-0-1000-0-1500-crop.jpg?v=81940fcff6",
-      "review": "Des génies ceux qui ont fait ce film",
-      "like":false
-    },
-
-    {
-      "id": 39,
-      "title": "Don't Move",
-      "year": 2024,
-      "note": 3,
-      "genre": "Horreur, Thriller",
-      "director": "Adam Schindler - Brian Netto",
-      "cover": "https://a.ltrbxd.com/resized/film-poster/9/5/9/4/4/1/959441-dont-move-2024-0-1000-0-1500-crop.jpg?v=fdb87ee6cb",
-      "review": "Pas mauvais mais pas foufou non plus",
-      "like":false
-    },
-
-
-    {
-      "id": 40,
-      "title": "28 Years Later",
-      "year": 2025,
-      "note": 3,
-      "genre": "Science-fiction,Thriller,Horreur",
-      "director": "Danny Boyle",
-      "cover": "https://a.ltrbxd.com/resized/film-poster/9/9/2/7/8/6/992786-28-years-later-0-1000-0-1500-crop.jpg?v=014e09c066",
-      "review": "Le film était tellement moins bien que les anciens mais n’était pas forcément mauvais , l’instauration de nouveaux concepts comme 28 ans sont passés paraît cohérent cependant la scene final était si cringe le scénariste aurai pu nous épargner ça elle donne juste aucune envie de voir la prochaine partie \n\nDe plus ce film m’a créé un complexe sur my little P",
-      "like":false
-    },
-
-    {
-      "id": 41,
-      "title": "Norbit",
-      "year": 2007,
-      "note": 4,
-      "genre": "Comédie",
-      "director": "Brian Robbins",
-      "cover": "https://a.ltrbxd.com/resized/film-poster/4/6/8/5/2/46852-norbit-0-1000-0-1500-crop.jpg?v=4af5fcd522",
-      "review": "J’ai revu le film c’est une dinguerie en vrai deja la voix de l’ane dans shrek qui joue plusieurs rôles differents dans le film c’est trop drole \nEn plus de ça l’humour est grave cool bien du dreamwork de l’époque",
-      "like":false
-    },
-
-
-    {
-      "id": 42,
-      "title": "Happy Gilmore",
-      "year": 1996,
-      "note": 3.5,
-      "genre": "Comédie",
-      "director": "Dennis Dugan",
-      "cover": "https://a.ltrbxd.com/resized/film-poster/4/6/9/8/7/46987-happy-gilmore-0-1000-0-1500-crop.jpg?v=09dc9d06bd",
-      "review": "Adam Sandler toujours un goat de l’humour \nDommage qu’il soit pro Israël  😞",
-      "like":false
-    },
- 
-    {
-      "id": 43,
-      "title": "Kpop Demon Hunters",
-      "year": 2025,
-      "note": 3.5,
-      "genre": "Fantaisie,Comédie,Animation,Musique",
-      "director": "Chris Appelhans - Maggie Kang",
-      "cover": "https://a.ltrbxd.com/resized/film-poster/7/2/0/9/5/3/720953-kpop-demon-hunters-0-1000-0-1500-crop.jpg?v=10b7464274",
-      "review": "Les Musiques sont incroyable, de même pour l'histoire,et l'animation",
-      "like":false
-    },
-
-    {
-      "id": 44,
-      "title": "Bring Her Back",
-      "year": 2025,
-      "note": 4,
-      "genre": "Horreur",
-      "director": "Michael Philippou - Danny Philippou",
-      "cover": "https://a.ltrbxd.com/resized/film-poster/1/0/3/7/6/2/7/1037627-bring-her-back-0-1000-0-1500-crop.jpg?v=defe1dae77",
-      "review": "Alors de base je n’étais vraiment pas attiré par le film, je l’ai vu car je voulais absolument aller au plaza \nEt finalement bah j’ai grave passé un bon moment \nJ’ai vu en vo et c’était vraiment bien acté, le scenario était bien orchestré, de même pour les plot twists \nJuste miskina le grand frère il a vraiment une vie de merde \n\nEt je peux confirmer avec ce film que tu peux pas appeler ta fille Laura en espérant que ce soit une bonne personne",
-      "like":false
-    },
-
-    {
-      "id": 45,
-      "title": "Into the Deep",
-      "year": 2025,
-      "note": 0.5,
-      "genre": "Thriller,Action,Horreur",
-      "director": "Christian Sesma",
-      "cover": "https://a.ltrbxd.com/resized/film-poster/1/2/7/3/3/8/6/1273386-into-the-deep-2025-0-1000-0-1500-crop.jpg?v=4312ba118c",
-      "review": "Nul à chier",
-      "like":false
-    },
-
-    {
-      "id": 46,
-      "title": "Z-O-M-B-I-E-S 4: Dawn of the Vampires",
-      "year": 2025,
-      "note": 1,
-      "genre": "Fantaisie,Famille,Musique,Comedie,Aventure,Romance",
-      "director": "Paul Hoen",
-      "cover": "https://a.ltrbxd.com/resized/film-poster/1/1/2/6/2/4/5/1126245-z-o-m-b-i-e-s-4-dawn-of-the-vampires-0-1000-0-1500-crop.jpg?v=ace93e6342",
-      "review": "Ah frere Tory et Sahi ont imposé le visionnage, mais c’est tellement le style de film qui me cringe, des cosplays de persos qui de basent passent bien en dessin animé genre Monster High mais irl ca va pas du tooooout, le chansons h24 qui cringent sa mère, l’acting bof bof, l’histoire cucu la parline , nan c’est vraiment pas un film pour moi wesh\n\n\nEn plus aucun smash alors que c’est le seul point fort de ce genre de films au final",
-      "like":false
-    },
-
-    {
-      "id": 47,
-      "title": "Wall to Wall",
-      "year": 2025,
-      "note": 2,
-      "genre": "Thriller,Drama",
-      "director": "Kim Tae-joon",
-      "cover": "https://a.ltrbxd.com/resized/film-poster/1/1/5/3/0/7/1/1153071-wall-to-wall-0-1000-0-1500-crop.jpg?v=6eb517d8e6",
-      "review": "Les points positifs du film sont sa structure et un concept qui de base est assez recherché et sympa \nCependant , l’intrigue est trop lente et le scénariste a un peu abusé sur les rebondissements, les scènes nécessitants des cgi sont très mal faites ( comme si Netflix n’avait pas la thune pour en faire de bons) \nEt la fin le bro s’est prit pour un antagoniste prime avec son rire mdrrrr\nL’acting bof bof \nDommage le potentiel était là",
-      "like":false
-    },
-
-    {
-      "id": 48,
-      "title": "The Fantastic 4: First Steps",
-      "year": 2025,
-      "note": 4,
-      "genre": "Action,Science-fiction,Aventure",
-      "director": "Matt Shakman",
-      "cover": "https://a.ltrbxd.com/resized/film-poster/5/4/3/9/6/7/543967-the-fantastic-four-first-steps-0-1000-0-1500-crop.jpg?v=ab7c919b04",
-      "review": "J’ai bien aimé le style retro futuriste de l’univers ainsi que le casting qui était bon , a un certain moment assez court du film je l’ai trouvé lent mais l’intrigue a avancé assez rapidement et clairement malgré tout \nIl était bien pour un Marvel de notre époque , juste j’ignore pourquoi les studios ont du mal a faire des bébés correctement dans les films dernièrement \n\nPtetit point en plus pour le film\nLa surfeuse d’argent big big biiiig hear me out !!!",
-      "like":false
-    },
-
-    {
-      "id": 49,
-      "title": "Superman",
-      "year": 2025,
-      "note": 3.5,
-      "genre": "Science-fiction,Action,Aventure",
-      "director": "James Gunn",
-      "cover": "https://a.ltrbxd.com/resized/film-poster/9/5/7/0/5/0/957050-superman-2025-0-1000-0-1500-crop.jpg?v=54e41a55ff",
-      "review": "Le fond du film était cool, ca reste un film de super hero classique \nJ’ai pas aimé le déguisement de salopard de superman \nKrypto trop mignon \n\nGreen lantern vazy le design bof mais sinon meilleure représentation du perso",
-      "like":false
-    },
-
-    {
-      "id": 50,
-      "title": "Happy Gilmore 2",
-      "year": 2025,
-      "note": 4,
-      "genre": "Comédie",
-      "director": "Kyle Newacheck",
-      "cover": "https://a.ltrbxd.com/resized/film-poster/1/1/4/7/3/7/1/1147371-happy-gilmore-2-0-1000-0-1500-crop.jpg?v=43c978d784",
-      "review": "Adam Sandler, goat indétrônable en terme de comédies \nLe film que des barres trop ma cam et mon humour \nLe cast est juste si bien choisi, j’étais chockbar de chaque acteurs choisis \nCarrément bad bunny a un rôle important qu’il joue à perfection\nPour une suite je ne suis pas du tout déçu le film était cool\nOffrez moi les objets dans lesquels Gilmore cache son alcool purée j’adore",
-      "like":true
-    },
-
-    {
-      "id": 51,
-      "title": "The Piano Accident",
-      "year": 2025,
-      "note": 4.5,
-      "genre": "Comédie",
-      "director": "Quentin Dupieux",
-      "cover": "https://a.ltrbxd.com/resized/film-poster/1/1/9/4/4/5/5/1194455-the-piano-accident-0-1000-0-1500-crop.jpg?v=c0c3aa313f",
-      "review": "J’ai bien aimé la structure du film ainsi que l’acting\nLa façon de d’essayer de developper un personnage insolant qui ne sait lui même pas ce qu’il est \nEt le 2e personnage principal l’assistant est un peu attachant durant toute l’intrigue et on remarque aussi le stresse qu’il a de faire un travail au final si bien payé mais si pénible avec une tel personne\nJe suis tres satisfait tout est réfléchi",
-      "like":false
-    },
-
-    {
-      "id": 52,
-      "title": "Tau",
-      "year": 2018,
-      "note": 3.5,
-      "genre": "Thriller,Horreur,Science-fiction",
-      "director": "Federico D'Alessandro",
-      "cover": "https://a.ltrbxd.com/resized/film-poster/3/4/5/3/1/4/345314-tau-0-1000-0-1500-crop.jpg?v=b848e2434b",
-      "review": "Le développement au fur et a mesure des personnages était sympa\nDe base je ne les aimais pas trop mais au final je m’y suis attaché \nLa fin est assez previsible tres « fan service » mais ca reste un peu émouvant\nJ’éprouve souvent d’empathie pour les robots wtf",
-      "like":false
-    },
-
-    {
-      "id": 53,
-      "title": "Texas Chainsaw Massacre",
-      "year": 2022,
-      "note": 3,
-      "genre": "Horreur,Drame,Crime,Thriller",
-      "director": "David Blue Garcia",
-      "cover": "https://a.ltrbxd.com/resized/film-poster/5/5/8/9/5/6/558956-texas-chainsaw-massacre-0-1000-0-1500-crop.jpg?v=55135bba7f",
-      "review": "Le début était assez cool \nRien a dire niveau gore le mec il a dead ca littéralement\nMais la fin wtf comment c'était reloouu  et la meuf principale grosse baka",
-      "like":false
-    },
-
-    {
-      "id": 54,
-      "title": "Eddington",
-      "year": 2025,
-      "note": 3,
-      "genre": "Comédie,Western,Crime",
-      "director": "Ari Aster",
-      "cover": "https://a.ltrbxd.com/resized/film-poster/5/7/4/5/9/5/574595-eddington-0-1000-0-1500-crop.jpg?v=925abc6d9b",
-      "review": "Aloors avant de voir le film , j’avais pas forcément d’attentes donc je ne me disais pas que ca allait être bon ou mauvais j’étais entièrement neutre\nEt donc une fois le film entamé, la première partie je l’ai trouvé très bien développé, un petit débat sur le port du masque en 2020 assez bien fait \nDe plus le développement des personnages qui nous montre qu’ils ont tous un peu raison et tort a la fois et que la plupart sont vraiment toxiques envers leur propre proches \nAu final personne n’est réellement bon dans le film \nPar la suite lors de la 2e partie le film a entamé un peu trop de débats politiques de 2020 a la fois ce qui a un peu fait partir en couille l’intrigue étant donné le contenu trop gros pour un « si petit film » \nJ’ai surement raté des détails mais la phase finale du film elle m’a pété le crâne j’ai pas tout compris malgré ma concentration \nDonc je ne peux pas forcément faire de bon ni mauvais avis",
-      "like":false
-    },
-
-    {
-      "id": 55,
-      "title": "Jurassic World Rebirth",
-      "year": 2025,
-      "note": 2.5,
-      "genre": "Aventure,Science-fiction,Action",
-      "director": "Gareth Edwards",
-      "cover": "https://a.ltrbxd.com/resized/film-poster/1/1/1/7/9/2/6/1117926-jurassic-world-rebirth-0-1000-0-1500-crop.jpg?v=1dbc19cf2f",
-      "review": "0,5 pour la qualité du film\n1 etoile pour Scarlet johansson \n1 etoile pour les spinosaures  (je profite pour dire que c’est un dino grave surcoté meme si il est ptn de badasse et stylé)\nMise a part ca nul a chier , je suis vraiment très déçu, ce fut une lutte pour ne pas m’endormir\nJ’avais trop d’attentes",
-      "like":false
-    },
-
-    {
-      "id": 56,
-      "title": "Memoir of a Snail",
-      "year": 2024,
-      "note": 4.5,
-      "genre": "Comédie,Animation,Drame",
-      "director": "Adam Elliot",
-      "cover": "https://a.ltrbxd.com/resized/film-poster/9/5/9/8/2/9/959829-memoir-of-a-snail-0-1000-0-1500-crop.jpg?v=e23dff99a0",
-      "review": "J’ai personnellement eu du mal durant les premières minutes avec l’animation en plasticine et les charadesign  , au final une fois qu’on en apprenait d’avantage sur les personnages , on se rend compte qu’il n’y a rien de mieux que de tel charadesigns\nJ’ai trouvé l’histoire vraiment touchante et les personnages vraiment tous assez mignons et attachants \nLe style et la manière dont tout est assez « dinstigué » est assez drôle j’ai vraiment apprécié\nLe film était vraiment bon j’ai adoré !!",
-      "like":true
-    },
-
-    {
-      "id": 57,
-      "title": "Slither",
-      "year": 2006,
-      "note": 5,
-      "genre": "Horreur,Comédie",
-      "director": "James Gunn",
-      "cover": "https://a.ltrbxd.com/resized/film-poster/4/7/4/0/8/47408-slither-0-1000-0-1500-crop.jpg?v=c719a484a6",
-      "review": "Je met permets de faire une review de ce film ou j’ai mis 5 etoiles pour prevenir que c’est du pure trolling ahah \nLe film pue sa grand mère et il est super con, cependant je vous le conseil etant donné qu’il est tellement pourri que l’on passe un bon moment a le regarder",
-      "like":true
-    },
-
-    {
-      "id": 58,
-      "title": "Saltburn",
-      "year": 2023,
-      "note": 4,
-      "genre": "Comédie,Drame,Thriller",
-      "director": "Emerald Fennell",
-      "cover": "https://a.ltrbxd.com/resized/film-poster/8/3/5/7/7/4/835774-saltburn-0-1000-0-1500-crop.jpg?v=b58cbd3b08",
-      "review": "Le début du film m’a fait énormément plaisir , revoir des rues d’oxford , les bars et les boites et meme l’université ahlala qu’est ce que ça me manque \nMise a part ca parlons reellement du film\nRien a dire au niveau de l’acting de chaque persos banger, niveau scénario, bon plot twists au final ce fut un plaisir \nMais j’avais de trop grandes attentes pour ce film et je pense que c’est ce qui m’a déçu\nJe ne peux nier le fait qu’il était bien mais je m’attendais tellement a un banger absolu \nCerte beaucoup de choses étaient glauques mais je m’attendais a ce que ca soit encore plus glauque que ca ahah \nJ’abuse probablement mais on m’en a tellement parlé de la sorte que je m’attendais vraiment a me sentir giga ma a l’aise a certains moments mais j’ai déjà vu pire a ce niveau la je presume",
-      "like":false
-    },
-
+    "id": 96,
+    "title": "Jurassic World Rebirth",
+    "year": 2025,
+    "note": 2.5,
+    "genre": "Aventure,Science-fiction,Action",
+    "director": "Gareth Edwards",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/1/1/1/7/9/2/6/1117926-jurassic-world-rebirth-0-1000-0-1500-crop.jpg?v=1dbc19cf2f",
+    "review": "0,5 pour la qualité du film\n1 etoile pour Scarlet johansson \n1 etoile pour les spinosaures  (je profite pour dire que c’est un dino grave surcoté meme si il est ptn de badasse et stylé)\nMise a part ca nul a chier , je suis vraiment très déçu, ce fut une lutte pour ne pas m’endormir\nJ’avais trop d’attentes",
+    "like": false
+  },
   {
-      "id": 59,
-      "title": "The Lego Batman Movie",
-      "year": 2017,
-      "note": 3.5,
-      "genre": "Comédie,Animation,Famille,Action",
-      "director": "Chris McKay",
-      "cover": "https://a.ltrbxd.com/resized/film-poster/2/5/1/9/3/7/251937-the-lego-batman-movie-0-1000-0-1500-crop.jpg?v=ff7c1cbca1",
-      "review": "Eh beh pour un film Lego je suis vraiment impressionné \nBien évidemment il y a toujours ce côté enfantin c’est assez logique comme c’est le publique cible ahah \nCependant , les morales psychologiques et sentimentales envers Batman sont bien développées \nOn exprime a quel point Batman est égoïste suite a ces traumas d’enfance chose que j’ai toujours pensé de ce superhero (bien que je l’aime bien) \nCertains truc étaient drôles d’autres un peu trop what the fuck genre les pont a la finition \n\nMise a part ca la meuf big hear me out omg meme si c’est un lego",
-      "like":false
-    },    
-
-    {
-      "id": 60,
-      "title": "F1",
-      "year": 2025,
-      "note": 3.5,
-      "genre": "Drame,Action",
-      "director": "Joseph Kosinski",
-      "cover": "https://a.ltrbxd.com/resized/film-poster/8/1/7/9/7/7/817977-f1-the-movie-0-1000-0-1500-crop.jpg?v=f5ae2b99b9",
-      "review": " Le film n’est pas mauvais en soit\nMais reste malgré tout du vu et revu dans les films traitant un grand prix\nSchéma classique et pas forcément d’innovation \nBien réalisé et sympa d’avoir repris les vrais pilotes de F1 pour jouer le film \nMais je suis assez déçu de voir que ce n’était rien de plus qu’un film banale de voiture \nCe fut tout de même divertissant a voir",
-      "like":false
-    },
-
-    {
-      "id": 61,
-      "title": "Insidious",
-      "year": 2010,
-      "note": 1.5,
-      "genre": "Horreur, Thriller",
-      "director": "James Wan",
-      "cover": "https://a.ltrbxd.com/resized/sm/upload/te/ew/lb/gd/urAaOffVaxQzRJ8X5Z0oDqOWAjl-0-1000-0-1500-crop.jpg?v=7016f25e4f",
-      "review": "Le film est débile, comme beaucoup de films d’horreurs c’est un film banale en terme d’esprit etc, je regarderai les autres car on m’a dit que le 1e n’etait pas incroyable mais je n’ai pas trop aimé",
-      "like":false
-    },
-
-    {
-      "id": 62,
-      "title": "The Bad Guys 2",
-      "year": 2025,
-      "note": 3,
-      "genre": "Famille,Aventure,Animation,comédie,Crime",
-      "director": "Pierre Perifel",
-      "cover": "https://a.ltrbxd.com/resized/film-poster/1/0/6/2/7/5/5/1062755-the-bad-guys-2-0-1000-0-1500-crop.jpg?v=4b440733fc",
-      "review": "Je trouve que cette suite n’était pas forcément utile pour l’histoire, elle casse tout les événements du premier pour qu’ils aient a refaire la même chose \nAprès j’aime bien la franchise donc j’ai passé un bon moment",
-      "like":false
-    },
-
-    {
-      "id": 63,
-      "title": "Cleveland Abdcution",
-      "year": 2015,
-      "note": 4.5,
-      "genre": "Drama,Crime",
-      "director": "Alex Kalymnios",
-      "cover": "https://a.ltrbxd.com/resized/film-poster/2/6/6/1/3/4/266134-cleveland-abduction-0-1000-0-1500-crop.jpg?v=abd70492b1",
-      "review": "Je suis choqué que les faits soient réels\nLe film était vraiment bien mais vraiment horrible aussi\nJe plains les victimes de ces actes et le personnage principal qui au final a perdu tout ce qu’elle avait dans sa vie a cause d’un fdp qui avait la teub enflammé de malade \nHeureux de voir que le coupable ne reverra jamais la lumière du jour en dehors d’une prison 🙏🏽",
-      "like":false
-    },
-
-    {
-      "id": 64,
-      "title": "Suzume",
-      "year": 2022,
-      "note": 4,
-      "genre": "Fantaisie,Animation,Aventure,Drame",
-      "director": "Makoto Shinkai",
-      "cover": "https://a.ltrbxd.com/resized/film-poster/8/2/2/2/8/1/822281-suzume-0-1000-0-1500-crop.jpg?v=fadaf47b7f",
-      "review": "Le sens du film était vraiment profond wow \nJe n’ai regardé le film que parce que j’ai vu un edit triste sur un chaton\nChose qui m’a grave rendu triste petit chaton le pauvre\nLes personnages sont assez attachants et la morale du film m’a un peu planté comme jamais\nJ’ai vraiment bien aimé pour ma part\n(Pk une des scènes les mieux animées c’est quand elle s’occupe des blessures sur ses pieds)",
-      "like":false
-    },
-
-    {
-      "id": 65,
-      "title": "Angst",
-      "year": 1983,
-      "note": 4.5,
-      "genre": "Thriller,Horreur,Crime",
-      "director": "Gerald Kargl",
-      "cover": "https://a.ltrbxd.com/resized/sm/upload/6p/3d/1m/v8/zZh5WSo9P4SuB2S8D37b3ewWDjk-0-1000-0-1500-crop.jpg?v=fc7634d4ee",
-      "review": "Wow , certaines scènes sont juste incroyables a analyser c’est une dinguerie je suis choqué\nDe plus l’histoire inspiré de faits réels est horrible et ignoble , le personnage est un détraqué et même avec son passé je ne peux être empathique envers lui\nLes zoom sur les personnages sont très souvent malaisant lorsqu’il s’agit du personnage, j’ai bien aimé cet effet comme plusieurs autres effets qu’on laissé paraitre le film \nVraiment je ne le trouve même pas forcément vieillit",
-      "like":false
-    },
-
-    {
-      "id": 66,
-      "title": "The Tasters",
-      "year": 2025,
-      "note": 3.5,
-      "genre": "Histoire,Drame",
-      "director": "Silvio Soldini",
-      "cover": "https://a.ltrbxd.com/resized/film-poster/1/1/7/4/6/9/5/1174695-the-tasters-0-1000-0-1500-crop.jpg?v=55f1ce3436",
-      "review": "Un film traitant sur la seconde guerre mondiale cependant pour une fois du coté des femmes allemandes victimes du systèmes , qui nous montre que l’armée nazi était horrible aussi bien envers leur ennemis que leur partie \nLes soldats sont tous ignobles, bien que certains ont parfois de l’empathie, ils restent des mauvaises personnes\nInspiré d’une histoire vraie, ca montre a quel point il est important de bien choisir nos électeurs afin de ne pas revivre de tels affronts (clin d’oeil avec Trump)",
-      "like":false
-    },
-
-    {
-      "id": 67,
-      "title": "Grave of the Fireflies",
-      "year": 1988,
-      "note": 4.5,
-      "genre": "Animation,Guerre,Drame",
-      "director": "Isao Takahata",
-      "cover": "https://a.ltrbxd.com/resized/film-poster/4/4/5/5/8/44558-grave-of-the-fireflies-0-1000-0-1500-crop.jpg?v=0c61fd55f0",
-      "review": "Wow c’était triste \nLa séance au ciné m’a couté 2€ mais les séances de psy vont bien rattraper le prix\nLa petite fille me faisait penser a ma petite cousine , j’ai adoré le film et purée je sais pas quoi dire sans spoil  mais what the fuck je suis triste\nJmattendais a quoi le debut c’est clairement \n« Aujourd’hui je suis mort » aaarg\n\nPs : Quelle grosse pute cette tante de salopard",
-      "like":true
-    },
-
-    {
-      "id": 68,
-      "title": "Requiem for a Dream",
-      "year": 2000,
-      "note": 5,
-      "genre": "Drame,Crime",
-      "director": "Darren Aronofsky",
-      "cover": "https://a.ltrbxd.com/resized/sm/upload/lv/4b/f2/zj/muym4jTjdLx7E6as09d1wlC3sOB-0-1000-0-1500-crop.jpg?v=b4d5a4aa37",
-      "review": "Le film est si unique, si bien réalisé \nLa dégradation progressif de chaque personnage et si bien réalisée \nL’histoire est horrible mais si bien faites\nLes plans et les effets sont tout aussi incroyables \nVraiment tres bon",
-      "like":true
-    },
-
-    {
-      "id": 69,
-      "title": "Heaven and Earth",
-      "year": 1993,
-      "note": 4,
-      "genre": "Guerre,Histoire,Drame",
-      "director": "Oliver Stone",
-      "cover": "https://a.ltrbxd.com/resized/film-poster/3/1/0/0/0/31000-heaven-earth-0-1000-0-1500-crop.jpg?v=f70b96a4f2",
-      "review": "J’ai décidé de regarder ce film qui est le coup de coeur ultime de ma mère, c’est en voyant la profondeur du personnage principal et son vécu que j’ai un peu compris pourquoi elle aimait ce film \nDrame, violence, histoire tout est vraiment touchant \nRien ne termine forcement bien ou mal \nJ’ai bien aimé \n\nLa seule critique que je pourrai faire de négative est a propos de la vf \nMdrrr mais pourquoi est ce que c’est aussi raciste ?!\nChaque perso vietnamien (personnages principaux) ont un accent de salopard nan c’est trop",
-      "like":false
-    },
-
-    {
-      "id": 70,
-      "title": "Blade Runner",
-      "year": 1982,
-      "note": 2.5,
-      "genre": "Thriller,Drame,Science-fiction",
-      "director": "Ridley Scott",
-      "cover": "https://a.ltrbxd.com/resized/sm/upload/85/io/38/dz/vfzE3pjE5G7G7kcZWrA3fnbZo7V-0-1000-0-1500-crop.jpg?v=0d5de70f0d",
-      "review": "J’ai vraiment adoré blade runner 2049\nJ’aimais beaucoup l’univers et la vibe du truc \nJe me suis donc dis que je devais voir l’ancien \nMais je suis assez déçu je trouve le 2049 largement au dessus, de plus je trouve les personnages moins attachants, moins charismatiques etc\nJe n’ai pas aimé le personnages principal \n\nLe mec est littéralement un violeur \n\nLes personnages agissent étrangement \n\nLe point positif c’est la ref débloquée pour le film south park post covid ahah",
-      "like":false
-    },
-
-    {
-      "id": 71,
-      "title": "The Long Walk",
-      "year": 2025,
-      "note": 3,
-      "genre": "Horreur,Science-fiction,Thriller",
-      "director": "Francis Lawrence",
-      "cover": "https://a.ltrbxd.com/resized/film-poster/5/3/1/3/1/6/531316-the-long-walk-2025-0-1000-0-1500-crop.jpg?v=9cf0c245aa",
-      "review": "Je suis très mitigé sur ce film\nJ’ai trouvé l’intrigue correct et le développement des personnages très bon \nCertaines morts sont émouvantes\nLa fin quant a elle je suis assez mitigé, j’ai l’impression que le film n’est pas terminé et je trouve cela très frustrant",
-      "like":false
-    },
-
-    {
-      "id": 72,
-      "title": "Atoman",
-      "year": 2025,
-      "note": 0,
-      "genre": "Science-fiction,Aventure,Fantaisie",
-      "director": "Anouar Moatassim",
-      "cover": "https://a.ltrbxd.com/resized/film-poster/7/8/1/1/1/5/781115-atoman-0-1000-0-1500-crop.jpg?v=23d7bb4eb1",
-      "review": "pire film que j'ai vu de ma vie ",
-      "like":false
-    },
-
-    {
-      "id": 73,
-      "title": "Caught Stealing",
-      "year": 2025,
-      "note": 4,
-      "genre": "Thriller,Crime,Comédie",
-      "director": "Darren Aronofsky",
-      "cover": "https://a.ltrbxd.com/resized/film-poster/1/1/2/9/1/9/9/1129199-caught-stealing-0-1000-0-1500-crop.jpg?v=d3b8da3722",
-      "review": "J’ai trouvé le film assez bien \nL’intrigue était bien faites et réfléchies du debut a la fin\nCertains retournements de situations étaient vraiment imprévisibles et le personnage principal est extrêmement attachant je trouve \n\nC’est drole, a la fin ce n’est qu’une replique du film mais ca fait allusion a l’ouragan que j’ai vécu l’année passée au Mexique ca m’a fait rire \nEt ils ont quoi avec les gens qui fabriquent des sites webs ? 🤓",
-      "like":false
-    },
-
-    {
-      "id": 74,
-      "title": "The Conjuring: Last Rites",
-      "year": 2025,
-      "note": 2,
-      "genre": "Horreur",
-      "director": "Michael Chaves",
-      "cover": "https://a.ltrbxd.com/resized/film-poster/9/3/6/0/6/5/936065-the-conjuring-last-rites-0-1000-0-1500-crop.jpg?v=597eedcd06",
-      "review": "En prenant en compte que je ne suis pas un grand fan de la saga conjuring , je la trouve honnêtement assez guez comme une bonne partie des films d’horreurs traitant les esprits, toujours un bail un peu cringe et un peu tiré du meme autre concept je vois rarement une véritable innovation dans ce genre de film et celui ci n’en est encore une fois pas un\n\nFilm compensé par la présence d’un pain",
-      "like":false
-    },
-
-    {
-      "id": 75,
-      "title": "Mc Walter",
-      "year": 2025,
-      "note": 2,
-      "genre": "Aventure,Action,Comédie",
-      "director": "Simon Astier",
-      "cover": "https://a.ltrbxd.com/resized/film-poster/1/1/8/3/0/1/6/1183016-mcwalter-0-1000-0-1500-crop.jpg?v=32851789ec",
-      "review": "L’humour mister v c’est bien pendant une video youtube mais pendant un ptn de long métrage ca devient lourd je trouve \n\nL’histoire bien sur pas foufou mais parfois c’etait drole",
-      "like":false
-    },
-
-    {
-      "id": 76,
-      "title": "Knight Moves",
-      "year": 1992,
-      "note": 1,
-      "genre": "Mystère,Thriller",
-      "director": "Carl Schenkel",
-      "cover": "https://a.ltrbxd.com/resized/film-poster/4/8/6/6/4/48664-knight-moves-0-1000-0-1500-crop.jpg?v=b1e81e8668",
-      "review": "Je trouve premièrement que le film a tres mal vieilli, deuxièmement que l’acting etait tres mauvais \nLes moyens de procéder du tueur ainsi que ses motivations sont débiles\nEt le personnage principal tres peu attachant \nJe n’ai vraiment pas apprécié le film",
-      "like":false
-    },
-
-    {
-      "id": 77,
-      "title": "Perect Blue",
-      "year": 1997,
-      "note": 5,
-      "genre": "Thriller,Animation,Horreur",
-      "director": "Satoshi Kon",
-      "cover": "https://a.ltrbxd.com/resized/film-poster/4/6/1/7/5/46175-perfect-blue-0-1000-0-1500-crop.jpg?v=1ed5878cce",
-      "review": "Je suis brainroted de malade \nChaque plans réfléchis, le scénario si complexe et difficile a comprendre sur le moment\nJ’avais plusieurs théories pendant le film mais pas celle ci \nAlors qu’au final c’était légèrement prévisible tellement de situations possibles pour trouver la bonne \n\nLes combats psychologiques du personnage principal et de tout les personnages tout court \nCa part dans tout les sens mais chaque chemin est cohérent\nJ’ai vraiment kiffé",
-      "like":false
-    },
-
-    {
-      "id": 78,
-      "title": "22 Jump Street",
-      "year": 2014,
-      "note": 3.5,
-      "genre": "Action,Crime,Comédie",
-      "director": "Phil Lord - Christopher Miller",
-      "cover": "https://a.ltrbxd.com/resized/sm/upload/qq/wx/vh/dy/tPnw9oqIvIMoYjVozkDkxm3xR8r-0-1000-0-1500-crop.jpg?v=28856a9f35",
-      "review": "J’ai trouvé le film vraiment drôle et amusant a regarder \nUn bon film pour passer le temps",
-      "like":false
-    },
-
-    {
-      "id": 79,
-      "title": "the life of Chuck",
-      "year": 2024,
-      "note": 4,
-      "genre": "Drame,Fantaisie",
-      "director": "Mike Flanagan",
-      "cover": "https://a.ltrbxd.com/resized/film-poster/7/5/7/6/1/2/757612-the-life-of-chuck-0-1000-0-1500-crop.jpg?v=7ac670c0be",
-      "review": "J’ai trouvé notre personnage principal vraiment attachant, son enfance était agréable a suivre et assez drôle a certains moments \nJe conseil le film",
-      "like":false
-    },
-
-    {
-      "id": 80,
-      "title": "Predator: Badlands",
-      "year": 2025,
-      "note": 4,
-      "genre": "Science-fiction,Action,Aventure",
-      "director": "Dan Trachtenberg",
-      "cover": "https://a.ltrbxd.com/resized/film-poster/1/1/2/5/8/0/9/1125809-predator-badlands-0-1000-0-1500-crop.jpg?v=a0e5686bef",
-      "review": "Certains diront que j’abuse sur la note mais j’estime peser mes mot\nLes décors sont beaux \nL’action et le développement étaient vraiment bien\nChaques protagonistes sont attachants\nIl y a une tres bonne l’utilisation afin de montrer l’importance de chaque elements du début a la fin meme dans les scenes d’actions\nL’imagination pour chaques elements de la planète sont incroyables\n,Et ceci est un peu une première dans un cadre de la franchise predator ou l’on le voit generalement etre la source de danger, cette fois ci c’est lui qui est soumis a un danger et qui evolue aussi bien physiquement que mentalement d’une manière incroyable \nBien que certains effets speciaux soient un peu mauvais de temps en temps cela est rattrapé par tout le reste du film, et j’ai vraiment hate d’avoir une suite de ce magnifique univers",
-      "like":true
-    },
-
-    {
-      "id": 81,
-      "title": "Predator",
-      "year": 1987,
-      "note": 4,
-      "genre": "Thriller,Science-fiction,Aventure,Action",
-      "director": "John McTiernan",
-      "cover": "https://a.ltrbxd.com/resized/film-poster/5/1/9/4/4/51944-predator-0-1000-0-1500-crop.jpg?v=48eadd2372",
-      "review": "Badland m’a donné envi de tous le les refaire, je profite donc pour faire des critiques a chaud\nBien evidemment le film est vieux donc les effers soeciaux sont mauvais, mise a part fa certains personnages sont bien et d’autres sont tout simplement des gros neuils",
-      "like":false
-    },
-
-    {
-      "id": 82,
-      "title": "One Battle After Another",
-      "year": 2025,
-      "note": 5,
-      "genre": "Thriller,Comédie,Action,Crime",
-      "director": "Paul Thomas Anderson",
-      "cover": "https://a.ltrbxd.com/resized/film-poster/9/5/1/2/7/7/951277-one-battle-after-another-0-1000-0-1500-crop.jpg?v=d27c4cc662",
-      "review": "J’ai personnellement apprécié les points de vues politiques exprimés et l’absurdité du personnage qu’est le colonel\nLa bande son était incroyable\nLes prise de cameras et la façon de developper l’histoire était juste génial \nJ’ai beaucoup ris sur comment les blancs parlaient des mexicains \nEt j’ai trouvé Bob et sa fille super attachants",
-      "like":true
-    },
-
-    {
-      "id": 83,
-      "title": "Kaiju No. 8 Mission Recon",
-      "year": 2025,
-      "note": 3,
-      "genre": "Action,Animation,Science-fiction",
-      "director": "Shigeyuki Miya - Tomomi Kamiya",
-      "cover": "https://a.ltrbxd.com/resized/film-poster/1/2/0/6/4/2/6/1206426-kaiju-no-8-mission-recon-0-1000-0-1500-crop.jpg?v=699d17e8bd",
-      "review": "Je me suis tapé tout l’animé pour regarder le film \nPour voir que le film n’était qu’un résumé  \nBig seum, l’episode bonus a la fin est un fealers qui n’est meme pas foufou \nCependant j’ai apprécié regarder l’animé \nMais c’est juste un bon passe temps, c’est un shonen comme un autre \nJe kiffe juste le ptn d’opening sa mère wesh !! \nBref si un jour vous savez pas quoi regarder et vous voulez voir un anime en vrai jvous dis why not meme si beaucoup sont largement au dessus comme snk, cyberpunk, death note, devilman crybaby et j’en passe",
-      "like":false
-    },
-
-   {
-      "id": 84,
-      "title": "Frankenstein",
-      "year": 2025,
-      "note": 4,
-      "genre": "Fantaisie,Drame,Horreur,Science-fiction",
-      "director": "Guillermo del Toro",
-      "cover": "https://a.ltrbxd.com/resized/film-poster/9/5/8/1/0/0/958100-frankenstein-2025-0-1000-0-1500-crop.jpg?v=49a1ca2305",
-      "review": "J’ai été a fond dans l’histoire de a a z\nJ’ai vraiment bien aimé le développement de la bête et aussi voir comment le personnage de Victor est un fils de pute sans fin a mes yeux \nJe me suis fais d’affection pour la bête et Elisabeth et j’ai eu énormément de peine pour William \n\nJe ne suis malheureusement pas resté sur ma fin cependant \n\nEt les loups qui meurent j’ai eu du mal j’aime pas voir tout ça avec des animaux mais cela ne va pas influer ma note ou quoi que ce soit",
-      "like":false
-    },
-
-    {
-      "id": 85,
-      "title": "Dracula",
-      "year": 2025,
-      "note": 2.5,
-      "genre": "Horreur,Romance,Fantaisie",
-      "director": "Luc Besson",
-      "cover": "https://a.ltrbxd.com/resized/film-poster/1/1/2/9/0/8/2/1129082-dracula-2025-0-1000-0-1500-crop.jpg?v=d3bd68aaa2 ",
-      "review": "Je ne suis personnellement pas très fan de tout ce qui est vampire etc\nMais j’ai tout de même décidé de sortir de ma zone de confort, je pense pas que le film est mauvais mais je ne le trouve pas forcément bon pour autant c’est un bon ptit moyen \nL’histoire est bien développée en soit et en soit vu le pain qu’est Elizabeth tu m’étonnes qu’il ai attendu 450 ans pour la recoffrer",
-      "like":false
-    },
-
-    {
-      "id": 86,
-      "title": "Blade",
-      "year": 1998,
-      "note": 2.5,
-      "genre": "Action,Horreur",
-      "director": "Stephen Norrington",
-      "cover": "https://a.ltrbxd.com/resized/film-poster/2/7/7/3/0/27730-blade-0-1000-0-1500-crop.jpg?v=c6c4275ae2",
-      "review": "Un des rares marvel que je n’avais pas vu, j’aimais bien les musiques en soit \nMais pour le reste les effets speciaux bien qu’ils soient vieux me faisaient peter de rire on aurai dit des effets capcut \nEt parfois il y avait quelques incohérences dans l’histoire \nMais ce n’était pas nul a chier pour autant",
-      "like":false
-    },
-
-    {
-      "id": 87,
-      "title": "Oldboy",
-      "year": 2003,
-      "note": 4,
-      "genre": "Thriller,Mystère,Drama,Action",
-      "director": "Park Chan-wook",
-      "cover": "https://a.ltrbxd.com/resized/film-poster/5/1/4/5/4/51454-oldboy-0-1000-0-1500-crop.jpg?v=294dbcadef",
-      "review": "J’ai aimé énormément de choses dans le film, beaucoup de plotwists imprévisibles, la bande son, les cadrages, j’aimais beaucoup la vibe en elle même \nMais au vu des choses que je n’avais pas deviné je suis déçu d’avoir deviné tres tres vite le plotwist ultime ainsi que la manière dont termine le personnage principal, l’entièreté du film était banger mais la fin ne m’a pas trop trop plu",
-      "like":false
-    },
-
-    {
-      "id": 88,
-      "title": "Chainsaw Man – The Movie: Reze Arc",
-      "year": 2025,
-      "note": 5,
-      "genre": "Fantaiaise,Romance,Action,Animation",
-      "director": "Tatsuya Yoshihara",
-      "cover": "https://a.ltrbxd.com/resized/film-poster/1/1/0/2/6/7/3/1102673-chainsaw-man-the-movie-reze-arc-0-1000-0-1500-crop.jpg?v=d9227a11bd",
-      "review": "Bordel de merde mais jmattendais pas a me sentir comme ça a la fin de ce film\nJe suis triste wtfff ma nuit est ruinée \nPremièrement l’animé, je n’étais pas fan des premiers épisodes mais vers la fin j’ai accroché et j’ai eu envi de voir le film\nEt oh mon dieu mais la pépite \nL’animation était bonne\nEt purée mais le personnage principal me fait tant de peine ainsi que la fille qui est sujet du film\nJe la préfère tellement a Makima \nC’est une dinguerie comment la ruse par la sentiments est le moyen le plus efficace pour manipuler quelqu’un ca me fend tellement le coeur",
-      "like":true
-    },
-
-    {
-      "id": 89,
-      "title": "Spermageddon",
-      "year": 2024,
-      "note": 1.5,
-      "genre": "Aniation,Comédie",
-      "director": "Tommy Wirkola",
-      "cover": "https://a.ltrbxd.com/resized/film-poster/9/5/9/7/8/0/959780-spermageddon-0-1000-0-1500-crop.jpg?v=035d80ae9c",
-      "review": "J’ai trouvé le film super nul mais aussi assez drôle \nHumour de beauf j’aime bien ahah \nLes jeux de mots etc j’ai bien aimé le scénario est nul a chier et les persos humains sont des golmons\nObjectivement c’est de la grosse merde mais j’ai tout de même rigolé",
-      "like":false
-    },
-
-    {
-      "id": 90,
-      "title": "Wicked: For Good",
-      "year": 2025,
-      "note": 3.5,
-      "genre": "Aventure,Romance,Fantaisie",
-      "director": "Jon M. Chu",
-      "cover": "https://a.ltrbxd.com/resized/film-poster/8/7/1/1/4/8/871148-wicked-for-good-0-1000-0-1500-crop.jpg?v=f1330d6f91",
-      "review": "J’ai personnellement préféré la première partie de loin a cette suite \nJ’ai trouvé l’intrigue correct durant le film mais j’ai trouvé la fin un peu bâclé \nChose supplémentaire que je n’ai pas apprécié est l’absurdité du scenario utilisé dans le comportement des personnages qu’a utiliser l’auteur afin d’arriver a ses fins pour ce film\nEt le surplus de musique qui ne m’a pas derangé lors du premier \nJ’ai fais l’erreur de le voir en vf  qui a certains moment est horrible \n\nPs: ca m’a fait rire qu’on mette les roux au meme niveau que les animaux \nEt le fait que parfois si on remplace animaux par immigrés certains propos me sont familiers",
-      "like":false
-    },
-
-    {
-      "id": 91,
-      "title": "Five Nights At Freddy's 2",
-      "year": 2025,
-      "note": 3.5,
-      "genre": "Horreur, Thriller",
-      "director": "Emma Tammi",
-      "cover": "https://a.ltrbxd.com/resized/film-poster/1/1/1/1/8/8/3/1111883-five-nights-at-freddys-2-0-1000-0-1500-crop.jpg?v=f382c9b76f",
-      "review": "Étant donné comment était le premier je m’attendais vraiment pas a grand chose cependant cette fois ci ils ont rattrapés leurs erreurs\nIls ont un peu mieux suivi l’histoire originale et les animatronics étaient vraiment bien fait, je suis vraiment content \n\nIls ont développé d'avantages leur personnage et l’ont bien fait \nC’est dommage que les scènes de meurtre soient pas réellement montrées, c’est a dire qu’on comprend comment chaque personne a été tué mais je trouve cela dommage de le « cacher » (0 psychopathie juste ca fait toujours plus d’effet de voir une mort réelle) \nJ’ai passé un bon moment c’était chouette surtout pour une personne qui aime bien cet univers",
-      "like":false
-    },
-
-    {
-      "id": 92,
-      "title": "Avatar: Fire and Ash",
-      "year": 2025,
-      "note": 4,
-      "genre": "Aventure,Fantaisie,Science-fiction",
-      "director": "James Cameron",
-      "cover": "https://a.ltrbxd.com/resized/film-poster/7/0/0/0/7/70007-avatar-fire-and-ash-0-1000-0-1500-crop.jpg?v=5d2f8b35b1",
-      "review": "J’ai bien aimé le scénario de ce premier , et parfois la manière de détourner l’acceptation des autres vis a vis du carde qui est lié a la colonisation d’un peuple depuis ces 3 films\nLe développement des enfants était s’avantages profonds et oh mon dieu mais Varang quel hear me out\n\nLa dynamique était cool, comme dhab les effets spéciaux tres clean et la découverte supplémentaire de l’univers est vraiment cool \nSi il y a un box office que je conseil c’est celui la\n\nUnique problème est parfois la répétition vis a vis du 2 on veut un peu plus de changement\n\nPs: Grace au film je sais que la prochaine fois qu’une fille me plait je dois venir avec un gun",
-      "like":false
-    }
-
+    "id": 97,
+    "title": "Blade Runner",
+    "year": 1982,
+    "note": 2.5,
+    "genre": "Thriller,Drame,Science-fiction",
+    "director": "Ridley Scott",
+    "cover": "https://a.ltrbxd.com/resized/sm/upload/85/io/38/dz/vfzE3pjE5G7G7kcZWrA3fnbZo7V-0-1000-0-1500-crop.jpg?v=0d5de70f0d",
+    "review": "J’ai vraiment adoré blade runner 2049\nJ’aimais beaucoup l’univers et la vibe du truc \nJe me suis donc dis que je devais voir l’ancien \nMais je suis assez déçu je trouve le 2049 largement au dessus, de plus je trouve les personnages moins attachants, moins charismatiques etc\nJe n’ai pas aimé le personnages principal \n\nLe mec est littéralement un violeur \n\nLes personnages agissent étrangement \n\nLe point positif c’est la ref débloquée pour le film south park post covid ahah",
+    "like": false
+  },
+  {
+    "id": 98,
+    "title": "Dracula",
+    "year": 2025,
+    "note": 2.5,
+    "genre": "Horreur,Romance,Fantaisie",
+    "director": "Luc Besson",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/1/1/2/9/0/8/2/1129082-dracula-2025-0-1000-0-1500-crop.jpg?v=d3bd68aaa2 ",
+    "review": "Je ne suis personnellement pas très fan de tout ce qui est vampire etcMais j’ai tout de même décidé de sortir de ma zone de confort, je pense pas que le film est mauvais mais je ne le trouve pas forcément bon pour autant c’est un bon ptit moyen L’histoire est bien développée en soit et en soit vu le pain qu’est Elizabeth tu m’étonnes qu’il ai attendu 450 ans pour la recoffrer",
+    "like": false
+  },
+  {
+    "id": 99,
+    "title": "Blade",
+    "year": 1998,
+    "note": 2.5,
+    "genre": "Action,Horreur",
+    "director": "Stephen Norrington",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/2/7/7/3/0/27730-blade-0-1000-0-1500-crop.jpg?v=c6c4275ae2",
+    "review": "Un des rares marvel que je n’avais pas vu, j’aimais bien les musiques en soit Mais pour le reste les effets speciaux bien qu’ils soient vieux me faisaient peter de rire on aurai dit des effets capcut Et parfois il y avait quelques incohérences dans l’histoire Mais ce n’était pas nul a chier pour autant",
+    "like": false
+  },
+  {
+    "id": 100,
+    "title": "Vivarium",
+    "year": 2019,
+    "note": 2,
+    "genre": "Thriller, Science-fiction",
+    "director": "Lorcan Finnegan",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/3/9/0/1/3/9/390139-vivarium-0-1000-0-1500-crop.jpg?v=013b2fca58",
+    "review": "Le film était un peu trop chelou, pourtant vous le savez que j’aime les trucs chelou mais la c’était chelou sans avoir le moindre sans réel \nJe m’attendais a un énorme plot twist mais l’on a même pas eu de réelles explications sur le principe du film \nManque de développement et de réponse a nos questions \nC’est dommage si le film avait été développé et terminé correctement celui ci aurai pu être incroyable \nPotentiel gâché",
+    "like": false
+  },
+  {
+    "id": 101,
+    "title": "Captain America: Brave New World",
+    "year": 2025,
+    "note": 2,
+    "genre": "Science-fiction,Thriller",
+    "director": "Julius Onah",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/7/3/8/2/9/2/738292-captain-america-brave-new-world-0-1000-0-1500-crop.jpg?v=97dff5b720",
+    "review": "Autant de millions de dollars pour des cgi aussi guez, ils ont mit tout le budget dans le red hulk qui n’a droit qu’a 10 minutes de temps d’écran\nHistoire assez developpé au niveau politique a ce niveau la, classique pour un captain america, cependant aucune attache réelle, le film est aussi rapide qu’un snap a nasdas et les moments serieux qui pourraient rendre ce nouveau captain America badasse sont gachés par des touches d’humour ce qui est dommage \n\nAttention spoiler:\n\n\n\nQuelques points gagnés grace a la scene post credit qui fait comprendre que avengers secret wars va bel et bien reellement arriver",
+    "like": false
+  },
+  {
+    "id": 102,
+    "title": "Drop",
+    "year": 2025,
+    "note": 2,
+    "genre": "Mystère,Thriller",
+    "director": "Christopher Landon",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/1/1/3/3/5/3/0/1133530-drop-2025-0-1000-0-1500-crop.jpg?v=5a9e8e6d82",
+    "review": "Waw le film avait l’air d’avoir une suite correcte lors de l’intro etc mais l’absurdité dans le réalisme des scènes etait un peu de trop a mon gout \nDes barres monumentales face aux dernières scènes du film on est passé d’un thriller a un mission impossible big up",
+    "like": false
+  },
+  {
+    "id": 103,
+    "title": "The Final Destination",
+    "year": 2009,
+    "note": 2,
+    "genre": "Horreur,Mystère",
+    "director": "David R. Ellis",
+    "cover": "https://a.ltrbxd.com/resized/sm/upload/dm/oa/gw/qk/qQ6IvrEDe5OutlYs1xRQby9gcZE-0-1000-0-1500-crop.jpg?v=2b994df6a2",
+    "review": "Ahah jlavais oublié celui la",
+    "like": false
+  },
+  {
+    "id": 104,
+    "title": "Wall to Wall",
+    "year": 2025,
+    "note": 2,
+    "genre": "Thriller,Drama",
+    "director": "Kim Tae-joon",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/1/1/5/3/0/7/1/1153071-wall-to-wall-0-1000-0-1500-crop.jpg?v=6eb517d8e6",
+    "review": "Les points positifs du film sont sa structure et un concept qui de base est assez recherché et sympa \nCependant , l’intrigue est trop lente et le scénariste a un peu abusé sur les rebondissements, les scènes nécessitants des cgi sont très mal faites ( comme si Netflix n’avait pas la thune pour en faire de bons) \nEt la fin le bro s’est prit pour un antagoniste prime avec son rire mdrrrr\nL’acting bof bof \nDommage le potentiel était là",
+    "like": false
+  },
+  {
+    "id": 105,
+    "title": "The Conjuring: Last Rites",
+    "year": 2025,
+    "note": 2,
+    "genre": "Horreur",
+    "director": "Michael Chaves",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/9/3/6/0/6/5/936065-the-conjuring-last-rites-0-1000-0-1500-crop.jpg?v=597eedcd06",
+    "review": "En prenant en compte que je ne suis pas un grand fan de la saga conjuring , je la trouve honnêtement assez guez comme une bonne partie des films d’horreurs traitant les esprits, toujours un bail un peu cringe et un peu tiré du meme autre concept je vois rarement une véritable innovation dans ce genre de film et celui ci n’en est encore une fois pas unFilm compensé par la présence d’un pain",
+    "like": false
+  },
+  {
+    "id": 106,
+    "title": "Mc Walter",
+    "year": 2025,
+    "note": 2,
+    "genre": "Aventure,Action,Comédie",
+    "director": "Simon Astier",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/1/1/8/3/0/1/6/1183016-mcwalter-0-1000-0-1500-crop.jpg?v=32851789ec",
+    "review": "L’humour mister v c’est bien pendant une video youtube mais pendant un ptn de long métrage ca devient lourd je trouve \n\nL’histoire bien sur pas foufou mais parfois c’etait drole",
+    "like": false
+  },
+  {
+    "id": 107,
+    "title": "Bambi: The Reckoning",
+    "year": 2025,
+    "note": 2,
+    "genre": "",
+    "director": "",
+    "cover": "",
+    "review": "Ca a le mérite d’être meilleur que les réadaptations horreurs de winnie, mais ca reste assez guez, surtout la vf qui est a chier mais comme jamais L’histoire est gogole mais au moins y’a des refs au dessin animé",
+    "like": false,
+    "watchedDate": "2025-12-23"
+  },
+  {
+    "id": 108,
+    "title": "McWalter",
+    "year": 2025,
+    "note": 2,
+    "genre": "",
+    "director": "",
+    "cover": "",
+    "review": "L’humour mister v c’est bien pendant une video youtube mais pendant un ptn de long métrage ca devient lourd je trouve L’histoire bien sur pas foufou mais parfois c’etait drole",
+    "like": false,
+    "watchedDate": "2025-10-19"
+  },
+  {
+    "id": 109,
+    "title": "Death of a Unicorn",
+    "year": 2025,
+    "note": 1.5,
+    "genre": "Comédie,Horreur,Fantaisie",
+    "director": "Alex Scharfman",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/1/0/3/9/7/3/6/1039736-death-of-a-unicorn-0-1000-0-1500-crop.jpg?v=973751852e",
+    "review": "Le summum de la connerie , ok je suis d’accord Jenna Ortega big smash comme dhab je l’aime cette femme epouse moi s’il te plait \nMaaaais mise a part ca l’histoire est débile, les persos sont débiles, la cgi est débile, l’entièreté du film est débile, l’impression de voir una telenovela avec des millions de dollars de budget mais malgré tout la meme qualité \nBref de la pure chiasse",
+    "like": false
+  },
+  {
+    "id": 110,
+    "title": "Insidious",
+    "year": 2010,
+    "note": 1.5,
+    "genre": "Horreur, Thriller",
+    "director": "James Wan",
+    "cover": "https://a.ltrbxd.com/resized/sm/upload/te/ew/lb/gd/urAaOffVaxQzRJ8X5Z0oDqOWAjl-0-1000-0-1500-crop.jpg?v=7016f25e4f",
+    "review": "Le film est débile, comme beaucoup de films d’horreurs c’est un film banale en terme d’esprit etc, je regarderai les autres car on m’a dit que le 1e n’etait pas incroyable mais je n’ai pas trop aimé",
+    "like": false
+  },
+  {
+    "id": 111,
+    "title": "Spermageddon",
+    "year": 2024,
+    "note": 1.5,
+    "genre": "Aniation,Comédie",
+    "director": "Tommy Wirkola",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/9/5/9/7/8/0/959780-spermageddon-0-1000-0-1500-crop.jpg?v=035d80ae9c",
+    "review": "J’ai trouvé le film super nul mais aussi assez drôle Humour de beauf j’aime bien ahah Les jeux de mots etc j’ai bien aimé le scénario est nul a chier et les persos humains sont des golmonsObjectivement c’est de la grosse merde mais j’ai tout de même rigolé",
+    "like": false
+  },
+  {
+    "id": 112,
+    "title": "Marsupilami",
+    "year": 2025,
+    "note": 1.5,
+    "genre": "",
+    "director": "",
+    "cover": "",
+    "review": "Mon pote voulait vraiment voir ca que tout les autres films que j’ai proposé au ciné j’ai accepté a contre coeur mdrrrJe vais d’abord dire le bon :En vrai PARFOIS mais vraiment PARFOIS pas souvent mais y’a eu quelques moments drôles mais 90% de l’humour est un peu trop enfantin Quelques refs de films assez droles celles dont je me souviens etaient une de greemlins et une de titanic (une de dragon ball mais ca c’est vraiment horrible)Maintenant en ce qui concerne l’histoire, c’était bien midLe marsupilami ressemble litteralement a une peluche, c’était horribleLes effets spéciaux dignes d’un film indien Et l’acting est assez dégeulasseY’a toujours un problème avec la vf mais là la vf etait la vo c’etait chaudTout ca malgré le nombre aberrant de studios présents a l’intro du film et l’argent déversé pour une tel atrocité",
+    "like": false,
+    "watchedDate": "2026-02-04"
+  },
+  {
+    "id": 113,
+    "title": "Stranger Things 5: The Finale",
+    "year": 2025,
+    "note": 1.5,
+    "genre": "",
+    "director": "",
+    "cover": "",
+    "review": "Nan mais la autant y’a eu de bonnes saisons dans la série je trouve cette dernière saison mais tellement mauvaiseLes personnages sauvés par le plot armor sans cesse c’est une dinguerie, de plus l’acting des acteurs est horrible comment c’est possible d’interpréter aussi mal un role que tu joues depuis 10 putains d’années ?!!Et comment c’est possible que les meilleurs acting soient ceux des gamins qui viennent d’apparaître dans cette saison J’aimerai faire une critique avec spoiler mais il y a tellement d’incohérence ou de scènes irréalistes avec les personnages L’antagoniste principal de l’oeuvre est extrêmement puissant (pas ces putains de militaires d’affaires classés secrets défense incapable d'arrêter des gosses et malgré un entrainement a manier des armes ne savent pas battre une jeune fille avec un fusil a découvert en 5v1) mais il est incapable de tuer a un seul moment un seul des enfants en 5 saisons !! Et de battre un gosse de 7 ans en duel de force  Au niveau des personnages je trouve que au dé ut certains étaient attachants et plus le temps passe plus ils deviennent détestable, avec des caractères de merde et une dévolution abusive, ils apprennent rarement de leur erreurs et il y a tellement de chose a redire sur certains liens entre certains personnages qui ne sont alors la maïs vraiment pas important, cette saison ne mérite en aucun cas de bonnes notes ni son buzz, a toujours utiliser des stratégies marketing a spam la même musique car elle a bien fonctionné a la saison 4 comme si la série avait été imaginée par une ia ou un algorithme marketing sans le moinde développement De plus a la fin je ne comprends pas pourquoi personne ne termine en prison, ILS FONT LITTÉRALEMENT DE LA CONTRE BANDE ENVERS L’ARMÉE MON GARS COMMENT CA ILS NE SE FONT PAS POURSUIVRE EN JUSTICE ?!!Les gars moi jtiens mon tel au volant jme fais tirer dessus car je suis un immigré",
+    "like": false,
+    "watchedDate": "2026-01-01"
+  },
+  {
+    "id": 114,
+    "title": "Godzilla × Kong: The New Empire",
+    "year": 2024,
+    "note": 1,
+    "genre": "Science-fiction",
+    "director": "Adam Wingard",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/7/3/9/5/2/2/739522-godzilla-x-kong-the-new-empire-0-1000-0-1500-crop.jpg?v=7c2eb6e620",
+    "review": "Mdrrr j’ai vraiment besoin de faire un avis ?",
+    "like": false
+  },
+  {
+    "id": 115,
+    "title": "A Minecraft Movie",
+    "year": 2025,
+    "note": 1,
+    "genre": "Comedie,Aventure",
+    "director": "Jared Hess",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/8/5/4/6/9/1/854691-a-minecraft-movie-0-1000-0-1500-crop.jpg?v=074e7fed9e ",
+    "review": "J’ai attendu la nuit afin de me remettre des emotions de ce que j’ai vu, \nLe film était unique en son genre\nL’acting etait incroyable, le scenario très développé, l’humour était present, les effets speciaux surtout lors de la scene ou ils sont en elytras etaient juste magnifique. En plus des emotions fournis ainsi que la direction artistique du film, le plot twist etc \nNan je n’ai jamais vu une pépite pareil , c’etait quelque chose de le voir au cinema je n’ai pu m’empecher d’applaudir \nBien évidemment cette critique est ironique, le film puait la merde, heureusement que je suis publique facile et que je rigolais, alors que même les gosses de 3 ans eux ne riaient a rien.",
+    "like": false
+  },
+  {
+    "id": 116,
+    "title": "The Monkey",
+    "year": 2025,
+    "note": 1,
+    "genre": "Comédie,Horreur",
+    "director": "Osgood Perkins",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/1/0/1/3/3/9/3/1013393-the-monkey-2025-0-1000-0-1500-crop.jpg?v=ac27f20e5a",
+    "review": "nul à chier",
+    "like": false
+  },
+  {
+    "id": 117,
+    "title": "The Jack in the box",
+    "year": 2019,
+    "note": 1,
+    "genre": "Horreur",
+    "director": "Lawrence Fowler",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/5/4/8/9/9/9/548999-the-jack-in-the-box-0-1000-0-1500-crop.jpg?v=df012ab5e1",
+    "review": "Wow wow wow mais deja la vf elle a été faites avec le trou de balle du fou du bus \nPuis le perso principal il a trop cru c’était un avengers\nL’intrigue est nulle a chier, les cgi le sont tout autant pour un film de 2019  et chaque personnage est aussi gogole qu’un autre c’est insupportable \n\nJe m’attendais a regarder un film éclaté mais je ne m’attendais pas à ce qu’il soit aussi guez",
+    "like": false
+  },
+  {
+    "id": 118,
+    "title": "Heart Eyes",
+    "year": 2025,
+    "note": 1,
+    "genre": "Rommance,Horreur,Comédie",
+    "director": "Josh Ruben",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/1/1/8/4/6/5/1/1184651-heart-eyes-0-1000-0-1500-crop.jpg?v=423007bf45",
+    "review": "Alors la je suis chockbar comment le film était vraiment mais vraiment trop con je m’en suis tapé de ces barres 😭 \nUn des films les plus cons que j’ai pu voir de toute ma vie, une romance horreur orienté pour les kikoo lol de 12 ans 😭🙏🏽\nMa mère m’a forcé a le voir et finalement bien que j’avais raison vis a vis de la qualité du film , il était tellement con que l'expérience en fut agréable",
+    "like": false
+  },
+  {
+    "id": 119,
+    "title": "Fear Street: Prom Queen",
+    "year": 2025,
+    "note": 1,
+    "genre": "Horreur,Mystère",
+    "director": "Matt Palmer",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/9/0/2/1/5/7/902157-fear-street-prom-queen-0-1000-0-1500-crop.jpg?v=695b98769c",
+    "review": "« Je m’appelle Lori Granger et je déchire »\nVazy c’était super mega cringe , déjà que fear street c’est une des pire franchises horreur mais alors la c’était le summum de malaise 😭",
+    "like": false
+  },
+  {
+    "id": 120,
+    "title": "Z-O-M-B-I-E-S 4: Dawn of the Vampires",
+    "year": 2025,
+    "note": 1,
+    "genre": "Fantaisie,Famille,Musique,Comedie,Aventure,Romance",
+    "director": "Paul Hoen",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/1/1/2/6/2/4/5/1126245-z-o-m-b-i-e-s-4-dawn-of-the-vampires-0-1000-0-1500-crop.jpg?v=ace93e6342",
+    "review": "Ah frere Tory et Sahi ont imposé le visionnage, mais c’est tellement le style de film qui me cringe, des cosplays de persos qui de basent passent bien en dessin animé genre Monster High mais irl ca va pas du tooooout, le chansons h24 qui cringent sa mère, l’acting bof bof, l’histoire cucu la parline , nan c’est vraiment pas un film pour moi wesh\n\n\nEn plus aucun smash alors que c’est le seul point fort de ce genre de films au final",
+    "like": false
+  },
+  {
+    "id": 121,
+    "title": "Knight Moves",
+    "year": 1992,
+    "note": 1,
+    "genre": "Mystère,Thriller",
+    "director": "Carl Schenkel",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/4/8/6/6/4/48664-knight-moves-0-1000-0-1500-crop.jpg?v=b1e81e8668",
+    "review": "Je trouve premièrement que le film a tres mal vieilli, deuxièmement que l’acting etait tres mauvais Les moyens de procéder du tueur ainsi que ses motivations sont débilesEt le personnage principal tres peu attachant Je n’ai vraiment pas apprécié le film",
+    "like": false
+  },
+  {
+    "id": 122,
+    "title": "Return to Silent Hill",
+    "year": 2026,
+    "note": 1,
+    "genre": "",
+    "director": "",
+    "cover": "",
+    "review": "Les jeux sont géniaux mais le film est atroce Des l’intro j’ai senti que ca allait être chaud a regarderQualité équivalente a certains films des années 90, acting pas fou, les plans sont largement pas a la hauteur de ce qu’un studio pourrait produire en 2026Je n’ai vraiment pas aimé",
+    "like": false,
+    "watchedDate": "2026-02-13"
+  },
+  {
+    "id": 123,
+    "title": "Into the Deep",
+    "year": 2025,
+    "note": 0.5,
+    "genre": "Thriller,Action,Horreur",
+    "director": "Christian Sesma",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/1/2/7/3/3/8/6/1273386-into-the-deep-2025-0-1000-0-1500-crop.jpg?v=4312ba118c",
+    "review": "Nul à chier",
+    "like": false
+  },
+  {
+    "id": 124,
+    "title": "Atoman",
+    "year": 2025,
+    "note": 0.5,
+    "genre": "Science-fiction,Aventure,Fantaisie",
+    "director": "Anouar Moatassim",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/7/8/1/1/1/5/781115-atoman-0-1000-0-1500-crop.jpg?v=23d7bb4eb1",
+    "review": "C’est parce qu’on ne peut pas mettre 0 etoiles mais c’est vraiment le pire film que j’ai vu de ma vie",
+    "like": false
+  },
+  {
+    "id": 125,
+    "title": "Deathstalker",
+    "year": 2025,
+    "note": 0.5,
+    "genre": "",
+    "director": "",
+    "cover": "",
+    "review": "C’etait quoi cette merde ? 😭Genre c’est 2025 et pas 1990?! 😭",
+    "like": false,
+    "watchedDate": "2026-02-16"
+  },
+  {
+    "id": 126,
+    "title": "Film Recommandé",
+    "year": 0,
+    "note": 0,
+    "genre": "",
+    "director": "",
+    "cover": "",
+    "review": "!!!ATTENTION!!!Liste pas encore complète !!!Beaucoup me demandent souvent des films que je conseillerai de regarder c’est pour cela que je vais ici faire une liste de films que je dirai a ne pas rater Certains des classiques d’autres juste une adoration personnelle   American History X C’est l’histoire d’un homme extrêmement malveillant raciste,nazi, etc  Chef d’un gang qui lutte contre l’habitation des noirs dans nos quartiers Extrêmement bien fait, il pourrait être mon film préféré   Requiem for a Dream C’est un film a un style unique, un drame progressif et on ne s’en rend meme pas forcément compte&nbsp;Je n’ai jamais vu un film de ce genre c’est incroyable, je le conseil vraiment   Se7en Encore un classique de la liste L’intrigue, y est C’est l’histoire de 2 inspecteurs de polices un jeune et un au bord de la retraite qui s’occupent d’une enquête complexe dans laquelle le tueur s’inspire des 7 péchés capitaux afin de réaliser ses crimes extrêmement bien fait !!   Parasite Gagnant de la palme d’or de son année, un classique et un chef d’oeuvre&nbsp;Très bien réalisé je n’ai rien a redire   Whiplash Mon impression première sur le film etait « mais qu’est ce que j’en au a foutre de voir un mec faire de la batterie » mais le film est bien plus que ca il montre a quel point parfois on peut se perdre a cause de sa passion, il est tres bien fait et voir JJJ de Spiderman, mais cette fois chauve ce fut assez drôle&nbsp;   The Founder Très bon film, je dirai un classique&nbsp;Très bien réalisé, le genre de film que je conseillerai a n’importe qui de regarder   Good Will Hunting J’ai vraiment aimé ce film, je l’ai trouvé assez émouvant et il m’a aidé quand ca n’allait pas, je l’ai vu a et je me suis retiré les doigts du cul pour faire quelque chose dans ma vie&nbsp;   Spider-Man: Into the Spider-Verse A moins que tu sois un hater complet de dessin ce film est une révolution pour les films de l’animation, il eu lors de sa sortie le prix du meilleur film d’animation, une cote incroyable sur le rotten tomatoes, très profond et adapté au final a tout age&nbsp;Un film d’animation a ne pas louper   Spider-Man: Across the Spider-Verse Le premier était déjà une révolution, le second est une innovation première, réunissant déjà les critères d’animation du premier, il utilise pour chaque plan, un style artistique différent et pour chaque univers une énergie unique, certaines scènes on prit des années à être animée, c’est un chef d’oeuvre sans fin malgré que ce soit un film de super héros il ne se base pas que sur du boom boom tape tape ou de belles actions on y asiste a une torture psychologique pour miles, et le pire c’est que le film n’est même pas terminé comme ce n’est qu’une première partie&nbsp;   Fight Club Bien que la hype de tik tok rende pas mal de choses cringe, il est sans dire que ce film est un chef d’oeuvre&nbsp;C’est rare de ne pas l’avoir vu en 2025, donc si vous ne l’avez pas vu ,tentez l’experience et je vous mets au défi de comprendre le plot twist sans vous faire spoiler&nbsp;Je n’en dirai pas plus &nbsp;   ...plus 30 more. View the full list on Letterboxd.",
+    "like": false,
+    "watchedDate": ""
+  }
 ]
