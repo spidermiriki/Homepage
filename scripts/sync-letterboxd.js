@@ -51,8 +51,8 @@ async function main() {
     // Extrait le lien de l'affiche depuis le contenu HTML du RSS
     const content = item['description']?.[0] ?? ''
     console.log('Content snippet:', content.substring(0, 300))
-    const coverMatch = content.match(/src="(https:\/\/a\.ltrbxd\.com\/resized\/film-poster[^"]+)"/)
-    const cover = coverMatch?.[1]?.replace(/0-230-0-345/, '0-1000-0-1500') ?? ''
+    const coverMatch = content.match(/src="(https:\/\/a\.ltrbxd\.com\/[^"]+)"/)
+    const cover = coverMatch?.[1]?.replace('0-600-0-900', '0-1000-0-1500') ?? ''
 
     // Nettoie la review (retire les balises HTML)
     const cleanReview = review
