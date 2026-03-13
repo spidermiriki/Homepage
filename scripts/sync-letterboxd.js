@@ -37,6 +37,8 @@ async function main() {
   let updatedCount = 0
 
   for (const item of items) {
+    const link = item.link?.[0] ?? ''
+    if (link.includes('/list/')) continue
     // Le RSS Letterboxd utilise des namespaces letterboxd:
     const title       = item['letterboxd:filmTitle']?.[0] ?? item.title?.[0] ?? ''
     const year        = parseInt(item['letterboxd:filmYear']?.[0] ?? '0')
@@ -48,8 +50,8 @@ async function main() {
 
     // Extrait le lien de l'affiche depuis le contenu HTML du RSS
     const content = item['content:encoded']?.[0] ?? ''
-    const coverMatch = content.match(/src="(https:\/\/a\.ltrbxd\.com[^"]+)"/)
-    const cover = coverMatch?.[1] ?? ''
+    const coverMatch = content.match(/src="(https:\/\/a\.ltrbxd\.com\/resized\/film-poster[^"]+)"/)
+    const cover = coverMatch?.[1]?.replace(/0-230-0-345/, '0-1000-0-1500') ?? ''
 
     // Nettoie la review (retire les balises HTML)
     const cleanReview = review
