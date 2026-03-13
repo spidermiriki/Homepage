@@ -102,8 +102,14 @@ const finalReview = cleanReview || "Je n'ai pas encore fait de review sur ce fil
     }
   }
   // ── Récupère aussi les films vus sans review ──
-  const filmsPageRes = await fetch(`https://letterboxd.com/${LETTERBOXD_USER}/films/`)
+  const filmsPageRes = await fetch(`https://letterboxd.com/${LETTERBOXD_USER}/films/`, {
+    headers: {
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+    }
+  })
   const filmsHtml = await filmsPageRes.text()
+  console.log('Films page HTML length:', filmsHtml.length)
+  console.log('Sample HTML:', filmsHtml.substring(0, 500))
 
   const filmMatches = filmsHtml.matchAll(/data-film-slug="([^"]+)"[^>]*data-film-name="([^"]+)"[^>]*data-film-year="([^"]+)"[^>]*data-owner-rating="([^"]+)"/g)
 
