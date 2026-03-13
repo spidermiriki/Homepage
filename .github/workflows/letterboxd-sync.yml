@@ -5,6 +5,9 @@ on:
     - cron: '0 * * * *'  # toutes les heures
   workflow_dispatch:       # bouton manuel dans GitHub Actions
 
+permissions:
+  contents: write
+  
 jobs:
   sync:
     runs-on: ubuntu-latest
