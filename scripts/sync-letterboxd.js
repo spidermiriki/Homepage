@@ -50,7 +50,9 @@ async function main() {
 
     // Extrait le lien de l'affiche depuis le contenu HTML du RSS
     const content = item['content:encoded']?.[0] ?? ''
+    console.log('Content snippet:', content.substring(0, 200))  // ← ajoute cette ligne
     const coverMatch = content.match(/src="(https:\/\/a\.ltrbxd\.com\/resized\/film-poster[^"]+)"/)
+    console.log('Cover trouvée:', coverMatch?.[1])  // ← et celle-ci
     const cover = coverMatch?.[1]?.replace(/0-230-0-345/, '0-1000-0-1500') ?? ''
 
     // Nettoie la review (retire les balises HTML)
