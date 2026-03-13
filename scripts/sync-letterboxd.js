@@ -38,7 +38,8 @@ async function main() {
 
   for (const item of items) {
     const link = item.link?.[0] ?? ''
-    if (link.includes('/list/')) continue
+    const filmYear = parseInt(item['letterboxd:filmYear']?.[0] ?? '0')
+    if (link.includes('/list/') || filmYear === 0) continue
     // Le RSS Letterboxd utilise des namespaces letterboxd:
     const title       = item['letterboxd:filmTitle']?.[0] ?? item.title?.[0] ?? ''
     const year        = parseInt(item['letterboxd:filmYear']?.[0] ?? '0')
