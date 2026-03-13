@@ -101,6 +101,37 @@ const finalReview = cleanReview || "Je n'ai pas encore fait de review sur ce fil
       console.log(`  ➕ Nouveau film: ${title} (${year})`)
     }
   }
+  // ── Récupère aussi les films vus sans review ──
+  const filmsPageRes = await fetch(`https://letterboxd.com/${LETTERBOXD_USER}/films/`)
+  const filmsHtml = await filmsPageRes.text()
+
+  const filmMatches = filmsHtml.matchAll(/data-film-slug="([^"]+)"[^>]*data-film-name="([^"]+)"[^>]*data-film-year="([^"]+)"[^>]*data-owner-rating="([^"]+)"/g)
+
+  for (const match of filmMatches) {
+    const [, slug, title, yearStr, ratingStr] = match
+    const year = parseInt(yearStr)
+    const note = parseInt(ratingStr) / 2
+    const key = `${title}__${year}`
+
+    if (!existingMap.has(key)) {
+      const newFilm = {
+        id: existingFilms.length + newCount + 1,
+        title,
+        year,
+        note,
+        genre: '',
+        director: '',
+        cover: '',
+        review: "Je n'ai pas encore fait de review sur ce film, cela arrive !",
+        like: false,
+      }
+      existingMap.set(key, newFilm)
+      newCount++
+      console.log(`  ➕ Film noté sans review: ${title} (${year})`)
+    }
+  }
+
+
 
   // Reconstruit le tableau et trie par note décroissante
   const updatedFilms = Array.from(existingMap.values())
