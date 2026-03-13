@@ -7,7 +7,7 @@ import fs from 'fs'
 import path from 'path'
 
 // ── CONFIG — change ton pseudo ici ──────────────────
-const LETTERBOXD_USER = 'homelocaca'
+const LETTERBOXD_USER = 'homelo'
 const FILMS_JSON_PATH = path.resolve('./src/data/films.json')
 // ────────────────────────────────────────────────────
 
