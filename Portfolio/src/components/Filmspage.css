@@ -18,7 +18,7 @@
   overflow-x: hidden;
   font-family: 'VT323', monospace;
   color: white;
-  cursor: crosshair;
+  cursor: default;
 }
 
 /* ════════════════════════════════════════
@@ -222,7 +222,7 @@
   position: relative;
   margin-top: -12px;
   transition: margin-top 0.25s ease;
-  z-index: calc(20 - var(--i, 0));
+  z-index: 1;
 }
 
 .fp-stack-row:first-child { margin-top: 0; }

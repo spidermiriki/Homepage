@@ -134,7 +134,6 @@ export function FilmsPage() {
                   <div
                     key={film.id}
                     className="fp-stack-row"
-                    style={{ '--i': i } as React.CSSProperties}
                   >
                     <DvdItem
                       film={film}
