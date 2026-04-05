@@ -883,6 +883,18 @@
   },
   {
     "id": 79,
+    "title": "The Drama",
+    "year": 2026,
+    "note": 3.5,
+    "genre": "",
+    "director": "",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/1/2/0/5/4/9/4/1205494-the-drama-0-1000-0-1500-crop.jpg?v=2320acafd5",
+    "review": "J’ai particulièrement apprécié la manière de developper l’ampleur et la tournure que peut prendre l’interprétation de certaines paroles Passer d’une situation parfaite a une situation désastreuse. La notion de drama au finalLa photographie est super bien réalisé L’histoire est assez bonne et le développement est correct, c’est un bon petit film a regarder Bien qu’il y ai un certain point que je n’ai pas vraiment compris vu qu’il n’a pas été revu a aucun moment du filmJe conseille vivement",
+    "like": false,
+    "watchedDate": "2026-04-05"
+  },
+  {
+    "id": 80,
     "title": "Final Destination Bloodlines",
     "year": 2025,
     "note": 3,
@@ -893,7 +905,7 @@
     "like": false
   },
   {
-    "id": 80,
+    "id": 81,
     "title": "Predator Killer of the killers",
     "year": 2025,
     "note": 3,
@@ -904,7 +916,7 @@
     "like": false
   },
   {
-    "id": 81,
+    "id": 82,
     "title": "Knives Out",
     "year": 2019,
     "note": 3,
@@ -915,7 +927,7 @@
     "like": false
   },
   {
-    "id": 82,
+    "id": 83,
     "title": "Case Départ",
     "year": 2011,
     "note": 3,
@@ -926,7 +938,7 @@
     "like": false
   },
   {
-    "id": 83,
+    "id": 84,
     "title": "Don't Move",
     "year": 2024,
     "note": 3,
@@ -937,7 +949,7 @@
     "like": false
   },
   {
-    "id": 84,
+    "id": 85,
     "title": "28 Years Later",
     "year": 2025,
     "note": 3,
@@ -948,7 +960,7 @@
     "like": false
   },
   {
-    "id": 85,
+    "id": 86,
     "title": "Texas Chainsaw Massacre",
     "year": 2022,
     "note": 3,
@@ -959,7 +971,7 @@
     "like": false
   },
   {
-    "id": 86,
+    "id": 87,
     "title": "Eddington",
     "year": 2025,
     "note": 3,
@@ -970,7 +982,7 @@
     "like": false
   },
   {
-    "id": 87,
+    "id": 88,
     "title": "The Bad Guys 2",
     "year": 2025,
     "note": 3,
@@ -981,7 +993,7 @@
     "like": false
   },
   {
-    "id": 88,
+    "id": 89,
     "title": "The Long Walk",
     "year": 2025,
     "note": 3,
@@ -992,7 +1004,7 @@
     "like": false
   },
   {
-    "id": 89,
+    "id": 90,
     "title": "Kaiju No. 8 Mission Recon",
     "year": 2025,
     "note": 3,
@@ -1003,7 +1015,7 @@
     "like": false
   },
   {
-    "id": 90,
+    "id": 91,
     "title": "The Housemaid",
     "year": 2025,
     "note": 3,
@@ -1015,7 +1027,7 @@
     "watchedDate": "2026-02-14"
   },
   {
-    "id": 91,
+    "id": 92,
     "title": "Wake Up Dead Man",
     "year": 2025,
     "note": 3,
@@ -1027,7 +1039,7 @@
     "watchedDate": "2026-01-24"
   },
   {
-    "id": 92,
+    "id": 93,
     "title": "Demon Slayer: Kimetsu no Yaiba Infinity Castle",
     "year": 2025,
     "note": 3,
@@ -1039,7 +1051,7 @@
     "watchedDate": "2026-01-08"
   },
   {
-    "id": 93,
+    "id": 94,
     "title": "Ripley's Game",
     "year": 2002,
     "note": 3,
@@ -1051,7 +1063,7 @@
     "watchedDate": "2026-01-03"
   },
   {
-    "id": 94,
+    "id": 95,
     "title": "Kaiju No. 8: Mission Recon",
     "year": 2025,
     "note": 3,
@@ -1063,7 +1075,7 @@
     "watchedDate": "2025-11-19"
   },
   {
-    "id": 95,
+    "id": 96,
     "title": "Bambi: A Tale of Life in the Woods",
     "year": 2024,
     "note": 2.5,
@@ -1074,7 +1086,7 @@
     "like": false
   },
   {
-    "id": 96,
+    "id": 97,
     "title": "Nocovaine",
     "year": 2025,
     "note": 2.5,
@@ -1085,7 +1097,7 @@
     "like": false
   },
   {
-    "id": 97,
+    "id": 98,
     "title": "Final Destination",
     "year": 2000,
     "note": 2.5,
@@ -1096,7 +1108,7 @@
     "like": false
   },
   {
-    "id": 98,
+    "id": 99,
     "title": "Jurassic World Rebirth",
     "year": 2025,
     "note": 2.5,
@@ -1107,7 +1119,7 @@
     "like": false
   },
   {
-    "id": 99,
+    "id": 100,
     "title": "Blade Runner",
     "year": 1982,
     "note": 2.5,
@@ -1118,7 +1130,7 @@
     "like": false
   },
   {
-    "id": 100,
+    "id": 101,
     "title": "Dracula",
     "year": 2025,
     "note": 2.5,
@@ -1129,7 +1141,7 @@
     "like": false
   },
   {
-    "id": 101,
+    "id": 102,
     "title": "Blade",
     "year": 1998,
     "note": 2.5,
@@ -1140,7 +1152,7 @@
     "like": false
   },
   {
-    "id": 102,
+    "id": 103,
     "title": "Vivarium",
     "year": 2019,
     "note": 2,
@@ -1151,7 +1163,7 @@
     "like": false
   },
   {
-    "id": 103,
+    "id": 104,
     "title": "Captain America: Brave New World",
     "year": 2025,
     "note": 2,
@@ -1162,7 +1174,7 @@
     "like": false
   },
   {
-    "id": 104,
+    "id": 105,
     "title": "Drop",
     "year": 2025,
     "note": 2,
@@ -1173,7 +1185,7 @@
     "like": false
   },
   {
-    "id": 105,
+    "id": 106,
     "title": "The Final Destination",
     "year": 2009,
     "note": 2,
@@ -1184,7 +1196,7 @@
     "like": false
   },
   {
-    "id": 106,
+    "id": 107,
     "title": "Wall to Wall",
     "year": 2025,
     "note": 2,
@@ -1195,7 +1207,7 @@
     "like": false
   },
   {
-    "id": 107,
+    "id": 108,
     "title": "The Conjuring: Last Rites",
     "year": 2025,
     "note": 2,
@@ -1206,7 +1218,7 @@
     "like": false
   },
   {
-    "id": 108,
+    "id": 109,
     "title": "Mc Walter",
     "year": 2025,
     "note": 2,
@@ -1217,7 +1229,7 @@
     "like": false
   },
   {
-    "id": 109,
+    "id": 110,
     "title": "Bambi: The Reckoning",
     "year": 2025,
     "note": 2,
@@ -1229,7 +1241,7 @@
     "watchedDate": "2025-12-23"
   },
   {
-    "id": 110,
+    "id": 111,
     "title": "McWalter",
     "year": 2025,
     "note": 2,
@@ -1241,7 +1253,7 @@
     "watchedDate": "2025-10-19"
   },
   {
-    "id": 111,
+    "id": 112,
     "title": "Death of a Unicorn",
     "year": 2025,
     "note": 1.5,
@@ -1252,7 +1264,7 @@
     "like": false
   },
   {
-    "id": 112,
+    "id": 113,
     "title": "Insidious",
     "year": 2010,
     "note": 1.5,
@@ -1263,7 +1275,7 @@
     "like": false
   },
   {
-    "id": 113,
+    "id": 114,
     "title": "Spermageddon",
     "year": 2024,
     "note": 1.5,
@@ -1274,7 +1286,7 @@
     "like": false
   },
   {
-    "id": 114,
+    "id": 115,
     "title": "Marsupilami",
     "year": 2025,
     "note": 1.5,
@@ -1286,7 +1298,7 @@
     "watchedDate": "2026-02-04"
   },
   {
-    "id": 115,
+    "id": 116,
     "title": "Stranger Things 5: The Finale",
     "year": 2025,
     "note": 1.5,
@@ -1298,7 +1310,7 @@
     "watchedDate": "2026-01-01"
   },
   {
-    "id": 116,
+    "id": 117,
     "title": "Godzilla × Kong: The New Empire",
     "year": 2024,
     "note": 1,
@@ -1309,7 +1321,7 @@
     "like": false
   },
   {
-    "id": 117,
+    "id": 118,
     "title": "A Minecraft Movie",
     "year": 2025,
     "note": 1,
@@ -1320,7 +1332,7 @@
     "like": false
   },
   {
-    "id": 118,
+    "id": 119,
     "title": "The Monkey",
     "year": 2025,
     "note": 1,
@@ -1331,7 +1343,7 @@
     "like": false
   },
   {
-    "id": 119,
+    "id": 120,
     "title": "The Jack in the box",
     "year": 2019,
     "note": 1,
@@ -1342,7 +1354,7 @@
     "like": false
   },
   {
-    "id": 120,
+    "id": 121,
     "title": "Heart Eyes",
     "year": 2025,
     "note": 1,
@@ -1353,7 +1365,7 @@
     "like": false
   },
   {
-    "id": 121,
+    "id": 122,
     "title": "Fear Street: Prom Queen",
     "year": 2025,
     "note": 1,
@@ -1364,7 +1376,7 @@
     "like": false
   },
   {
-    "id": 122,
+    "id": 123,
     "title": "Z-O-M-B-I-E-S 4: Dawn of the Vampires",
     "year": 2025,
     "note": 1,
@@ -1375,7 +1387,7 @@
     "like": false
   },
   {
-    "id": 123,
+    "id": 124,
     "title": "Knight Moves",
     "year": 1992,
     "note": 1,
@@ -1386,7 +1398,7 @@
     "like": false
   },
   {
-    "id": 124,
+    "id": 125,
     "title": "Return to Silent Hill",
     "year": 2026,
     "note": 1,
@@ -1398,7 +1410,7 @@
     "watchedDate": "2026-02-13"
   },
   {
-    "id": 125,
+    "id": 126,
     "title": "Into the Deep",
     "year": 2025,
     "note": 0.5,
@@ -1409,7 +1421,7 @@
     "like": false
   },
   {
-    "id": 126,
+    "id": 127,
     "title": "Atoman",
     "year": 2025,
     "note": 0.5,
@@ -1420,7 +1432,7 @@
     "like": false
   },
   {
-    "id": 127,
+    "id": 128,
     "title": "Deathstalker",
     "year": 2025,
     "note": 0.5,
