@@ -591,6 +591,18 @@
   },
   {
     "id": 53,
+    "title": "Arco",
+    "year": 2025,
+    "note": 4,
+    "genre": "",
+    "director": "",
+    "cover": "https://a.ltrbxd.com/resized/film-poster/7/2/1/5/6/6/721566-arco-0-1000-0-1500-crop.jpg?v=dcaae85d56",
+    "review": "C’était avec impatience que je voulais voir Arco et ce fut sans la moindre déception C’est l’histoire d’un petit garçon, Arco, qui vit dans le futur et par un élan de rébellion décide de ne pas écouter ses parents et d’aller dans le passé car il rêve de voir les dinosaures (j’aurai fais la même). Ne sachant pas utilisé l’équipement comme il se doit il se retrouve en 2075 et se lie d’amitié avec Iris qui a tendance à vivre seule car ses parents ne sont jamais la 2 personnages aux univers opposés et pourtant leur lien est très fort L’animation était vraiment magnifique et le concept avec les arcs en ciel juste super original C’était un super film",
+    "like": false,
+    "watchedDate": "2026-04-10"
+  },
+  {
+    "id": 54,
     "title": "X",
     "year": 2022,
     "note": 3.5,
@@ -601,7 +613,7 @@
     "like": false
   },
   {
-    "id": 54,
+    "id": 55,
     "title": "MaXXXine",
     "year": 2024,
     "note": 3.5,
@@ -612,7 +624,7 @@
     "like": false
   },
   {
-    "id": 55,
+    "id": 56,
     "title": "Sinners",
     "year": 2025,
     "note": 3.5,
@@ -623,7 +635,7 @@
     "like": false
   },
   {
-    "id": 56,
+    "id": 57,
     "title": "The Spider Within: A Spider-Verse Story",
     "year": 2023,
     "note": 3.5,
@@ -634,7 +646,7 @@
     "like": false
   },
   {
-    "id": 57,
+    "id": 58,
     "title": "Paul",
     "year": 2011,
     "note": 3.5,
@@ -645,7 +657,7 @@
     "like": false
   },
   {
-    "id": 58,
+    "id": 59,
     "title": "Superbad",
     "year": 2007,
     "note": 3.5,
@@ -656,7 +668,7 @@
     "like": false
   },
   {
-    "id": 59,
+    "id": 60,
     "title": "Thunderbolts*",
     "year": 2025,
     "note": 3.5,
@@ -667,7 +679,7 @@
     "like": false
   },
   {
-    "id": 60,
+    "id": 61,
     "title": "Triangle",
     "year": 2009,
     "note": 3.5,
@@ -678,7 +690,7 @@
     "like": false
   },
   {
-    "id": 61,
+    "id": 62,
     "title": "Drop",
     "year": 2024,
     "note": 3.5,
@@ -689,7 +701,7 @@
     "like": false
   },
   {
-    "id": 62,
+    "id": 63,
     "title": "28 Days Later",
     "year": 2002,
     "note": 3.5,
@@ -700,7 +712,7 @@
     "like": false
   },
   {
-    "id": 63,
+    "id": 64,
     "title": "Happy Gilmore",
     "year": 1996,
     "note": 3.5,
@@ -711,7 +723,7 @@
     "like": false
   },
   {
-    "id": 64,
+    "id": 65,
     "title": "Kpop Demon Hunters",
     "year": 2025,
     "note": 3.5,
@@ -722,7 +734,7 @@
     "like": false
   },
   {
-    "id": 65,
+    "id": 66,
     "title": "Superman",
     "year": 2025,
     "note": 3.5,
@@ -733,7 +745,7 @@
     "like": false
   },
   {
-    "id": 66,
+    "id": 67,
     "title": "Tau",
     "year": 2018,
     "note": 3.5,
@@ -744,7 +756,7 @@
     "like": false
   },
   {
-    "id": 67,
+    "id": 68,
     "title": "The Lego Batman Movie",
     "year": 2017,
     "note": 3.5,
@@ -755,7 +767,7 @@
     "like": false
   },
   {
-    "id": 68,
+    "id": 69,
     "title": "F1",
     "year": 2025,
     "note": 3.5,
@@ -766,7 +778,7 @@
     "like": false
   },
   {
-    "id": 69,
+    "id": 70,
     "title": "The Tasters",
     "year": 2025,
     "note": 3.5,
@@ -777,7 +789,7 @@
     "like": false
   },
   {
-    "id": 70,
+    "id": 71,
     "title": "22 Jump Street",
     "year": 2014,
     "note": 3.5,
@@ -788,7 +800,7 @@
     "like": false
   },
   {
-    "id": 71,
+    "id": 72,
     "title": "Wicked: For Good",
     "year": 2025,
     "note": 3.5,
@@ -799,7 +811,7 @@
     "like": false
   },
   {
-    "id": 72,
+    "id": 73,
     "title": "Five Nights At Freddy's 2",
     "year": 2025,
     "note": 3.5,
@@ -810,7 +822,7 @@
     "like": false
   },
   {
-    "id": 73,
+    "id": 74,
     "title": "The Good Sister",
     "year": 2025,
     "note": 3.5,
@@ -822,7 +834,7 @@
     "watchedDate": "2026-03-11"
   },
   {
-    "id": 74,
+    "id": 75,
     "title": "The Mastermind",
     "year": 2025,
     "note": 3.5,
@@ -834,7 +846,7 @@
     "watchedDate": "2026-03-05"
   },
   {
-    "id": 75,
+    "id": 76,
     "title": "Look Back",
     "year": 2024,
     "note": 3.5,
@@ -846,7 +858,7 @@
     "watchedDate": "2026-02-01"
   },
   {
-    "id": 76,
+    "id": 77,
     "title": "Hustle",
     "year": 2022,
     "note": 3.5,
@@ -858,7 +870,7 @@
     "watchedDate": "2026-01-27"
   },
   {
-    "id": 77,
+    "id": 78,
     "title": "Zootopia 2",
     "year": 2025,
     "note": 3.5,
@@ -870,7 +882,7 @@
     "watchedDate": "2026-01-27"
   },
   {
-    "id": 78,
+    "id": 79,
     "title": "Steve",
     "year": 2025,
     "note": 3.5,
@@ -882,7 +894,7 @@
     "watchedDate": "2026-01-08"
   },
   {
-    "id": 79,
+    "id": 80,
     "title": "Five Nights at Freddy's 2",
     "year": 2025,
     "note": 3.5,
@@ -894,7 +906,7 @@
     "watchedDate": "2025-12-13"
   },
   {
-    "id": 80,
+    "id": 81,
     "title": "The Drama",
     "year": 2026,
     "note": 3.5,
@@ -906,7 +918,7 @@
     "watchedDate": "2026-04-05"
   },
   {
-    "id": 81,
+    "id": 82,
     "title": "GOAT",
     "year": 2026,
     "note": 3.5,
@@ -918,7 +930,7 @@
     "watchedDate": "2026-04-09"
   },
   {
-    "id": 82,
+    "id": 83,
     "title": "Final Destination Bloodlines",
     "year": 2025,
     "note": 3,
@@ -929,7 +941,7 @@
     "like": false
   },
   {
-    "id": 83,
+    "id": 84,
     "title": "Predator Killer of the killers",
     "year": 2025,
     "note": 3,
@@ -940,7 +952,7 @@
     "like": false
   },
   {
-    "id": 84,
+    "id": 85,
     "title": "Knives Out",
     "year": 2019,
     "note": 3,
@@ -951,7 +963,7 @@
     "like": false
   },
   {
-    "id": 85,
+    "id": 86,
     "title": "Case Départ",
     "year": 2011,
     "note": 3,
@@ -962,7 +974,7 @@
     "like": false
   },
   {
-    "id": 86,
+    "id": 87,
     "title": "Don't Move",
     "year": 2024,
     "note": 3,
@@ -973,7 +985,7 @@
     "like": false
   },
   {
-    "id": 87,
+    "id": 88,
     "title": "28 Years Later",
     "year": 2025,
     "note": 3,
@@ -984,7 +996,7 @@
     "like": false
   },
   {
-    "id": 88,
+    "id": 89,
     "title": "Texas Chainsaw Massacre",
     "year": 2022,
     "note": 3,
@@ -995,7 +1007,7 @@
     "like": false
   },
   {
-    "id": 89,
+    "id": 90,
     "title": "Eddington",
     "year": 2025,
     "note": 3,
@@ -1006,7 +1018,7 @@
     "like": false
   },
   {
-    "id": 90,
+    "id": 91,
     "title": "The Bad Guys 2",
     "year": 2025,
     "note": 3,
@@ -1017,7 +1029,7 @@
     "like": false
   },
   {
-    "id": 91,
+    "id": 92,
     "title": "The Long Walk",
     "year": 2025,
     "note": 3,
@@ -1028,7 +1040,7 @@
     "like": false
   },
   {
-    "id": 92,
+    "id": 93,
     "title": "Kaiju No. 8 Mission Recon",
     "year": 2025,
     "note": 3,
@@ -1039,7 +1051,7 @@
     "like": false
   },
   {
-    "id": 93,
+    "id": 94,
     "title": "The Housemaid",
     "year": 2025,
     "note": 3,
@@ -1051,7 +1063,7 @@
     "watchedDate": "2026-02-14"
   },
   {
-    "id": 94,
+    "id": 95,
     "title": "Wake Up Dead Man",
     "year": 2025,
     "note": 3,
@@ -1063,7 +1075,7 @@
     "watchedDate": "2026-01-24"
   },
   {
-    "id": 95,
+    "id": 96,
     "title": "Demon Slayer: Kimetsu no Yaiba Infinity Castle",
     "year": 2025,
     "note": 3,
@@ -1075,7 +1087,7 @@
     "watchedDate": "2026-01-08"
   },
   {
-    "id": 96,
+    "id": 97,
     "title": "Ripley's Game",
     "year": 2002,
     "note": 3,
@@ -1087,7 +1099,7 @@
     "watchedDate": "2026-01-03"
   },
   {
-    "id": 97,
+    "id": 98,
     "title": "Kaiju No. 8: Mission Recon",
     "year": 2025,
     "note": 3,
@@ -1099,7 +1111,7 @@
     "watchedDate": "2025-11-19"
   },
   {
-    "id": 98,
+    "id": 99,
     "title": "Bambi: A Tale of Life in the Woods",
     "year": 2024,
     "note": 2.5,
@@ -1110,7 +1122,7 @@
     "like": false
   },
   {
-    "id": 99,
+    "id": 100,
     "title": "Nocovaine",
     "year": 2025,
     "note": 2.5,
@@ -1121,7 +1133,7 @@
     "like": false
   },
   {
-    "id": 100,
+    "id": 101,
     "title": "Final Destination",
     "year": 2000,
     "note": 2.5,
@@ -1132,7 +1144,7 @@
     "like": false
   },
   {
-    "id": 101,
+    "id": 102,
     "title": "Jurassic World Rebirth",
     "year": 2025,
     "note": 2.5,
@@ -1143,7 +1155,7 @@
     "like": false
   },
   {
-    "id": 102,
+    "id": 103,
     "title": "Blade Runner",
     "year": 1982,
     "note": 2.5,
@@ -1154,7 +1166,7 @@
     "like": false
   },
   {
-    "id": 103,
+    "id": 104,
     "title": "Dracula",
     "year": 2025,
     "note": 2.5,
@@ -1165,7 +1177,7 @@
     "like": false
   },
   {
-    "id": 104,
+    "id": 105,
     "title": "Blade",
     "year": 1998,
     "note": 2.5,
@@ -1176,7 +1188,7 @@
     "like": false
   },
   {
-    "id": 105,
+    "id": 106,
     "title": "Vivarium",
     "year": 2019,
     "note": 2,
@@ -1187,7 +1199,7 @@
     "like": false
   },
   {
-    "id": 106,
+    "id": 107,
     "title": "Captain America: Brave New World",
     "year": 2025,
     "note": 2,
@@ -1198,7 +1210,7 @@
     "like": false
   },
   {
-    "id": 107,
+    "id": 108,
     "title": "Drop",
     "year": 2025,
     "note": 2,
@@ -1209,7 +1221,7 @@
     "like": false
   },
   {
-    "id": 108,
+    "id": 109,
     "title": "The Final Destination",
     "year": 2009,
     "note": 2,
@@ -1220,7 +1232,7 @@
     "like": false
   },
   {
-    "id": 109,
+    "id": 110,
     "title": "Wall to Wall",
     "year": 2025,
     "note": 2,
@@ -1231,7 +1243,7 @@
     "like": false
   },
   {
-    "id": 110,
+    "id": 111,
     "title": "The Conjuring: Last Rites",
     "year": 2025,
     "note": 2,
@@ -1242,7 +1254,7 @@
     "like": false
   },
   {
-    "id": 111,
+    "id": 112,
     "title": "Mc Walter",
     "year": 2025,
     "note": 2,
@@ -1253,7 +1265,7 @@
     "like": false
   },
   {
-    "id": 112,
+    "id": 113,
     "title": "Bambi: The Reckoning",
     "year": 2025,
     "note": 2,
@@ -1265,7 +1277,7 @@
     "watchedDate": "2025-12-23"
   },
   {
-    "id": 113,
+    "id": 114,
     "title": "McWalter",
     "year": 2025,
     "note": 2,
@@ -1277,7 +1289,7 @@
     "watchedDate": "2025-10-19"
   },
   {
-    "id": 114,
+    "id": 115,
     "title": "Death of a Unicorn",
     "year": 2025,
     "note": 1.5,
@@ -1288,7 +1300,7 @@
     "like": false
   },
   {
-    "id": 115,
+    "id": 116,
     "title": "Insidious",
     "year": 2010,
     "note": 1.5,
@@ -1299,7 +1311,7 @@
     "like": false
   },
   {
-    "id": 116,
+    "id": 117,
     "title": "Spermageddon",
     "year": 2024,
     "note": 1.5,
@@ -1310,7 +1322,7 @@
     "like": false
   },
   {
-    "id": 117,
+    "id": 118,
     "title": "Marsupilami",
     "year": 2025,
     "note": 1.5,
@@ -1322,7 +1334,7 @@
     "watchedDate": "2026-02-04"
   },
   {
-    "id": 118,
+    "id": 119,
     "title": "Stranger Things 5: The Finale",
     "year": 2025,
     "note": 1.5,
@@ -1334,7 +1346,7 @@
     "watchedDate": "2026-01-01"
   },
   {
-    "id": 119,
+    "id": 120,
     "title": "Godzilla × Kong: The New Empire",
     "year": 2024,
     "note": 1,
@@ -1345,7 +1357,7 @@
     "like": false
   },
   {
-    "id": 120,
+    "id": 121,
     "title": "A Minecraft Movie",
     "year": 2025,
     "note": 1,
@@ -1356,7 +1368,7 @@
     "like": false
   },
   {
-    "id": 121,
+    "id": 122,
     "title": "The Monkey",
     "year": 2025,
     "note": 1,
@@ -1367,7 +1379,7 @@
     "like": false
   },
   {
-    "id": 122,
+    "id": 123,
     "title": "The Jack in the box",
     "year": 2019,
     "note": 1,
@@ -1378,7 +1390,7 @@
     "like": false
   },
   {
-    "id": 123,
+    "id": 124,
     "title": "Heart Eyes",
     "year": 2025,
     "note": 1,
@@ -1389,7 +1401,7 @@
     "like": false
   },
   {
-    "id": 124,
+    "id": 125,
     "title": "Fear Street: Prom Queen",
     "year": 2025,
     "note": 1,
@@ -1400,7 +1412,7 @@
     "like": false
   },
   {
-    "id": 125,
+    "id": 126,
     "title": "Z-O-M-B-I-E-S 4: Dawn of the Vampires",
     "year": 2025,
     "note": 1,
@@ -1411,7 +1423,7 @@
     "like": false
   },
   {
-    "id": 126,
+    "id": 127,
     "title": "Knight Moves",
     "year": 1992,
     "note": 1,
@@ -1422,7 +1434,7 @@
     "like": false
   },
   {
-    "id": 127,
+    "id": 128,
     "title": "Return to Silent Hill",
     "year": 2026,
     "note": 1,
@@ -1434,7 +1446,7 @@
     "watchedDate": "2026-02-13"
   },
   {
-    "id": 128,
+    "id": 129,
     "title": "Into the Deep",
     "year": 2025,
     "note": 0.5,
@@ -1445,7 +1457,7 @@
     "like": false
   },
   {
-    "id": 129,
+    "id": 130,
     "title": "Atoman",
     "year": 2025,
     "note": 0.5,
@@ -1456,7 +1468,7 @@
     "like": false
   },
   {
-    "id": 130,
+    "id": 131,
     "title": "Deathstalker",
     "year": 2025,
     "note": 0.5,
