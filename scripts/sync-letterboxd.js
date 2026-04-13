@@ -65,7 +65,7 @@ async function main() {
     .replace(/&#39;/g, "'")
     .trim()
 
-const finalReview = cleanReview || "Je n'ai pas encore fait de review sur ce film, cela arrive !"
+const finalReview = cleanReview || ''
 
     const key = `${title}__${year}`
 
@@ -128,7 +128,7 @@ const finalReview = cleanReview || "Je n'ai pas encore fait de review sur ce fil
         genre: '',
         director: '',
         cover: '',
-        review: "Je n'ai pas encore fait de review sur ce film, cela arrive !",
+        review: '',
         like: false,
       }
       existingMap.set(key, newFilm)
