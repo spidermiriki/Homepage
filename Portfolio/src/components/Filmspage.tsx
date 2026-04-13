@@ -49,27 +49,27 @@ function Stars({ note, like }: { note: number, like: boolean }) {
         )
       })}
       <span className="fp-note">{note}/5</span>
+      {like && <span className="fp-like-heart">♥</span>}
     </div>
   )
 }
 // ── Boîte VHS ────────────────────────────────────────
-function DvdItem({ film, isActive, onHover }: {
+function DvdItem({ film, isActive, onClick }: {
   film: Film
   isActive: boolean
-  onHover: (id: number | null) => void
+  onClick: (id: number | null) => void
 }) {
   return (
     <div
       className={`fp-dvd ${isActive ? 'active' : ''}`}
-      onMouseEnter={() => onHover(film.id)}
-      onMouseLeave={() => onHover(null)}
+      onClick={() => onClick(isActive ? null : film.id)}
     >
       <div className="fp-dvd-case">
         <div className="fp-dvd-spine" />
         <div className="fp-dvd-front">
           {film.cover && <img src={film.cover} alt={film.title} />}
           <div className="fp-dvd-placeholder">
-            <span>{film.title}</span>
+            <span className={film.like ? 'fp-dvd-title-liked' : ''}>{film.title}</span>
             <span className="fp-dvd-year">{film.year}</span>
             {film.like && <span className="fp-dvd-heart">♥</span>}
           </div>
@@ -138,7 +138,7 @@ export function FilmsPage() {
                     <DvdItem
                       film={film}
                       isActive={activeId === film.id}
-                      onHover={setActiveId}
+                      onClick={setActiveId}
                     />
                   </div>
                 ))
@@ -169,12 +169,15 @@ export function FilmsPage() {
             <p className="fp-review-meta">{activeFilm.year} · {activeFilm.director}</p>
             <Stars note={activeFilm.note} like={!!activeFilm.like} />
             <div className="fp-review-divider" />
-            <p className="fp-review-text">{activeFilm.review}</p>
+            {activeFilm.review
+              ? <p className="fp-review-text">{activeFilm.review}</p>
+              : <p className="fp-no-review">[ AUCUNE REVIEW DISPONIBLE ]</p>
+            }
             </div>
           ) : (
             <div className="fp-review-empty">
               <div className="fp-cursor-blink">_</div>
-              <p>Passe la souris sur une cassette</p>
+              <p>Clique sur une cassette</p>
             </div>
           )}
         </section>
