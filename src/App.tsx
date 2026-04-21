@@ -3,7 +3,6 @@ import { Routes, Route, useLocation } from 'react-router-dom'
 import { Starfield } from './components/Starfield'
 import { Scene }     from './components/Scene'
 import { useParallax } from './hooks/useParallax'
-import { FilmsPage } from './components/FilmsPage'
 
 export default function App() {
   const location = useLocation()
@@ -56,7 +55,7 @@ export default function App() {
           <div className="hud-corner br" />
         </>
       } />
-      <Route path="/films" element={<FilmsPage />} />
+
     </Routes>
   )
 }

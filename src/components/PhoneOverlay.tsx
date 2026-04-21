@@ -1,5 +1,4 @@
 import { useRef, useState } from 'react'
-import { useNavigate } from 'react-router-dom'
 import monSon from '../sounds/The Police - Every Breath You Take.mp3'
 import monGif from '../assets/keldeo.gif'
 
@@ -10,7 +9,6 @@ interface PhoneOverlayProps {
 
 
 export function PhoneOverlay({ onClose }: PhoneOverlayProps) {
-  const navigate = useNavigate()
   const audioRef = useRef<HTMLAudioElement>(null)
   const [activePage, setActivePage] = useState<string | null>(null)
 
@@ -55,7 +53,7 @@ const handlePlay = () => {
             <h1>Films</h1>
             <p>Tu veux voir mes reviews de films ?</p>
 
-              <a onClick={() => { onClose(); navigate('/films') }} className="gif-link">
+              <a onClick={() => { onClose(); window.open('https://spidermiriki.github.io/Melos-Studio/', '_blank') }} className="gif-link">
                 <img src={monGif} width={150} alt="reviews" />
               </a>
 
