@@ -6,7 +6,7 @@ import fs from 'fs'
 import path from 'path'
 
 const CSV_PATH    = path.resolve('./ratings.csv')
-const FILMS_PATH  = path.resolve('./Portfolio/src/data/films.json')
+const FILMS_PATH  = path.resolve('./src/data/films.json')
 
 // Parser CSV respectant les champs entre guillemets (ex: "Monsters, Inc.")
 function parseCSVLine(line) {

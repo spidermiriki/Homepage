@@ -8,7 +8,7 @@ import path from 'path'
 
 // ── CONFIG — change ton pseudo ici ──────────────────
 const LETTERBOXD_USER = 'Homelo'
-const FILMS_JSON_PATH = path.resolve('./Portfolio/src/data/films.json')
+const FILMS_JSON_PATH = path.resolve('./src/data/films.json')
 // ────────────────────────────────────────────────────
 
 const RSS_URL = `https://letterboxd.com/${LETTERBOXD_USER}/rss/`

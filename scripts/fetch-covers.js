@@ -6,7 +6,7 @@
 import fs from 'fs'
 import path from 'path'
 
-const FILMS_PATH = path.resolve('./Portfolio/src/data/films.json')
+const FILMS_PATH = path.resolve('./src/data/films.json')
 const DELAY_MS   = 400   // délai entre chaque requête pour ne pas se faire bloquer
 const SAVE_EVERY = 20    // sauvegarde intermédiaire tous les N films
 
