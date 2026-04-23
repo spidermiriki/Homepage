@@ -627,9 +627,35 @@ body {
   right: 12px;
   z-index: 11;
   display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: flex-end;
   align-items: flex-end;
   gap: 4px;
+  max-width: 340px;
   pointer-events: none;
   opacity: 0.75;
+}
+
+.pokemon-trim {
+  margin: -18px;
+}
+
+.pokemon-trim-bottom {
+  margin-bottom: -18px;
+}
+
+.pokemon-drop {
+  transform: translateY(20px);
+}
+
+.pokemon-drop-lg {
+  transform: translateY(35px);
+}
+
+.pokemon-half-left {
+  overflow: hidden;
+  width: 85px;
+  display: inline-flex;
+  align-items: flex-end;
 }
 
