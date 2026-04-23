@@ -43,7 +43,7 @@ export function MobileView() {
           <>
             <div className="mobile-header">
               <img src={avatar} className="mobile-avatar" alt="avatar" />
-              <h1 className="mobile-title">· MY ALIEN ROOM ·</h1>
+              <h1 className="mobile-title">· MY HOME PAGE ·</h1>
             </div>
 
             <nav className="mobile-menu">
