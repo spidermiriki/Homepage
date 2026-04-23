@@ -1,13 +1,11 @@
-import { useRef, useState } from 'react'
+import { useState } from 'react'
 import { Starfield } from './Starfield'
-import monSon from '../sounds/The Police - Every Breath You Take.mp3'
-import monGif from '../assets/keldeo.gif'
 import papersImg from '../assets/papers.svg'
 import avatar from '../assets/icone.png'
 import { PokemonCorner } from './PokemonCorner'
 import { SocialBar } from './SocialBar'
 
-type Page = null | 'films' | 'musique'
+type Page = null | 'musique' | 'jeux'
 
 interface MobileItemProps {
   label: string
@@ -33,15 +31,6 @@ function MobileItem({ label, onClick, href, children }: MobileItemProps) {
 
 export function MobileView() {
   const [activePage, setActivePage] = useState<Page>(null)
-  const audioRef = useRef<HTMLAudioElement>(null)
-  const [playing, setPlaying] = useState(false)
-
-  const handlePlay = () => {
-    if (!audioRef.current) return
-    if (playing) audioRef.current.pause()
-    else audioRef.current.play()
-    setPlaying(!playing)
-  }
 
   return (
     <>
@@ -51,7 +40,6 @@ export function MobileView() {
       <div className="hud-corner tr" />
       <div className="hud-corner bl" />
       <div className="hud-corner br" />
-      <audio ref={audioRef} src={monSon} />
 
       <div className="mobile-view">
 
@@ -66,32 +54,24 @@ export function MobileView() {
               <MobileItem label="Mon Portfolio" href="https://spidermiriki.github.io/Portfolio/">
                 <img src={papersImg} width={110} alt="portfolio" />
               </MobileItem>
-              <MobileItem label="Films" onClick={() => setActivePage('films')}>
+              <MobileItem label="Films" href="https://spidermiriki.github.io/Melo-s-Studio/">
                 <span className="mobile-item-text">FILMS</span>
               </MobileItem>
               <MobileItem label="Musique" onClick={() => setActivePage('musique')}>
                 <span className="mobile-item-text">MUSIQUE</span>
               </MobileItem>
+              <MobileItem label="Jeux vidéo" onClick={() => setActivePage('jeux')}>
+                <span className="mobile-item-text">JEUX</span>
+              </MobileItem>
             </nav>
-
-            <button type="button" className="mobile-play-btn" onClick={handlePlay}>
-              {playing ? '⏸' : '▶'}
-            </button>
           </>
         )}
 
-        {activePage === 'films' && (
+        {activePage === 'jeux' && (
           <div className="mobile-page">
             <button type="button" className="mobile-back" onClick={() => setActivePage(null)}>← retour</button>
-            <h2>Films</h2>
-            <p>Tu veux voir mes reviews de films ?</p>
-            <a
-              className="gif-link"
-              onClick={() => window.open('https://spidermiriki.github.io/Melo-s-Studio/', '_blank')}
-            >
-              <img src={monGif} width={140} alt="reviews" />
-            </a>
-            <button type="button" className="mobile-play-btn" onClick={handlePlay}>{playing ? '⏸' : '▶'}</button>
+            <h2>Jeux vidéo</h2>
+            <p className="mobile-wip">⚙ En cours de programmation...</p>
           </div>
         )}
 
@@ -117,7 +97,6 @@ export function MobileView() {
               src="https://open.spotify.com/embed/playlist/1kYBDMaHq5oFeoFMfR9gH7?theme=0"
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
             />
-            <button type="button" className="mobile-play-btn" onClick={handlePlay}>{playing ? '⏸' : '▶'}</button>
           </div>
         )}
 
