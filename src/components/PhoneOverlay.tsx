@@ -53,7 +53,7 @@ const handlePlay = () => {
             <h1>Films</h1>
             <p>Tu veux voir mes reviews de films ?</p>
 
-              <a onClick={() => { onClose(); window.open('https://spidermiriki.github.io/Melos-Studio/', '_blank') }} className="gif-link">
+              <a onClick={() => { onClose(); window.open('https://spidermiriki.github.io/Melo-s-Studio/', '_blank') }} className="gif-link">
                 <img src={monGif} width={150} alt="reviews" />
               </a>
 
