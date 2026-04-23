@@ -29,8 +29,41 @@ function MobileItem({ label, onClick, href, children }: MobileItemProps) {
   )
 }
 
+function playBulbSound() {
+  const ctx = new AudioContext()
+  const duration = 0.9
+  const bufferSize = Math.floor(ctx.sampleRate * duration)
+  const buffer = ctx.createBuffer(1, bufferSize, ctx.sampleRate)
+  const data = buffer.getChannelData(0)
+
+  for (let i = 0; i < bufferSize; i++) {
+    const t = i / ctx.sampleRate
+    const buzz  = Math.sin(2 * Math.PI * 60 * t) * 0.15
+    const noise = (Math.random() * 2 - 1) * 0.08
+    const flicker = Math.random() > 0.35 ? 1 : Math.random() * 0.2
+    data[i] = (buzz + noise) * flicker
+  }
+
+  const source = ctx.createBufferSource()
+  source.buffer = buffer
+  const gain = ctx.createGain()
+  gain.gain.setValueAtTime(0.7, ctx.currentTime)
+  gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + duration)
+  source.connect(gain)
+  gain.connect(ctx.destination)
+  source.start()
+}
+
 export function MobileView() {
   const [activePage, setActivePage] = useState<Page>(null)
+  const [flickering, setFlickering] = useState(false)
+
+  function handleAvatarClick() {
+    if (flickering) return
+    setFlickering(true)
+    playBulbSound()
+    setTimeout(() => setFlickering(false), 900)
+  }
 
   return (
     <>
@@ -42,7 +75,12 @@ export function MobileView() {
         {activePage === null && (
           <>
             <div className="mobile-header">
-              <img src={avatar} className="mobile-avatar" alt="avatar" />
+              <img
+                src={avatar}
+                className={`mobile-avatar${flickering ? ' bulb-flicker' : ''}`}
+                alt="avatar"
+                onClick={handleAvatarClick}
+              />
               <h1 className="mobile-title">· MY HOME PAGE ·</h1>
             </div>
 
