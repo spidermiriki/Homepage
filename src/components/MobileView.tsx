@@ -36,10 +36,6 @@ export function MobileView() {
     <>
       <Starfield count={120} />
       <div id="scanlines" />
-      <div className="hud-corner tl" />
-      <div className="hud-corner tr" />
-      <div className="hud-corner bl" />
-      <div className="hud-corner br" />
 
       <div className="mobile-view">
 

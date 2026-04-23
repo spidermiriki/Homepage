@@ -1,9 +1,10 @@
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import { Routes, Route, useLocation } from 'react-router-dom'
 import { Starfield } from './components/Starfield'
 import { Scene }     from './components/Scene'
 import { MobileView } from './components/MobileView'
 import { PokemonCorner } from './components/PokemonCorner'
+import { Intro } from './components/Intro'
 import { SocialBar } from './components/SocialBar'
 import { useParallax } from './hooks/useParallax'
 import { useIsMobile } from './hooks/useIsMobile'
@@ -12,6 +13,7 @@ export default function App() {
   const location = useLocation()
   const isHome = location.pathname === '/'
   const isMobile = useIsMobile()
+  const [introDone, setIntroDone] = useState(false)
 
   useParallax()
 
@@ -47,23 +49,22 @@ export default function App() {
   }, [isHome, isMobile])
 
   return (
-    <Routes>
-      <Route path="/" element={
-        isMobile ? <MobileView /> : (
-          <>
-            <Starfield count={200} />
-            <h1 id="title">· MY ALIEN ROOM ·</h1>
-            <Scene />
-            <div id="scanlines" />
-            <div className="hud-corner tl" />
-            <div className="hud-corner tr" />
-            <div className="hud-corner bl" />
-            <div className="hud-corner br" />
-            <PokemonCorner />
-            <SocialBar />
-          </>
-        )
-      } />
-    </Routes>
+    <>
+      {!introDone && <Intro onDone={() => setIntroDone(true)} />}
+      <Routes>
+        <Route path="/" element={
+          isMobile ? <MobileView /> : (
+            <>
+              <Starfield count={200} />
+              <h1 id="title">· MY HOME PAGE ·</h1>
+              <Scene />
+              <div id="scanlines" />
+              <PokemonCorner />
+              <SocialBar />
+            </>
+          )
+        } />
+      </Routes>
+    </>
   )
 }
