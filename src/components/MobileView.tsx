@@ -79,24 +79,7 @@ export function MobileView() {
           <div className="mobile-page">
             <button type="button" className="mobile-back" onClick={() => setActivePage(null)}>← retour</button>
             <h2>Musique</h2>
-            <iframe
-              title="Playlist Spotify 1"
-              className="spotify-player"
-              src="https://open.spotify.com/embed/playlist/1kYBDMaHq5oFeoFMfR9gH7?theme=0"
-              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-            />
-            <iframe
-              title="Playlist Spotify 2"
-              className="spotify-player"
-              src="https://open.spotify.com/embed/playlist/3D761oLILZAFcJ5WydCg6o?theme=0"
-              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-            />
-            <iframe
-              title="Playlist Spotify 3"
-              className="spotify-player"
-              src="https://open.spotify.com/embed/playlist/1kYBDMaHq5oFeoFMfR9gH7?theme=0"
-              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-            />
+            <p className="mobile-wip">⚙ En cours de programmation...</p>
           </div>
         )}
 

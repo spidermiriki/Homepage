@@ -51,8 +51,7 @@ const handlePlay = () => {
           <div className="phone-content">
             <button className="back-btn" onClick={() => setActivePage(null)}>← retour</button>
             <h1>Séries</h1>
-            <p>Mes séries préférées...</p>
-            <button className="play-btn" onClick={handlePlay}></button>
+            <p className="wip-text">⚙ En cours de programmation...</p>
           </div>
         )}
 
@@ -61,8 +60,7 @@ const handlePlay = () => {
           <div className="phone-content">
             <button className="back-btn" onClick={() => setActivePage(null)}>← retour</button>
             <h1>Jeux vidéo</h1>
-            <p>Mes jeux préférés...</p>
-            <button className="play-btn" onClick={handlePlay}></button>
+            <p className="wip-text">⚙ En cours de programmation...</p>
           </div>
         )}
 
@@ -71,24 +69,7 @@ const handlePlay = () => {
           <div className="phone-content">
             <button className="back-btn" onClick={() => setActivePage(null)}>← retour</button>
             <h1>Musique</h1>
-
-            <iframe
-              className="spotify-player"
-              src="https://open.spotify.com/embed/playlist/1kYBDMaHq5oFeoFMfR9gH7?theme=0"
-              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-            />
-            <iframe
-              className="spotify-player"
-              src="https://open.spotify.com/embed/playlist/3D761oLILZAFcJ5WydCg6o?theme=0"
-              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-            />
-            <iframe
-              className="spotify-player"
-              src="https://open.spotify.com/embed/playlist/1kYBDMaHq5oFeoFMfR9gH7?theme=0"
-              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-            />
-
-            <button className="play-btn" onClick={handlePlay}></button>
+            <p className="wip-text">⚙ En cours de programmation...</p>
           </div>
         )}
       </div>
