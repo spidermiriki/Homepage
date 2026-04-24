@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Starfield } from './Starfield'
-import papersImg from '../assets/papers.svg'
+
 import avatar from '../assets/icone.png'
 import { PokemonCorner } from './PokemonCorner'
 import { SocialBar } from './SocialBar'
@@ -86,15 +86,15 @@ export function MobileView() {
 
             <nav className="mobile-menu">
               <MobileItem label="Mon Portfolio" href="https://spidermiriki.github.io/Portfolio/">
-                <img src={papersImg} width={110} alt="portfolio" />
+                <span className="mobile-item-text">PORTFOLIO</span>
               </MobileItem>
-              <MobileItem label="Films" href="https://spidermiriki.github.io/Melo-s-Studio/">
+              <MobileItem label="" href="https://spidermiriki.github.io/Melo-s-Studio/">
                 <span className="mobile-item-text">FILMS</span>
               </MobileItem>
-              <MobileItem label="Musique" onClick={() => setActivePage('musique')}>
+              <MobileItem label="" onClick={() => setActivePage('musique')}>
                 <span className="mobile-item-text">MUSIQUE</span>
               </MobileItem>
-              <MobileItem label="Jeux vidéo" onClick={() => setActivePage('jeux')}>
+              <MobileItem label="" onClick={() => setActivePage('jeux')}>
                 <span className="mobile-item-text">JEUX</span>
               </MobileItem>
             </nav>
