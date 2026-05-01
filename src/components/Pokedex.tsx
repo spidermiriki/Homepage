@@ -2,15 +2,6 @@ import { useEffect, useState } from 'react'
 import { createPortal } from 'react-dom'
 import { PokemonEntry } from '../data/pokemonData'
 
-const TYPE_COLORS: Record<string, string> = {
-  normal: '#A8A878', fire: '#F08030', water: '#6890F0',
-  electric: '#F8D030', grass: '#78C850', ice: '#98D8D8',
-  fighting: '#C03028', poison: '#A040A0', ground: '#E0C068',
-  flying: '#A890F0', psychic: '#F85888', bug: '#A8B820',
-  rock: '#B8A038', ghost: '#705898', dragon: '#7038F8',
-  dark: '#705848', steel: '#B8B8D0', fairy: '#EE99AC',
-}
-
 const TYPE_FR: Record<string, string> = {
   normal: 'NORMAL', fire: 'FEU', water: 'EAU',
   electric: 'ÉLECTRIK', grass: 'PLANTE', ice: 'GLACE',
@@ -25,19 +16,25 @@ const STAT_FR: Record<string, string> = {
   'special-attack': 'AT.SP', 'special-defense': 'DF.SP', speed: 'VIT',
 }
 
-// Strips the "[À compléter — ... \n" prefix and trailing "]"
 function parseDescription(raw: string): string {
   const parts = raw.split('\n')
-  if (parts.length > 1) {
-    return parts.slice(1).join('\n').replace(/\]$/, '').trim()
-  }
+  if (parts.length > 1) return parts.slice(1).join('\n').replace(/\]$/, '').trim()
   return raw.replace(/^\[.*?[\-—]\s*/, '').replace(/\]$/, '').trim()
+}
+
+function extractFlavorText(entries: { language: { name: string }; flavor_text: string }[]): string {
+  const fr = entries.filter(e => e.language.name === 'fr')
+  const en = entries.filter(e => e.language.name === 'en')
+  const pool = fr.length ? fr : en
+  const raw = pool[pool.length - 1]?.flavor_text ?? ''
+  return raw.replace(/[\f\n\r]/g, ' ').replace(/\s+/g, ' ').trim()
 }
 
 interface PokeData {
   id: number
   types: string[]
   stats: { name: string; value: number }[]
+  flavorText: string
 }
 
 interface Props {
@@ -52,11 +49,7 @@ export function Pokedex({ pokemon, onClose }: Props) {
   const [statWidths, setStatWidths] = useState<number[]>([])
 
   useEffect(() => {
-    if (!pokemon) {
-      setVisible(false)
-      return
-    }
-
+    if (!pokemon) { setVisible(false); return }
     setVisible(true)
     setLoading(true)
     setPokeData(null)
@@ -66,14 +59,21 @@ export function Pokedex({ pokemon, onClose }: Props) {
 
     fetch(`https://pokeapi.co/api/v2/pokemon/${pokemon.apiName}`)
       .then(r => r.json())
-      .then(data => {
+      .then(pokemonData =>
+        Promise.all([
+          Promise.resolve(pokemonData),
+          fetch(pokemonData.species.url).then(r => r.json()),
+        ])
+      )
+      .then(([pokemonData, speciesData]) => {
         const parsed: PokeData = {
-          id: data.id,
-          types: data.types.map((t: { type: { name: string } }) => t.type.name),
-          stats: data.stats.map((s: { stat: { name: string }; base_stat: number }) => ({
+          id: pokemonData.id,
+          types: pokemonData.types.map((t: { type: { name: string } }) => t.type.name),
+          stats: pokemonData.stats.map((s: { stat: { name: string }; base_stat: number }) => ({
             name: s.stat.name,
             value: s.base_stat,
           })),
+          flavorText: extractFlavorText(speciesData.flavor_text_entries),
         }
         const delay = Math.max(0, 1600 - (Date.now() - start))
         setTimeout(() => {
@@ -81,7 +81,7 @@ export function Pokedex({ pokemon, onClose }: Props) {
           setLoading(false)
           setTimeout(() => {
             setStatWidths(parsed.stats.map(s => Math.min(100, (s.value / 255) * 100)))
-          }, 100)
+          }, 80)
         }, delay)
       })
       .catch(() => {
@@ -92,12 +92,11 @@ export function Pokedex({ pokemon, onClose }: Props) {
 
   const handleClose = () => {
     setVisible(false)
-    setTimeout(onClose, 380)
+    setTimeout(onClose, 360)
   }
 
   if (!pokemon && !visible) return null
-
-  const description = pokemon ? parseDescription(pokemon.description) : ''
+  const myNote = pokemon ? parseDescription(pokemon.description) : ''
 
   return createPortal(
     <div
@@ -108,92 +107,53 @@ export function Pokedex({ pokemon, onClose }: Props) {
         className={`dex-device${visible ? ' dex-device--open' : ''}`}
         onClick={e => e.stopPropagation()}
       >
-        {/* ── DEVICE HEADER ── */}
-        <div className="dex-header">
-          <div className="dex-leds">
-            <span className="dex-led dex-led--cyan" />
-            <span className="dex-led dex-led--magenta" />
-            <span className="dex-led dex-led--yellow" />
+        {/* ── TOP DARK SECTION ── */}
+        <div className="dex-top">
+
+          <div className="dex-header">
+            <span className="dex-header-label">POKÉDEX</span>
+            <div className="dex-header-right">
+              {pokeData && (
+                <span className="dex-num">No.{String(pokeData.id).padStart(3, '0')}</span>
+              )}
+              <span className="dex-led-green" />
+              <button type="button" className="dex-close-btn" onClick={handleClose}>✕</button>
+            </div>
           </div>
-          <span className="dex-header-title">◈ POKÉDEX ◈</span>
-          <div className="dex-header-right">
-            {pokeData && (
-              <span className="dex-num">No.{String(pokeData.id).padStart(3, '0')}</span>
+
+          {/* Sprite screen */}
+          <div className="dex-screen-sprite">
+            {loading ? (
+              <>
+                <div className="dex-scanline" />
+                <span className="dex-boot-text">SCAN...</span>
+              </>
+            ) : (
+              pokemon && (
+                <img src={pokemon.asset} alt={pokemon.frName} className="dex-sprite" />
+              )
             )}
-            <button type="button" className="dex-close-btn" onClick={handleClose}>✕</button>
-          </div>
-        </div>
-
-        {/* ── DEVICE BODY ── */}
-        <div className="dex-body">
-
-          {/* Left — sprite screen */}
-          <div className="dex-left">
-            <div className="dex-screen-bezel">
-              <div className="dex-screen">
-                {loading ? (
-                  <>
-                    <div className="dex-screen-scanline" />
-                    <span className="dex-screen-boot">SCAN...</span>
-                  </>
-                ) : (
-                  pokemon && (
-                    <img
-                      src={pokemon.asset}
-                      alt={pokemon.frName}
-                      className="dex-sprite"
-                    />
-                  )
-                )}
-              </div>
-            </div>
-
-            {/* Hardware decorations */}
-            <div className="dex-hw">
-              <div className="dex-camera">
-                <div className="dex-camera-inner" />
-              </div>
-              <div className="dex-buttons">
-                <span className="dex-btn-row">
-                  <span className="dex-btn" /><span className="dex-btn" />
-                </span>
-                <span className="dex-btn-wide" />
-              </div>
-            </div>
-
-            {/* Bottom vent lines */}
-            <div className="dex-vents">
-              {Array.from({ length: 5 }).map((_, i) => (
-                <div key={i} className="dex-vent-line" />
-              ))}
-            </div>
           </div>
 
-          {/* Divider */}
-          <div className="dex-col-divider" />
-
-          {/* Right — info */}
-          <div className="dex-right">
+          {/* Info screen */}
+          <div className="dex-screen-info">
             {loading ? (
               <div className="dex-loading">
+                <span className="dex-loading-label">INITIALISATION...</span>
                 <div className="dex-loading-bar">
                   <div className="dex-loading-fill" />
                 </div>
-                <span className="dex-loading-label">INITIALISATION...</span>
-                <span className="dex-loading-sub">ANALYSE DES DONNÉES EN COURS</span>
+                <span className="dex-loading-sub">ANALYSE DES DONNÉES</span>
               </div>
             ) : pokeData ? (
               <div className="dex-info">
+
                 {/* Name + types */}
-                <div className="dex-name-block">
-                  <h2 className="dex-name">{pokemon!.frName.toUpperCase()}</h2>
+                <div className="dex-name-row">
+                  <span className="dex-name">{pokemon!.frName.toUpperCase()}</span>
                   <div className="dex-types">
                     {pokeData.types.map(t => (
-                      <span
-                        key={t}
-                        className="dex-type"
-                        style={{ '--type-color': TYPE_COLORS[t] ?? '#888' } as React.CSSProperties}
-                      >
+                      <span key={t} className="dex-type" data-type={t}>
                         {TYPE_FR[t] ?? t.toUpperCase()}
                       </span>
                     ))}
@@ -202,8 +162,18 @@ export function Pokedex({ pokemon, onClose }: Props) {
 
                 <div className="dex-rule" />
 
-                {/* Description */}
-                <p className="dex-desc">{description}</p>
+                {/* Official Pokédex entry */}
+                {pokeData.flavorText && (
+                  <>
+                    <span className="dex-section-label">ENTRÉE POKÉDEX</span>
+                    <p className="dex-desc dex-desc--official">{pokeData.flavorText}</p>
+                    <div className="dex-rule" />
+                  </>
+                )}
+
+                {/* Personal note */}
+                <span className="dex-section-label">MA NOTE</span>
+                <p className="dex-desc">{myNote}</p>
 
                 <div className="dex-rule" />
 
@@ -215,23 +185,40 @@ export function Pokedex({ pokemon, onClose }: Props) {
                       <div className="dex-stat-track">
                         <div
                           className="dex-stat-fill"
-                          style={{ width: `${statWidths[i] ?? 0}%` }}
+                          style={{ '--stat-pct': `${statWidths[i] ?? 0}%` } as React.CSSProperties}
                         />
                       </div>
                       <span className="dex-stat-val">{s.value}</span>
                     </div>
                   ))}
                 </div>
+
               </div>
             ) : null}
           </div>
+
+          {/* Control bar */}
+          <div className="dex-ctrl-bar">
+            <div className="dex-ctrl-btns">
+              <span className="dex-ctrl-btn">STAT</span>
+              <span className="dex-ctrl-btn">MAP</span>
+            </div>
+          </div>
         </div>
 
-        {/* Corner HUD brackets */}
-        <span className="dex-corner dex-corner--tl" />
-        <span className="dex-corner dex-corner--tr" />
-        <span className="dex-corner dex-corner--bl" />
-        <span className="dex-corner dex-corner--br" />
+        {/* ── HINGE ── */}
+        <div className="dex-hinge" />
+
+        {/* ── BOTTOM ORANGE SECTION ── */}
+        <div className="dex-bottom">
+          <div className="dex-pokeball">
+            <div className="dex-pokeball-center" />
+          </div>
+          <div className="dex-bottom-row">
+            <div className="dex-dots"><span /><span /><span /></div>
+            <div className="dex-black-btns"><span /><span /></div>
+          </div>
+        </div>
       </div>
     </div>,
     document.body

@@ -64,7 +64,7 @@ export const POKEMON_LIST: PokemonEntry[] = [
     description: '[Pourquoi j\'apprécie Brutalibre\n Comment être mexicain et ne pas parler de Brutalibré !!\n Un Pokémon Catcheur, de type vole et combat, la combinaison de type la plus stylé jamais vu et une aura de malade. \nUn pokémon superhéro, avec une mega de zinzin, sans parler de la vidéo d\'introduction à sa mega qui était juste stylé. Tout ça sans même avoir abordé son shiny qui est juste magnifique, un rouge et vert super flashy, c\'est juste super stylé]',
   },
   {
-    frName: 'Mimikyu',
+    frName: 'Mimiqui',
     apiName: 'mimikyu',
     asset: MimikyuGif,
     width: 170,
