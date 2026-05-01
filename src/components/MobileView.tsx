@@ -85,7 +85,7 @@ export function MobileView() {
             </div>
 
             <nav className="mobile-menu">
-              <MobileItem label="Mon Portfolio" href="https://spidermiriki.github.io/Portfolio/">
+              <MobileItem label="" href="https://spidermiriki.github.io/Portfolio/">
                 <span className="mobile-item-text">PORTFOLIO</span>
               </MobileItem>
               <MobileItem label="" href="https://spidermiriki.github.io/Melo-s-Studio/">

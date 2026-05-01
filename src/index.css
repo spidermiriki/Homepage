@@ -678,3 +678,505 @@ body {
   align-items: flex-end;
 }
 
+/* ── POKÉDEX DEVICE ── */
+
+/* Backdrop */
+.dex-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 10, 0);
+  pointer-events: none;
+  transition: background 0.3s ease;
+}
+
+.dex-backdrop--open {
+  background: rgba(0, 0, 10, 0.75);
+  pointer-events: auto;
+}
+
+/* Device shell */
+.dex-device {
+  position: relative;
+  width: clamp(480px, 85vw, 720px);
+  height: clamp(320px, 68vh, 430px);
+  background: #07001a;
+  border: 1.5px solid var(--accent);
+  border-radius: 14px;
+  box-shadow:
+    0 0 0 1px rgba(0, 255, 255, 0.08),
+    0 0 40px rgba(0, 255, 255, 0.18),
+    0 0 80px rgba(0, 255, 255, 0.08),
+    inset 0 1px 0 rgba(0, 255, 255, 0.08);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  opacity: 0;
+  transform: scale(0.86) translateY(16px);
+  transition:
+    opacity 0.35s ease,
+    transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.dex-device--open {
+  opacity: 1;
+  transform: scale(1) translateY(0);
+}
+
+/* HUD corner brackets */
+.dex-corner {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  pointer-events: none;
+  opacity: 0.6;
+}
+.dex-corner--tl { top: 6px;    left: 6px;    border-top: 1.5px solid var(--accent2); border-left: 1.5px solid var(--accent2); }
+.dex-corner--tr { top: 6px;    right: 6px;   border-top: 1.5px solid var(--accent2); border-right: 1.5px solid var(--accent2); }
+.dex-corner--bl { bottom: 6px; left: 6px;    border-bottom: 1.5px solid var(--accent2); border-left: 1.5px solid var(--accent2); }
+.dex-corner--br { bottom: 6px; right: 6px;   border-bottom: 1.5px solid var(--accent2); border-right: 1.5px solid var(--accent2); }
+
+/* Header bar */
+.dex-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 9px 16px 8px;
+  border-bottom: 1px solid rgba(0, 255, 255, 0.15);
+  flex-shrink: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.dex-leds {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.dex-led {
+  display: block;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+}
+
+.dex-led--cyan    { background: var(--accent);  box-shadow: 0 0 6px var(--accent); }
+.dex-led--magenta { background: var(--accent2); box-shadow: 0 0 6px var(--accent2); }
+.dex-led--yellow  { background: var(--accent3); box-shadow: 0 0 6px var(--accent3); }
+
+.dex-header-title {
+  color: var(--accent);
+  font-family: monospace;
+  font-size: 0.75rem;
+  letter-spacing: 6px;
+  text-shadow: 0 0 10px var(--accent);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.dex-header-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.dex-num {
+  color: var(--accent3);
+  font-family: monospace;
+  font-size: 0.7rem;
+  letter-spacing: 2px;
+  text-shadow: 0 0 8px var(--accent3);
+}
+
+.dex-close-btn {
+  background: transparent;
+  border: 1px solid rgba(255, 0, 255, 0.5);
+  color: var(--accent);
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 11px;
+  font-family: monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.dex-close-btn:hover {
+  background: rgba(255, 0, 255, 0.15);
+  border-color: var(--accent2);
+}
+
+/* Body: left + right panels */
+.dex-body {
+  flex: 1;
+  display: flex;
+  overflow: hidden;
+  min-height: 0;
+}
+
+/* ── LEFT PANEL ── */
+.dex-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 16px 14px;
+  width: 200px;
+  flex-shrink: 0;
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.dex-screen-bezel {
+  background: #000;
+  border: 2px solid rgba(0, 255, 255, 0.4);
+  border-radius: 10px;
+  padding: 6px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.12), inset 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+.dex-screen {
+  width: 134px;
+  height: 134px;
+  background: #020015;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid rgba(255, 0, 255, 0.3);
+  box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.9);
+}
+
+/* Scanline texture inside screen */
+.dex-screen::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    transparent 0px, transparent 2px,
+    rgba(0, 0, 0, 0.12) 2px, rgba(0, 0, 0, 0.12) 3px
+  );
+  pointer-events: none;
+  z-index: 2;
+  border-radius: 6px;
+}
+
+/* Loading screen state */
+.dex-screen-scanline {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--accent);
+  box-shadow: 0 0 12px var(--accent);
+  animation: dex-scan 0.9s ease-in-out infinite;
+  z-index: 3;
+}
+
+@keyframes dex-scan {
+  0%   { top: 0%;   opacity: 1; }
+  100% { top: 100%; opacity: 0; }
+}
+
+.dex-screen-boot {
+  color: var(--accent);
+  font-family: monospace;
+  font-size: 0.65rem;
+  letter-spacing: 3px;
+  text-shadow: 0 0 8px var(--accent);
+  animation: dex-blink 0.8s step-end infinite;
+  z-index: 4;
+}
+
+@keyframes dex-blink {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0; }
+}
+
+.dex-sprite {
+  max-width: 118px;
+  max-height: 118px;
+  image-rendering: pixelated;
+  filter: drop-shadow(0 0 8px var(--accent2));
+  position: relative;
+  z-index: 1;
+  animation: fade-in 0.3s ease;
+}
+
+/* Hardware decorations */
+.dex-hw {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 0 4px;
+}
+
+.dex-camera {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 2px solid var(--accent);
+  box-shadow: 0 0 8px rgba(0, 255, 255, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.dex-camera-inner {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--accent);
+  opacity: 0.5;
+  box-shadow: 0 0 6px var(--accent);
+}
+
+.dex-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+}
+
+.dex-btn-row {
+  display: flex;
+  gap: 4px;
+}
+
+.dex-btn {
+  display: block;
+  width: 14px;
+  height: 6px;
+  background: rgba(0, 255, 255, 0.15);
+  border: 1px solid rgba(0, 255, 255, 0.25);
+  border-radius: 2px;
+}
+
+.dex-btn-wide {
+  display: block;
+  height: 6px;
+  background: rgba(255, 0, 255, 0.12);
+  border: 1px solid rgba(255, 0, 255, 0.2);
+  border-radius: 2px;
+  width: 100%;
+}
+
+/* Vent lines */
+.dex-vents {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  width: 100%;
+  padding: 0 8px;
+}
+
+.dex-vent-line {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(0, 255, 255, 0.2), transparent);
+  border-radius: 1px;
+}
+
+/* Vertical divider */
+.dex-col-divider {
+  width: 1px;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    rgba(0, 255, 255, 0.3) 20%,
+    rgba(0, 255, 255, 0.3) 80%,
+    transparent
+  );
+  flex-shrink: 0;
+}
+
+/* ── RIGHT PANEL ── */
+.dex-right {
+  flex: 1;
+  display: flex;
+  align-items: stretch;
+  min-width: 0;
+  overflow: hidden;
+}
+
+/* Loading state in right panel */
+.dex-loading {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 20px;
+}
+
+.dex-loading-bar {
+  width: 60%;
+  height: 3px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.dex-loading-fill {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(90deg, transparent, var(--accent2), var(--accent), transparent);
+  border-radius: 2px;
+  transform: translateX(-100%);
+  animation: dex-progress 1.4s ease-in-out infinite;
+}
+
+@keyframes dex-progress {
+  from { transform: translateX(-100%); }
+  to   { transform: translateX(100%); }
+}
+
+.dex-loading-label {
+  color: var(--accent);
+  font-family: monospace;
+  font-size: 0.85rem;
+  letter-spacing: 5px;
+  text-shadow: 0 0 10px var(--accent);
+  animation: dex-blink 1s step-end infinite;
+}
+
+.dex-loading-sub {
+  color: var(--accent2);
+  font-family: monospace;
+  font-size: 0.62rem;
+  letter-spacing: 2px;
+  opacity: 0.55;
+}
+
+/* Info content */
+.dex-info {
+  flex: 1;
+  padding: 14px 18px 14px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  overflow-y: auto;
+  animation: fade-in 0.3s ease;
+}
+
+.dex-name-block {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+}
+
+.dex-name {
+  color: var(--accent);
+  font-family: monospace;
+  font-size: 1.15rem;
+  letter-spacing: 5px;
+  text-shadow: 0 0 14px var(--accent3), 0 0 30px rgba(255,255,0,0.3);
+  flex-shrink: 0;
+}
+
+.dex-types {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.dex-type {
+  background: var(--type-color, #888);
+  font-family: monospace;
+  font-size: 0.58rem;
+  letter-spacing: 2px;
+  padding: 3px 9px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.dex-rule {
+  height: 1px;
+  background: linear-gradient(90deg, rgba(0,255,255,0.3), rgba(255,0,255,0.2), transparent);
+  margin: 8px 0;
+  flex-shrink: 0;
+}
+
+.dex-desc {
+  color: rgba(0, 255, 255, 0.72);
+  font-family: monospace;
+  font-size: 0.7rem;
+  line-height: 1.65;
+  letter-spacing: 0.4px;
+  padding-left: 10px;
+  border-left: 2px solid rgba(255, 0, 255, 0.5);
+  font-style: italic;
+  flex-shrink: 0;
+  overflow-y: auto;
+  max-height: 90px;
+}
+
+/* Stats */
+.dex-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: auto;
+  padding-top: 6px;
+  flex-shrink: 0;
+}
+
+.dex-stat {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.dex-stat-lbl {
+  color: var(--accent2);
+  font-family: monospace;
+  font-size: 0.58rem;
+  letter-spacing: 1px;
+  width: 32px;
+  text-align: right;
+  flex-shrink: 0;
+}
+
+.dex-stat-track {
+  flex: 1;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 2px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.dex-stat-fill {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, var(--accent2), var(--accent));
+  border-radius: 2px;
+  box-shadow: 0 0 5px var(--accent);
+  transition: width 1s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.dex-stat-val {
+  color: var(--accent);
+  font-family: monospace;
+  font-size: 0.6rem;
+  width: 24px;
+  text-align: right;
+  flex-shrink: 0;
+}
+
