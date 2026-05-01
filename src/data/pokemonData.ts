@@ -65,7 +65,7 @@ export const POKEMON_LIST: PokemonEntry[] = [
   },
   {
     frName: 'Mimiqui',
-    apiName: 'mimikyu',
+    apiName: 'mimikyu-disguised',
     asset: MimikyuGif,
     width: 170,
     wrapperClassName: 'pokemon-half-left pokemon-trim pokemon-drop-lg',
